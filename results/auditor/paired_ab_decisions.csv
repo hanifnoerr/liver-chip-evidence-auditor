@@ -1,0 +1,312 @@
+dataset,case,compound,held_dose,scenario,reference_event,A_warning,legacy_warning,B_warning,absolute_error_pp,B_reasons,fit_diagnostics
+real_restoration,0,Clozapine,3.0,,False,False,True,True,14.820148291541727,"[""reading_deletion""]",[]
+real_restoration,1,Clozapine,10.0,,False,False,True,True,5.615354416391881,"[""reading_deletion""]",[]
+real_restoration,2,Clozapine,30.0,,False,False,True,True,16.793703656170578,"[""reading_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+real_restoration,3,Clozapine,100.0,,False,False,True,True,4.181816467855711,"[""reading_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+real_restoration,4,Levofloxacin,3.0,,False,False,True,False,6.539851972243213,[],"[{""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+real_restoration,5,Levofloxacin,10.0,,False,False,True,False,19.69866688181058,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+real_restoration,6,Levofloxacin,15.0,,False,False,True,False,4.4038518818905885,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+real_restoration,7,Olanzapine,3.0,,False,False,True,False,20.934302366189584,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+real_restoration,8,Olanzapine,10.0,,False,False,True,False,12.367703979270502,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+real_restoration,9,Olanzapine,30.0,,False,False,True,False,14.415802685165502,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+real_restoration,10,Olanzapine,100.0,,False,False,True,False,12.552296472188758,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+real_restoration,11,Pioglitazone,3.0,,False,False,True,True,20.469091515398148,"[""reading_deletion"", ""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+real_restoration,12,Pioglitazone,10.0,,False,False,True,True,16.939597122385152,"[""reading_deletion"", ""dose_deletion""]",[]
+real_restoration,13,Pioglitazone,30.0,,False,False,True,True,23.99792404471023,"[""model"", ""reading_deletion"", ""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+real_restoration,14,Pioglitazone,100.0,,False,False,True,True,5.090986347560317,"[""reading_deletion"", ""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+real_restoration,15,Troglitazone,2.95,,False,False,True,True,6.465380103001962,"[""dose_deletion""]",[]
+real_restoration,16,Troglitazone,9.82,,False,False,True,True,6.058173818634103,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+real_restoration,17,Troglitazone,29.47,,False,False,True,True,23.841839484705034,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+real_restoration,18,Troglitazone,98.2,,True,False,True,True,75.37756609276232,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+real_restoration,19,Trovafloxacin,3.0,,False,False,True,False,1.1123902595568893,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+real_restoration,20,Trovafloxacin,10.0,,False,False,False,False,11.32193752126426,[],[]
+real_restoration,21,Trovafloxacin,30.0,,False,False,False,False,35.24361383038061,[],[]
+real_restoration,22,Trovafloxacin,100.0,,False,False,True,True,18.113911157665832,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+synthetic_development,0,0,,clean,False,False,False,False,,[],[]
+synthetic_development,1,1,,random_missing,True,False,True,True,,"[""model"", ""dose_deletion"", ""missing_probe""]",[]
+synthetic_development,2,2,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_development,3,3,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,4,4,,singletons,False,False,False,False,,[],[]
+synthetic_development,5,5,,influential_reading,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,6,6,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,7,7,,run_shift,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,8,8,,clean,False,False,False,False,,[],[]
+synthetic_development,9,9,,random_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_development,10,10,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_development,11,11,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+synthetic_development,12,12,,singletons,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,13,13,,influential_reading,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,14,14,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,15,15,,run_shift,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_development,16,16,,clean,False,False,False,False,,[],[]
+synthetic_development,17,17,,random_missing,False,False,True,True,,[],[]
+synthetic_development,18,18,,response_dependent_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]",[]
+synthetic_development,19,19,,truncated_range,False,False,False,False,,[],[]
+synthetic_development,20,20,,singletons,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,21,21,,influential_reading,True,False,True,True,,"[""reading_deletion"", ""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,22,22,,non_monotonic,False,False,True,True,,"[""model"", ""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,23,23,,run_shift,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,24,24,,clean,False,False,False,False,,[],[]
+synthetic_development,25,25,,random_missing,False,False,True,True,,"[""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,26,26,,response_dependent_missing,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,27,27,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,28,28,,singletons,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,29,29,,influential_reading,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,30,30,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,31,31,,run_shift,False,False,False,False,,[],[]
+synthetic_development,32,32,,clean,False,False,False,False,,[],[]
+synthetic_development,33,33,,random_missing,False,False,True,True,,"[""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,34,34,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_development,35,35,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+synthetic_development,36,36,,singletons,False,False,False,False,,[],[]
+synthetic_development,37,37,,influential_reading,False,False,True,True,,"[""reading_deletion"", ""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,38,38,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,39,39,,run_shift,False,False,False,False,,[],[]
+synthetic_development,40,40,,clean,False,False,False,False,,[],[]
+synthetic_development,41,41,,random_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]",[]
+synthetic_development,42,42,,response_dependent_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+synthetic_development,43,43,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,44,44,,singletons,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,45,45,,influential_reading,False,False,True,True,,"[""reading_deletion"", ""dose_deletion""]","[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}, {""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,46,46,,non_monotonic,False,False,True,True,,"[""model"", ""reading_deletion"", ""dose_deletion""]","[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}, {""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,47,47,,run_shift,False,False,False,False,,[],[]
+synthetic_development,48,48,,clean,False,False,False,False,,[],[]
+synthetic_development,49,49,,random_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_development,50,50,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_development,51,51,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,52,52,,singletons,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_development,53,53,,influential_reading,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_development,54,54,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,55,55,,run_shift,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,56,56,,clean,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,57,57,,random_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,58,58,,response_dependent_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,59,59,,truncated_range,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,60,60,,singletons,False,False,False,False,,[],[]
+synthetic_development,61,61,,influential_reading,True,False,True,True,,"[""model"", ""reading_deletion"", ""dose_deletion""]","[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}, {""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,62,62,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}, {""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,63,63,,run_shift,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,64,64,,clean,False,False,False,False,,[],[]
+synthetic_development,65,65,,random_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]",[]
+synthetic_development,66,66,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,67,67,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,68,68,,singletons,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,69,69,,influential_reading,False,False,True,True,,"[""reading_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,70,70,,non_monotonic,False,False,True,True,,"[""reading_deletion"", ""dose_deletion""]","[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}, {""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,71,71,,run_shift,False,False,False,False,,[],[]
+synthetic_development,72,72,,clean,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,73,73,,random_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,74,74,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,75,75,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,76,76,,singletons,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,77,77,,influential_reading,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,78,78,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,79,79,,run_shift,True,False,True,True,,"[""reading_deletion""]",[]
+synthetic_development,80,80,,clean,False,False,False,False,,[],[]
+synthetic_development,81,81,,random_missing,False,False,True,True,,[],[]
+synthetic_development,82,82,,response_dependent_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]",[]
+synthetic_development,83,83,,truncated_range,True,False,True,True,,"[""reading_deletion"", ""dose_deletion""]",[]
+synthetic_development,84,84,,singletons,False,False,False,False,,[],[]
+synthetic_development,85,85,,influential_reading,True,False,True,True,,"[""reading_deletion"", ""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,86,86,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,87,87,,run_shift,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_development,88,88,,clean,False,False,False,False,,[],[]
+synthetic_development,89,89,,random_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_development,90,90,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,91,91,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+synthetic_development,92,92,,singletons,False,False,False,False,,[],[]
+synthetic_development,93,93,,influential_reading,True,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,94,94,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}, {""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_development,95,95,,run_shift,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_evaluation,0,0,,clean,False,False,False,False,,[],[]
+synthetic_evaluation,1,1,,random_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_evaluation,2,2,,response_dependent_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,3,3,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,4,4,,singletons,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,5,5,,influential_reading,False,False,True,True,,"[""reading_deletion"", ""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,6,6,,non_monotonic,True,False,True,True,,"[""model"", ""dose_deletion""]","[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}, {""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,7,7,,run_shift,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,8,8,,clean,False,False,False,False,,[],[]
+synthetic_evaluation,9,9,,random_missing,False,False,False,False,,[],[]
+synthetic_evaluation,10,10,,response_dependent_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,11,11,,truncated_range,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,12,12,,singletons,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,13,13,,influential_reading,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,14,14,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,15,15,,run_shift,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_evaluation,16,16,,clean,False,False,False,False,,[],[]
+synthetic_evaluation,17,17,,random_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_evaluation,18,18,,response_dependent_missing,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_evaluation,19,19,,truncated_range,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,20,20,,singletons,False,False,False,False,,[],[]
+synthetic_evaluation,21,21,,influential_reading,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,22,22,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,23,23,,run_shift,False,False,False,False,,[],[]
+synthetic_evaluation,24,24,,clean,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,25,25,,random_missing,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,26,26,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_evaluation,27,27,,truncated_range,True,False,True,True,,"[""reading_deletion"", ""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+synthetic_evaluation,28,28,,singletons,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,29,29,,influential_reading,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,30,30,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,31,31,,run_shift,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,32,32,,clean,False,False,False,False,,[],[]
+synthetic_evaluation,33,33,,random_missing,False,False,False,False,,[],[]
+synthetic_evaluation,34,34,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_evaluation,35,35,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+synthetic_evaluation,36,36,,singletons,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_evaluation,37,37,,influential_reading,True,False,True,True,,"[""reading_deletion"", ""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,38,38,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}, {""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,39,39,,run_shift,False,False,False,False,,[],[]
+synthetic_evaluation,40,40,,clean,False,False,False,False,,[],[]
+synthetic_evaluation,41,41,,random_missing,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,42,42,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,43,43,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,44,44,,singletons,False,False,False,False,,[],[]
+synthetic_evaluation,45,45,,influential_reading,True,False,True,True,,"[""reading_deletion"", ""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,46,46,,non_monotonic,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_evaluation,47,47,,run_shift,False,False,False,False,,[],[]
+synthetic_evaluation,48,48,,clean,False,False,False,False,,[],[]
+synthetic_evaluation,49,49,,random_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_evaluation,50,50,,response_dependent_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]",[]
+synthetic_evaluation,51,51,,truncated_range,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,52,52,,singletons,False,False,False,False,,[],[]
+synthetic_evaluation,53,53,,influential_reading,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,54,54,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,55,55,,run_shift,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_evaluation,56,56,,clean,False,False,False,False,,[],[]
+synthetic_evaluation,57,57,,random_missing,False,False,False,False,,[],[]
+synthetic_evaluation,58,58,,response_dependent_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,59,59,,truncated_range,False,False,False,False,,[],[]
+synthetic_evaluation,60,60,,singletons,False,False,False,False,,[],[]
+synthetic_evaluation,61,61,,influential_reading,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,62,62,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,63,63,,run_shift,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,64,64,,clean,False,False,False,False,,[],[]
+synthetic_evaluation,65,65,,random_missing,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_evaluation,66,66,,response_dependent_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]",[]
+synthetic_evaluation,67,67,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,68,68,,singletons,True,False,False,False,,[],[]
+synthetic_evaluation,69,69,,influential_reading,False,False,True,True,,"[""reading_deletion""]",[]
+synthetic_evaluation,70,70,,non_monotonic,True,False,True,True,,"[""model"", ""dose_deletion""]","[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}, {""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,71,71,,run_shift,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_evaluation,72,72,,clean,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,73,73,,random_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_evaluation,74,74,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,75,75,,truncated_range,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_evaluation,76,76,,singletons,True,False,False,False,,[],[]
+synthetic_evaluation,77,77,,influential_reading,True,False,True,True,,"[""reading_deletion"", ""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,78,78,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,79,79,,run_shift,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,80,80,,clean,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,81,81,,random_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_evaluation,82,82,,response_dependent_missing,False,False,False,False,,[],[]
+synthetic_evaluation,83,83,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,84,84,,singletons,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,85,85,,influential_reading,True,False,True,True,,"[""reading_deletion"", ""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,86,86,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,87,87,,run_shift,False,False,False,False,,[],[]
+synthetic_evaluation,88,88,,clean,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,89,89,,random_missing,False,False,True,True,,[],[]
+synthetic_evaluation,90,90,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_evaluation,91,91,,truncated_range,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,92,92,,singletons,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,93,93,,influential_reading,True,False,True,True,,"[""model"", ""reading_deletion"", ""dose_deletion""]","[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}]"
+synthetic_evaluation,94,94,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_evaluation,95,95,,run_shift,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_revision_evaluation,0,0,,clean,False,False,False,False,,[],[]
+synthetic_revision_evaluation,1,1,,random_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,2,2,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_revision_evaluation,3,3,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,4,4,,singletons,False,False,False,False,,[],[]
+synthetic_revision_evaluation,5,5,,influential_reading,True,False,True,True,,"[""reading_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,6,6,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,7,7,,run_shift,False,False,False,False,,[],[]
+synthetic_revision_evaluation,8,8,,clean,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,9,9,,random_missing,True,False,True,True,,"[""model"", ""dose_deletion"", ""missing_probe""]","[{""model"": ""logistic"", ""code"": ""non_convergence""}]"
+synthetic_revision_evaluation,10,10,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_revision_evaluation,11,11,,truncated_range,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,12,12,,singletons,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_revision_evaluation,13,13,,influential_reading,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,14,14,,non_monotonic,False,False,True,True,,"[""reading_deletion"", ""dose_deletion""]","[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}, {""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,15,15,,run_shift,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_revision_evaluation,16,16,,clean,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,17,17,,random_missing,False,False,True,True,,"[""reading_deletion"", ""missing_probe""]",[]
+synthetic_revision_evaluation,18,18,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_revision_evaluation,19,19,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,20,20,,singletons,False,False,False,False,,[],[]
+synthetic_revision_evaluation,21,21,,influential_reading,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,22,22,,non_monotonic,False,False,True,True,,"[""reading_deletion"", ""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+synthetic_revision_evaluation,23,23,,run_shift,False,False,False,False,,[],[]
+synthetic_revision_evaluation,24,24,,clean,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_revision_evaluation,25,25,,random_missing,False,False,True,True,,"[""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,26,26,,response_dependent_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]",[]
+synthetic_revision_evaluation,27,27,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,28,28,,singletons,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,29,29,,influential_reading,True,False,True,True,,"[""reading_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,30,30,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,31,31,,run_shift,False,False,False,False,,[],[]
+synthetic_revision_evaluation,32,32,,clean,False,False,False,False,,[],[]
+synthetic_revision_evaluation,33,33,,random_missing,False,False,True,True,,[],[]
+synthetic_revision_evaluation,34,34,,response_dependent_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]",[]
+synthetic_revision_evaluation,35,35,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+synthetic_revision_evaluation,36,36,,singletons,False,False,False,False,,[],[]
+synthetic_revision_evaluation,37,37,,influential_reading,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,38,38,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,39,39,,run_shift,False,False,False,False,,[],[]
+synthetic_revision_evaluation,40,40,,clean,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,41,41,,random_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_revision_evaluation,42,42,,response_dependent_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,43,43,,truncated_range,False,False,False,False,,[],[]
+synthetic_revision_evaluation,44,44,,singletons,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_revision_evaluation,45,45,,influential_reading,True,False,True,True,,"[""reading_deletion""]",[]
+synthetic_revision_evaluation,46,46,,non_monotonic,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_revision_evaluation,47,47,,run_shift,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,48,48,,clean,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,49,49,,random_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_revision_evaluation,50,50,,response_dependent_missing,False,False,True,True,,"[""dose_deletion"", ""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,51,51,,truncated_range,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_revision_evaluation,52,52,,singletons,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,53,53,,influential_reading,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_revision_evaluation,54,54,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,55,55,,run_shift,False,False,False,False,,[],[]
+synthetic_revision_evaluation,56,56,,clean,False,False,False,False,,[],[]
+synthetic_revision_evaluation,57,57,,random_missing,False,False,True,True,,"[""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,58,58,,response_dependent_missing,True,False,True,True,,"[""dose_deletion"", ""missing_probe""]",[]
+synthetic_revision_evaluation,59,59,,truncated_range,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,60,60,,singletons,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,61,61,,influential_reading,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,62,62,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,63,63,,run_shift,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,64,64,,clean,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,65,65,,random_missing,False,False,True,True,,[],[]
+synthetic_revision_evaluation,66,66,,response_dependent_missing,True,False,True,True,,"[""model"", ""reading_deletion"", ""dose_deletion"", ""missing_probe""]",[]
+synthetic_revision_evaluation,67,67,,truncated_range,False,False,False,False,,[],[]
+synthetic_revision_evaluation,68,68,,singletons,False,False,False,False,,[],[]
+synthetic_revision_evaluation,69,69,,influential_reading,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,70,70,,non_monotonic,True,False,True,True,,"[""model"", ""reading_deletion"", ""dose_deletion""]","[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}]"
+synthetic_revision_evaluation,71,71,,run_shift,False,False,False,False,,[],[]
+synthetic_revision_evaluation,72,72,,clean,False,False,False,False,,[],[]
+synthetic_revision_evaluation,73,73,,random_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_revision_evaluation,74,74,,response_dependent_missing,True,False,True,True,,"[""dose_deletion"", ""missing_probe""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,75,75,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+synthetic_revision_evaluation,76,76,,singletons,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,77,77,,influential_reading,True,False,True,True,,"[""reading_deletion""]",[]
+synthetic_revision_evaluation,78,78,,non_monotonic,False,False,True,True,,"[""reading_deletion"", ""dose_deletion""]","[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}, {""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,79,79,,run_shift,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_revision_evaluation,80,80,,clean,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,81,81,,random_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_revision_evaluation,82,82,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_revision_evaluation,83,83,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+synthetic_revision_evaluation,84,84,,singletons,False,False,True,True,,"[""dose_deletion""]",[]
+synthetic_revision_evaluation,85,85,,influential_reading,True,False,True,True,,"[""reading_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,86,86,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,87,87,,run_shift,False,False,False,False,,[],[]
+synthetic_revision_evaluation,88,88,,clean,False,False,False,False,,[],[]
+synthetic_revision_evaluation,89,89,,random_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_revision_evaluation,90,90,,response_dependent_missing,False,False,True,True,,"[""missing_probe""]",[]
+synthetic_revision_evaluation,91,91,,truncated_range,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+synthetic_revision_evaluation,92,92,,singletons,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,93,93,,influential_reading,False,False,True,False,,[],"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,94,94,,non_monotonic,False,False,True,True,,"[""dose_deletion""]","[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+synthetic_revision_evaluation,95,95,,run_shift,False,False,False,False,,[],[]

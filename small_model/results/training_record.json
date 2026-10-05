@@ -1,0 +1,40 @@
+{
+  "base_model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "resolved_base_revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+  "seed": 20261005,
+  "device": "cuda",
+  "epochs": 3,
+  "batch_size": 8,
+  "learning_rate": 5e-05,
+  "weight_decay": 0.01,
+  "gradient_clip_norm": 1.0,
+  "training_examples": 728,
+  "validation_examples": 182,
+  "selected_epoch": 2,
+  "selection": "lowest_validation_assistant_token_loss",
+  "history": [
+    {
+      "epoch": 1,
+      "train_assistant_token_loss": 0.1871778960750044,
+      "validation_assistant_token_loss": 0.0905127891377507
+    },
+    {
+      "epoch": 2,
+      "train_assistant_token_loss": 0.028134253643000887,
+      "validation_assistant_token_loss": 0.011270717506963037
+    },
+    {
+      "epoch": 3,
+      "train_assistant_token_loss": 0.011778185227326661,
+      "validation_assistant_token_loss": 0.0318059389430832
+    }
+  ],
+  "training_seconds": 334.33616170000005,
+  "torch": "2.8.0+cu126",
+  "mixed_precision_bfloat16": true,
+  "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "gpu_peak_allocated_bytes": 6238460416,
+  "gpu_peak_reserved_bytes": 9518972928,
+  "label_source": "heuristic_policy_not_biological_truth",
+  "test_used_for_selection": false
+}

@@ -1,0 +1,11 @@
+.venv/
+.conda/
+.conda-slm/
+small_model/checkpoints/
+small_model/model_cache/
+__pycache__/
+tmp/
+
+submission/*
+!submission/technical_report.pdf
+build_submission.py

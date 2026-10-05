@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Liver-Chip response reliability</title>
+<style>
+body{font:16px system-ui,sans-serif;background:#f4f6f7;color:#19343f;margin:0}main{max-width:1100px;margin:auto;padding:35px 28px}h1{font-size:32px;margin:8px 0}h2{font-size:21px}p{line-height:1.6}.tag{font-size:13px;color:#54737e;text-transform:uppercase;letter-spacing:1px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card,section{background:white;border:1px solid #d7e2e5;border-radius:10px;padding:22px;margin:18px 0}.card{margin:0}.number{font-size:28px;font-weight:650}select{font:inherit;padding:8px 12px;border:1px solid #98b0b8;border-radius:5px}table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:10px;text-align:left;border-bottom:1px solid #e1e9ec}svg{width:100%;height:auto}.status{display:inline-block;background:#edf3f5;padding:8px 12px;border-radius:5px;font-weight:600}.note{color:#546a74;font-size:14px}.legend{display:flex;gap:25px;font-size:14px}.dot{color:#287d9a}.line{color:#b15d26}a{color:#287d9a}@media(max-width:650px){.cards{grid-template-columns:1fr}main{padding:20px}table{font-size:12px}}
+</style>
+<main>
+<div class="tag">AI4S · real-data research prototype</div>
+<h1>Liver-Chip response reliability</h1>
+<p>Inspect whether the measured albumin response supports a 50% crossing within the tested doses. A missing crossing means that it was not observed in this assay range.</p>
+<div class="cards"><div class="card"><div class="number" id="drugs"></div>drugs in the public response subset</div><div class="card"><div class="number" id="conditions"></div>day-three drug × dose conditions</div><div class="card"><div class="number" id="missing"></div>missing endpoint measurements</div></div>
+<section><label for="compound"><b>Inspect a drug</b></label> <select id="compound"></select><p><span class="status" id="status"></span></p><p id="crossing"></p><p class="note" id="reasons"></p>
+<svg id="chart" viewBox="0 0 1000 340" role="img" aria-label="Albumin dose-response curve with source measurements and descriptive resampling range"></svg>
+<div class="legend"><span class="dot">● Observed dose means</span><span class="line">━ Decreasing fitted response</span><span>Shading: 2.5–97.5% resampling range</span></div>
+<p class="note">The shaded range resamples the available measurements at each dose. With one or two observations per condition it can underestimate uncertainty; it has no calibrated 95% coverage guarantee.</p>
+<h2>Measured endpoints</h2><p class="note">Endpoint sheets are summarised separately. Their row order does not establish paired chip identity. ALT is shown in source units; no diagnostic ALT threshold is applied.</p><table><thead><tr><th>Dose × unbound Cmax</th><th>Albumin % (n)</th><th>ALT (n)</th><th>Morphology (n)</th></tr></thead><tbody id="endpoints"></tbody></table></section>
+<section><h2>Held-dose interpolation experiment</h2><p>All measurements at each interior dose are held out together. Each model sees the remaining doses for that same drug. Endpoints of the tested dose range are excluded to avoid evaluating extrapolation.</p><table><thead><tr><th>Method</th><th>MAE (percentage points)</th><th>RMSE (percentage points)</th></tr></thead><tbody id="metrics"></tbody></table><p id="coverage"></p><p class="note">This comparison measures prediction of held dose means within six existing drug curves. It does not measure prediction for a new drug, donor, laboratory, or clinical outcome.</p></section>
+<section><h2>Evidence needed before a submission claim</h2><p>The public workbook omits chip IDs, donor IDs, cycle IDs, and vehicle-control records. We cannot separate donor variability from technical variability or assess control quality. The model estimates a measured functional endpoint and flags limited evidence; it does not certify drug safety.</p><p class="note">Source: <a href="https://www.nature.com/articles/s43856-022-00209-1">Ewart et al., Communications Medicine (2022), Supplementary Data 8</a>. This interface is generated from a local reproducible experiment. No external service is required.</p></section>
+</main>
+<script>
+const results=__RESULTS_JSON__;
+const summary=results.summary;
+document.getElementById('drugs').textContent=summary.compounds;
+document.getElementById('conditions').textContent=summary.drug_dose_conditions;
+document.getElementById('missing').textContent=summary.missing_endpoint_rows;
+const selector=document.getElementById('compound');
+for(const drug of results.drug_results){const option=document.createElement('option');option.textContent=drug.compound;selector.append(option)}
+const metricNames={monotone:'Decreasing isotonic regression',raw_interpolation:'Raw mean interpolation',constant:'Constant training mean'};
+for(const [name,metric] of Object.entries(summary.metrics)){document.getElementById('metrics').innerHTML+=`<tr><td>${metricNames[name]}</td><td>${metric.mae_pp.toFixed(2)}</td><td>${metric.rmse_pp.toFixed(2)}</td></tr>`}
+document.getElementById('coverage').textContent=`Resampling ranges contain ${summary.resampling_range_covered_conditions} of ${summary.held_interior_dose_conditions} held dose means (${(100*summary.resampling_range_coverage).toFixed(1)}%). This is descriptive coverage on this pilot.`;
+const statusNames={crossing_not_observed:'50% crossing not observed',crossing_below_tested_range:'50% crossing below tested range',crossing_requires_review:'50% crossing requires review',crossing_stable_in_resampling:'50% crossing stable in resampling'};
+function showDrug(){
+ const drug=results.drug_results.find(item=>item.compound===selector.value);
+ document.getElementById('status').textContent=statusNames[drug.decision];
+ const value=drug.albumin_50_crossing;
+ let crossing=value===null?`Tested range: ${drug.doses[0]}–${drug.doses.at(-1)} × unbound Cmax. No finite crossing estimate is reported.`:`Estimated crossing: ${value.toFixed(2)} × unbound Cmax. A crossing appears in ${(drug.crossing_resampling_fraction*100).toFixed(1)}% of resamples.`;
+ if(drug.crossing_resampling_range_conditional_on_crossing){const range=drug.crossing_resampling_range_conditional_on_crossing;crossing+=` Conditional resampling range: ${range[0].toFixed(2)}–${range[1].toFixed(2)}.`}
+ document.getElementById('crossing').textContent=crossing;
+ document.getElementById('reasons').textContent=drug.review_reasons.join(' ')+' Donor and control reliability remain unassessed.';
+ let rows='';
+ for(const condition of drug.endpoint_summaries){let cells='';for(const endpoint of ['albumin_percent','alt_source_units','morphology_score']){const entry=condition[endpoint];cells+=`<td>${entry.mean===null?'Missing':entry.mean.toFixed(2)} (${entry.observed_count})</td>`}rows+=`<tr><td>${condition.dose_cmax_multiple}</td>${cells}</tr>`}
+ document.getElementById('endpoints').innerHTML=rows;
+ const x=dose=>75+Math.log10(dose/drug.doses[0])/Math.log10(drug.doses.at(-1)/drug.doses[0])*850;
+ const y=value=>280-value/180*230;
+ let chart='';
+ for(const level of [0,50,100,150]){chart+=`<line x1="75" y1="${y(level)}" x2="925" y2="${y(level)}" stroke="${level===50?'#9b684a':'#dce5e9'}" stroke-dasharray="${level===50?'5 5':'0'}"/><text x="60" y="${y(level)+5}" text-anchor="end" font-size="14">${level}</text>`}
+ const lower=drug.response_resampling_range[0],upper=drug.response_resampling_range[1];
+ let polygon='';for(let i=0;i<drug.doses.length;i++){polygon+=`${x(drug.doses[i])},${y(lower[i])} `}for(let i=drug.doses.length-1;i>=0;i--){polygon+=`${x(drug.doses[i])},${y(upper[i])} `}
+ chart+=`<polygon points="${polygon}" fill="#e5bc9d" opacity=".45"/>`;
+ let points='';for(let i=0;i<drug.doses.length;i++){points+=`${x(drug.doses[i])},${y(drug.fitted_albumin[i])} `}
+ chart+=`<polyline points="${points}" fill="none" stroke="#b15d26" stroke-width="3"/>`;
+ for(let i=0;i<drug.doses.length;i++){chart+=`<circle cx="${x(drug.doses[i])}" cy="${y(drug.observed_means[i])}" r="5" fill="#287d9a"/><text x="${x(drug.doses[i])}" y="305" text-anchor="middle" font-size="13">${drug.doses[i]}</text>`}
+ chart+='<text x="500" y="335" text-anchor="middle" font-size="14">Dose × unbound human Cmax (log scale)</text><text x="20" y="150" transform="rotate(-90 20 150)" text-anchor="middle" font-size="14">Normalised albumin (%)</text>';
+ document.getElementById('chart').innerHTML=chart;
+}
+selector.addEventListener('change',showDrug);showDrug();
+</script>
+</html>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="770" viewBox="0 0 1200 770">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#355c6c"/></marker></defs>
+<style>text{font-family:Arial,sans-serif;fill:#1a3744;font-size:20px}.title{font-size:26px;font-weight:bold}.heading{font-size:21px;font-weight:bold}.small{font-size:18px}.box{fill:#fff;stroke:#94aab3;stroke-width:1.5}.learned{fill:#eaf4f8;stroke:#287d9a;stroke-width:2}.fixed{fill:#fff5e9;stroke:#b77a3f;stroke-width:1.5}.flow{fill:none;stroke:#355c6c;stroke-width:2;marker-end:url(#arrow)}</style>
+<rect width="1200" height="770" fill="white"/>
+<text x="30" y="42" class="title">Liver-Chip albumin response reliability · implemented pilot</text>
+<text x="30" y="75" class="small">Per-drug curve fitting and descriptive resampling; day three; no clinical safety classification</text>
+<rect x="20" y="100" width="1160" height="245" rx="10" fill="#f6f9fa" stroke="#d0dce1"/>
+<text x="40" y="133" class="heading">A. Fit and inspect one measured drug curve</text>
+<rect x="40" y="160" width="255" height="143" rx="7" class="box"/>
+<text x="58" y="189" class="heading">Public source rows</text><text x="58" y="221">Dose d, albumin y</text><text x="58" y="250">Keep missing values</text><text x="58" y="279" class="small">No donor / chip IDs supplied</text>
+<path d="M295,230 H330" class="flow"/>
+<rect x="332" y="160" width="255" height="143" rx="7" class="learned"/>
+<text x="350" y="189" class="heading">Fit decreasing curve</text><text x="350" y="221">Dose means, counts n</text><text x="350" y="250">Weighted isotonic fit ŷ</text><text x="350" y="279" class="small">Interpolate in log₁₀(d)</text>
+<path d="M587,230 H622" class="flow"/>
+<rect x="624" y="160" width="255" height="143" rx="7" class="fixed"/>
+<text x="642" y="189" class="heading">Assess crossing</text><text x="642" y="221">Fixed threshold y = 50%</text><text x="642" y="250">Resample at each dose</text><text x="642" y="279" class="small">500 curves + missingness</text>
+<path d="M879,230 H914" class="flow"/>
+<rect x="916" y="160" width="243" height="143" rx="7" class="box"/>
+<text x="934" y="189" class="heading">Evidence report</text><text x="934" y="221">Crossing or censoring</text><text x="934" y="250">Resampling stability</text><text x="934" y="279" class="small">Reasons + source rows</text>
+<rect x="20" y="365" width="570" height="302" rx="10" fill="#f6f9fa" stroke="#d0dce1"/>
+<text x="40" y="400" class="heading">B. Crossing-support close-up</text>
+<rect x="40" y="423" width="530" height="58" rx="7" class="learned"/>
+<text x="57" y="447">Resampled fitted curves ŷ⁽ᵇ⁾(d)</text><text x="57" y="471" class="small">Count finite crossings / 500 → stability fraction</text>
+<path d="M305,481 V502" class="flow"/>
+<rect x="40" y="504" width="530" height="65" rx="7" class="fixed"/>
+<text x="57" y="531">Review finite crossings if stability &lt; 0.95, n &lt; 2,</text><text x="57" y="556">or shape adjustment &gt; 20 percentage points RMS</text>
+<path d="M305,569 V591" class="flow"/>
+<rect x="40" y="593" width="530" height="52" rx="7" class="box"/>
+<text x="57" y="625">Outside range → censored; never label as “safe”</text>
+<rect x="610" y="365" width="570" height="302" rx="10" fill="#f6f9fa" stroke="#d0dce1"/>
+<text x="630" y="400" class="heading">C. Held-dose interpolation evaluation</text>
+<rect x="630" y="423" width="530" height="58" rx="7" class="box"/>
+<text x="647" y="448">Hold out every measurement at one interior dose</text><text x="647" y="472" class="small">Remaining doses of the same drug form training data</text>
+<path d="M895,481 V502" class="flow"/>
+<rect x="630" y="504" width="530" height="65" rx="7" class="learned"/>
+<text x="647" y="531">Fit monotone, raw interpolation, constant mean</text><text x="647" y="556">Predict held dose; refit resampling ranges</text>
+<path d="M895,569 V591" class="flow"/>
+<rect x="630" y="593" width="530" height="52" rx="7" class="box"/>
+<text x="647" y="625">23 held conditions → MAE, RMSE, range coverage</text>
+<text x="30" y="706" class="small">Blue: response values fitted from measurements. Ochre: fixed diagnostic rules; thresholds are not calibrated.</text>
+<text x="30" y="736" class="small">Resampling ranges describe sparse observed data; donor variability, control quality, and new-drug performance remain untested.</text>
+</svg>

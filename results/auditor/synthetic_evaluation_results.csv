@@ -1,0 +1,97 @@
+partition,experiment,scenario,shape,true_state,estimated_state,true_crossing,estimated_crossing,reference_event,no_warning,count_warning,source_warning,sensitivity_warning,full_warning,warning_reasons,legacy_sensitivity_warning,legacy_full_warning,fit_diagnostics
+evaluation,0,clean,hill,within_range,within_range,19.645531471954182,14.76913747459304,False,False,False,False,False,False,[],False,False,[]
+evaluation,1,random_missing,hill,within_range,within_range,75.34217152590283,72.42305467749676,False,False,True,True,True,True,"[""missing_probe""]",True,True,[]
+evaluation,2,response_dependent_missing,hill,within_range,within_range,34.66017092702558,48.30756797617295,False,False,True,True,True,True,"[""dose_deletion"", ""missing_probe""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,3,truncated_range,hill,right_censored,right_censored,,,False,False,False,False,False,False,[],True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,4,singletons,hill,within_range,within_range,29.881499104802646,57.82286367367766,False,False,True,False,False,False,[],True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,5,influential_reading,hill,within_range,within_range,160.81816575113274,204.10418957670592,False,False,False,False,True,True,"[""reading_deletion"", ""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,6,non_monotonic,hill,within_range,within_range,12.05459554682545,147.27972243642841,True,False,False,False,True,True,"[""model"", ""dose_deletion""]",True,True,"[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}, {""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,7,run_shift,hill,within_range,within_range,27.923786060462295,25.90590083260209,False,False,False,False,False,False,[],True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,8,clean,piecewise,within_range,within_range,62.51559111971892,59.21427989739728,False,False,False,False,False,False,[],False,False,[]
+evaluation,9,random_missing,piecewise,within_range,within_range,95.98930878935334,97.1502696970178,False,False,False,False,False,False,[],False,False,[]
+evaluation,10,response_dependent_missing,piecewise,within_range,within_range,23.035867751373697,25.878905452504398,False,False,True,True,True,True,"[""dose_deletion"", ""missing_probe""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,11,truncated_range,piecewise,within_range,within_range,20.548832186610824,19.932931290265415,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,12,singletons,piecewise,within_range,within_range,8.337123486641534,10.275993320308869,False,False,True,False,False,False,[],True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,13,influential_reading,piecewise,within_range,within_range,180.41404787236712,195.48744035039368,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,14,non_monotonic,piecewise,within_range,within_range,186.24855485870194,213.3886213449605,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,15,run_shift,piecewise,within_range,within_range,18.408622636313673,26.661227131271858,False,False,False,False,True,True,"[""dose_deletion""]",True,True,[]
+evaluation,16,clean,hill,within_range,within_range,18.274686625730997,18.61414501552147,False,False,False,False,False,False,[],False,False,[]
+evaluation,17,random_missing,hill,within_range,within_range,16.765307207360575,19.987731199019162,False,False,True,True,True,True,"[""missing_probe""]",True,True,[]
+evaluation,18,response_dependent_missing,hill,within_range,within_range,113.06944518416938,129.05152029234503,False,False,False,False,True,True,"[""dose_deletion""]",True,True,[]
+evaluation,19,truncated_range,hill,within_range,within_range,12.388998839744676,14.048104349126255,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,20,singletons,hill,within_range,within_range,21.98309693973198,26.50263881725691,False,False,True,False,False,False,[],False,False,[]
+evaluation,21,influential_reading,hill,within_range,within_range,153.75247997090597,157.2443146815975,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,22,non_monotonic,hill,within_range,within_range,146.58080100678913,184.75632090328804,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,23,run_shift,hill,within_range,within_range,18.99875141021726,25.670221649142146,False,False,False,False,False,False,[],False,False,[]
+evaluation,24,clean,piecewise,within_range,within_range,152.26799430078253,160.01496749275202,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,25,random_missing,piecewise,within_range,within_range,205.3743506474516,243.44295529120765,False,False,True,True,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,26,response_dependent_missing,piecewise,within_range,within_range,14.82629012109117,16.60225653827055,False,False,True,True,True,True,"[""missing_probe""]",True,True,[]
+evaluation,27,truncated_range,piecewise,right_censored,within_range,,30.566855301175288,True,False,False,False,True,True,"[""reading_deletion"", ""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+evaluation,28,singletons,piecewise,within_range,within_range,85.08394394040961,125.33091139111377,False,False,True,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,29,influential_reading,piecewise,within_range,within_range,54.287619935146125,69.59204764655881,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,30,non_monotonic,piecewise,within_range,within_range,13.60060323488086,20.527673538151,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,31,run_shift,piecewise,within_range,within_range,85.05877117850093,87.64975274373762,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,32,clean,hill,within_range,within_range,38.055273421089545,32.499955947893234,False,False,False,False,False,False,[],False,False,[]
+evaluation,33,random_missing,hill,within_range,within_range,15.051156295809344,18.989460414478064,False,False,False,False,False,False,[],False,False,[]
+evaluation,34,response_dependent_missing,hill,right_censored,right_censored,,,False,False,True,True,True,True,"[""missing_probe""]",True,True,[]
+evaluation,35,truncated_range,hill,right_censored,right_censored,,,False,False,False,False,False,False,[],True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}, {""model"": ""logistic"", ""code"": ""weak_parameter_identification""}]"
+evaluation,36,singletons,hill,within_range,within_range,153.10320799115877,201.0938311109531,False,False,True,False,True,True,"[""dose_deletion""]",True,True,[]
+evaluation,37,influential_reading,hill,within_range,within_range,12.24319888839175,47.02272741881788,True,False,False,False,True,True,"[""reading_deletion"", ""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,38,non_monotonic,hill,within_range,within_range,6.568870105213661,5.92080306922638,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}, {""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,39,run_shift,hill,within_range,within_range,9.92096696425887,10.65880851860582,False,False,False,False,False,False,[],False,False,[]
+evaluation,40,clean,piecewise,within_range,within_range,71.61348023678154,82.75936848292523,False,False,False,False,False,False,[],False,False,[]
+evaluation,41,random_missing,piecewise,within_range,within_range,80.21822107732004,75.28076893203928,False,False,True,True,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,42,response_dependent_missing,piecewise,within_range,within_range,43.683563733089805,52.467690352378035,False,False,True,True,True,True,"[""missing_probe""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,43,truncated_range,piecewise,right_censored,right_censored,,,False,False,False,False,False,False,[],True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,44,singletons,piecewise,within_range,within_range,24.692922785352522,26.713895042450705,False,False,True,False,False,False,[],False,False,[]
+evaluation,45,influential_reading,piecewise,within_range,within_range,12.363246052697928,46.76766374705349,True,False,False,False,True,True,"[""reading_deletion"", ""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,46,non_monotonic,piecewise,within_range,within_range,123.62967071968508,110.02442112718381,False,False,False,False,True,True,"[""dose_deletion""]",True,True,[]
+evaluation,47,run_shift,piecewise,within_range,within_range,30.02452926607081,32.1664646113183,False,False,False,False,False,False,[],False,False,[]
+evaluation,48,clean,hill,within_range,within_range,46.85765799168871,60.40997146129759,False,False,False,False,False,False,[],False,False,[]
+evaluation,49,random_missing,hill,within_range,within_range,53.13839803354603,39.32140644464902,False,False,True,True,True,True,"[""missing_probe""]",True,True,[]
+evaluation,50,response_dependent_missing,hill,within_range,within_range,111.06406047519242,105.37887014800317,False,False,True,True,True,True,"[""dose_deletion"", ""missing_probe""]",True,True,[]
+evaluation,51,truncated_range,hill,within_range,within_range,25.27136805571127,23.493439948059216,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,52,singletons,hill,within_range,within_range,38.31165382236357,47.32636110905291,False,False,True,False,False,False,[],False,False,[]
+evaluation,53,influential_reading,hill,within_range,within_range,60.420566306236516,81.44032744683105,False,False,False,False,False,False,[],True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,54,non_monotonic,hill,within_range,within_range,120.33639596313603,114.48910988867746,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,55,run_shift,hill,within_range,within_range,90.05697862364761,109.02159631509053,False,False,False,False,True,True,"[""dose_deletion""]",True,True,[]
+evaluation,56,clean,piecewise,within_range,within_range,21.156795595656053,24.500490725984033,False,False,False,False,False,False,[],False,False,[]
+evaluation,57,random_missing,piecewise,within_range,within_range,52.181462715623724,58.33910524263686,False,False,False,False,False,False,[],False,False,[]
+evaluation,58,response_dependent_missing,piecewise,within_range,within_range,63.61395513995573,70.24891426353179,False,False,True,True,True,True,"[""dose_deletion"", ""missing_probe""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,59,truncated_range,piecewise,within_range,within_range,8.125780279633863,8.082169962793174,False,False,False,False,False,False,[],False,False,[]
+evaluation,60,singletons,piecewise,within_range,within_range,19.459519958393855,20.3475509174374,False,False,True,False,False,False,[],False,False,[]
+evaluation,61,influential_reading,piecewise,within_range,within_range,130.54734129651177,164.50130520301175,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,62,non_monotonic,piecewise,within_range,within_range,107.84524757078162,113.58987597667257,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,63,run_shift,piecewise,within_range,within_range,169.7147580498453,210.3321202325481,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,64,clean,hill,within_range,within_range,46.16580770966466,53.93429761132846,False,False,False,False,False,False,[],False,False,[]
+evaluation,65,random_missing,hill,within_range,within_range,158.18947924560928,156.2186442061319,False,False,True,True,True,True,"[""dose_deletion""]",True,True,[]
+evaluation,66,response_dependent_missing,hill,within_range,within_range,55.074098996064706,102.59567091365761,False,False,True,True,True,True,"[""dose_deletion"", ""missing_probe""]",True,True,[]
+evaluation,67,truncated_range,hill,right_censored,right_censored,,,False,False,False,False,False,False,[],True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,68,singletons,hill,within_range,right_censored,206.0099577603942,,True,False,True,False,False,False,[],False,False,[]
+evaluation,69,influential_reading,hill,within_range,within_range,40.49608486851074,71.70402594616361,False,False,False,False,True,True,"[""reading_deletion""]",True,True,[]
+evaluation,70,non_monotonic,hill,within_range,within_range,22.495916112623565,117.7812093535196,True,False,False,False,True,True,"[""model"", ""dose_deletion""]",True,True,"[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}, {""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,71,run_shift,hill,within_range,within_range,144.35872020510092,140.87838213518688,False,False,False,False,True,True,"[""dose_deletion""]",True,True,[]
+evaluation,72,clean,piecewise,within_range,within_range,166.95823445683374,183.9734686950205,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,73,random_missing,piecewise,within_range,within_range,10.624866027241405,11.588665516259203,False,False,True,True,True,True,"[""missing_probe""]",True,True,[]
+evaluation,74,response_dependent_missing,piecewise,within_range,within_range,27.628246651422668,25.370512926259536,False,False,True,True,True,True,"[""missing_probe""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,75,truncated_range,piecewise,within_range,within_range,21.93889114738897,21.48638395201744,False,False,False,False,True,True,"[""dose_deletion""]",True,True,[]
+evaluation,76,singletons,piecewise,within_range,within_range,19.73323409698154,42.77215812064127,True,False,True,False,False,False,[],False,False,[]
+evaluation,77,influential_reading,piecewise,within_range,within_range,10.713454799304017,33.86588444667724,True,False,False,False,True,True,"[""reading_deletion"", ""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,78,non_monotonic,piecewise,within_range,within_range,122.095334055974,181.5733389582929,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,79,run_shift,piecewise,within_range,within_range,19.70592652671305,17.60875837012952,False,False,False,False,False,False,[],True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,80,clean,hill,within_range,within_range,40.12121149427454,44.20125994038233,False,False,False,False,False,False,[],True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,81,random_missing,hill,within_range,within_range,73.21059355671534,66.80276663894959,False,False,True,True,True,True,"[""missing_probe""]",True,True,[]
+evaluation,82,response_dependent_missing,hill,within_range,within_range,43.34220858922733,48.94376837509194,False,False,False,False,False,False,[],False,False,[]
+evaluation,83,truncated_range,hill,right_censored,right_censored,,,False,False,False,False,False,False,[],True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,84,singletons,hill,within_range,within_range,9.975161771766606,6.287520015426,False,False,True,False,False,False,[],True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,85,influential_reading,hill,within_range,within_range,16.490846336575533,50.30597471205114,True,False,False,False,True,True,"[""reading_deletion"", ""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,86,non_monotonic,hill,within_range,within_range,172.85677570850797,212.59493186884276,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,87,run_shift,hill,within_range,within_range,41.132784121107484,49.73544426344903,False,False,False,False,False,False,[],False,False,[]
+evaluation,88,clean,piecewise,within_range,within_range,61.659104444419214,66.77310168653413,False,False,False,False,False,False,[],True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,89,random_missing,piecewise,within_range,within_range,116.24779029298391,98.9987119158653,False,False,True,True,False,True,[],False,True,[]
+evaluation,90,response_dependent_missing,piecewise,within_range,within_range,107.01449889028818,96.3912311870268,False,False,True,True,True,True,"[""missing_probe""]",True,True,[]
+evaluation,91,truncated_range,piecewise,within_range,within_range,18.36563570551349,20.769454868490442,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,92,singletons,piecewise,within_range,within_range,9.433320544095169,8.762383850466305,False,False,True,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,93,influential_reading,piecewise,within_range,within_range,8.820912598102044,43.88138567986557,True,False,False,False,True,True,"[""model"", ""reading_deletion"", ""dose_deletion""]",True,True,"[{""model"": ""raw_interpolation"", ""code"": ""multiple_downward_crossings""}]"
+evaluation,94,non_monotonic,piecewise,within_range,within_range,199.49199092162942,220.32571096765489,False,False,False,False,True,True,"[""dose_deletion""]",True,True,"[{""model"": ""logistic"", ""code"": ""parameter_at_bound""}]"
+evaluation,95,run_shift,piecewise,within_range,within_range,139.39315172639854,160.3478263500337,False,False,False,False,True,True,"[""dose_deletion""]",True,True,[]

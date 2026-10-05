@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-05",
+  "engine_tested": "rules",
+  "model_inference_tested": false,
+  "source_specific_review": true,
+  "resource_conditioned_repeat": true,
+  "bounded_reporting": true,
+  "unsupported_request_declined": true,
+  "blocked_input": true,
+  "missing_original_sources": true,
+  "unloaded_model_status": true,
+  "export_provenance": true,
+  "stale_response_discarded": true,
+  "offline_state": true,
+  "mobile_and_desktop_no_overflow": true,
+  "js_errors": []
+}

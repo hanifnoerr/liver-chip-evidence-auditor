@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-05",
+  "server": "ThreadingHTTPServer",
+  "idle_browser_connection_does_not_block": true,
+  "idle_connection_status_response_seconds": 0.007402100000035716,
+  "concurrent_model_requests": 2,
+  "inference_serialised_by_lock": true,
+  "both_requests_correct": true,
+  "decisions": [
+    {
+      "engine": "model",
+      "raw_action": "INSPECT",
+      "delivered_action": "INSPECT",
+      "fallback": false,
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "action": {
+        "id": "reading_influence:300.0",
+        "rule": "reading_influence",
+        "workflow_order": 1,
+        "title": "Verify the reading at 300\u00d7 unbound Cmax",
+        "reason": "ALBUMIN!C12 is 69.68% albumin. Its temporary removal changes Clozapine from no crossing in the measured range to a crossing at 256.22\u00d7 unbound Cmax.",
+        "action": "Inspect the named original measurement and available assay records. If the conclusion is needed and the concern remains unresolved, consider an independent repeat at this dose with documented sampling.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "dose_cmax_multiples": [
+          300.0
+        ],
+        "scenario_ids": [
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "check_codes": [
+          "reading_deletion"
+        ],
+        "interpretation": "Influence does not establish a measurement error. Original readings remain included.",
+        "action_code": "INSPECT"
+      },
+      "inference": {
+        "scores": {
+          "FIX": -10.161211967468262,
+          "INSPECT": -0.00011410618450706049,
+          "REPEAT": -5.034818679094315,
+          "RECOVER": -7.561937113602956,
+          "COMPARE": -10.734228879213333,
+          "EXTEND": -9.97498369216919,
+          "REPORT": -4.193593657109886,
+          "ABSTAIN": -2.6077004074161323
+        },
+        "seconds": 0.88245280000001,
+        "prompt_tokens": 289
+      },
+      "experimental": true
+    },
+    {
+      "engine": "model",
+      "raw_action": "INSPECT",
+      "delivered_action": "INSPECT",
+      "fallback": false,
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "action": {
+        "id": "reading_influence:300.0",
+        "rule": "reading_influence",
+        "workflow_order": 1,
+        "title": "Verify the reading at 300\u00d7 unbound Cmax",
+        "reason": "ALBUMIN!C12 is 69.68% albumin. Its temporary removal changes Clozapine from no crossing in the measured range to a crossing at 256.22\u00d7 unbound Cmax.",
+        "action": "Inspect the named original measurement and available assay records. If the conclusion is needed and the concern remains unresolved, consider an independent repeat at this dose with documented sampling.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "dose_cmax_multiples": [
+          300.0
+        ],
+        "scenario_ids": [
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "check_codes": [
+          "reading_deletion"
+        ],
+        "interpretation": "Influence does not establish a measurement error. Original readings remain included.",
+        "action_code": "INSPECT"
+      },
+      "inference": {
+        "scores": {
+          "FIX": -10.161211967468262,
+          "INSPECT": -0.00011410618450706049,
+          "REPEAT": -5.034818679094315,
+          "RECOVER": -7.561937113602956,
+          "COMPARE": -10.734228879213333,
+          "EXTEND": -9.97498369216919,
+          "REPORT": -4.193593657109886,
+          "ABSTAIN": -2.6077004074161323
+        },
+        "seconds": 1.1554188000000067,
+        "prompt_tokens": 289
+      },
+      "experimental": true
+    }
+  ]
+}

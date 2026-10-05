@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-05",
+  "single_next_step_button_after_findings": true,
+  "plain_return_label_with_compound_context": true,
+  "navigation_targets_at_least_48px": true,
+  "keyboard_case_and_method_navigation": true,
+  "visible_method_and_evaluation_status": true,
+  "resource_aware_actions": true,
+  "self_contained_reports": true,
+  "source_links_highlight_exact_reading": true,
+  "imported_case_continuity": true,
+  "export_provenance": true,
+  "stale_result_cleared": true,
+  "mobile_result_focus": true,
+  "all_pages_no_overflow": true,
+  "actual_model_requests": true,
+  "decisions": [
+    {
+      "engine": "model",
+      "goal": "review",
+      "compound": "Clozapine",
+      "delivered_action": "INSPECT",
+      "raw_action": "INSPECT",
+      "source_record_ids": [
+        "ewart2022_supp8_ALBUMIN_C12"
+      ],
+      "inference_seconds": 2.0216474999997445
+    },
+    {
+      "engine": "rules",
+      "goal": "report",
+      "compound": "Clozapine",
+      "delivered_action": "REPORT",
+      "raw_action": "REPORT",
+      "source_record_ids": [
+        "ewart2022_supp8_ALBUMIN_C12",
+        "ewart2022_supp8_ALBUMIN_C13"
+      ],
+      "inference_seconds": null
+    },
+    {
+      "engine": "model",
+      "goal": "report",
+      "compound": "Clozapine",
+      "delivered_action": "REPORT",
+      "raw_action": "REPORT",
+      "source_record_ids": [
+        "ewart2022_supp8_ALBUMIN_C12",
+        "ewart2022_supp8_ALBUMIN_C13"
+      ],
+      "inference_seconds": 2.019668400000228
+    },
+    {
+      "engine": "model",
+      "goal": "repeat",
+      "compound": "Clozapine",
+      "delivered_action": "REPEAT",
+      "raw_action": "REPEAT",
+      "source_record_ids": [
+        "ewart2022_supp8_ALBUMIN_C12"
+      ],
+      "inference_seconds": 2.0564842999992834
+    },
+    {
+      "engine": "model",
+      "goal": "recover",
+      "compound": "Pioglitazone",
+      "delivered_action": "RECOVER",
+      "raw_action": "RECOVER",
+      "source_record_ids": [
+        "ewart2022_supp8_ALBUMIN_C39",
+        "ewart2022_supp8_ALBUMIN_C41"
+      ],
+      "inference_seconds": 1.949199899998348
+    },
+    {
+      "engine": "rules",
+      "goal": "recover",
+      "compound": "Pioglitazone",
+      "delivered_action": "RECOVER",
+      "raw_action": "RECOVER",
+      "source_record_ids": [
+        "ewart2022_supp8_ALBUMIN_C39",
+        "ewart2022_supp8_ALBUMIN_C41"
+      ],
+      "inference_seconds": null
+    }
+  ],
+  "js_errors": []
+}

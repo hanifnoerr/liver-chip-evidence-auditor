@@ -1,0 +1,9 @@
+compound,code,severity,source_record_id,message
+Clozapine,unknown_experimental_identity,limitation,dataset,Chip/run identities are unavailable. Source-record IDs cannot establish independent chips or pairing.
+Levofloxacin,unknown_experimental_identity,limitation,dataset,Chip/run identities are unavailable. Source-record IDs cannot establish independent chips or pairing.
+Olanzapine,unknown_experimental_identity,limitation,dataset,Chip/run identities are unavailable. Source-record IDs cannot establish independent chips or pairing.
+Pioglitazone,missing_response,review,ewart2022_supp8_ALBUMIN_C39,The source reading is missing; scenarios cannot recover it.
+Pioglitazone,missing_response,review,ewart2022_supp8_ALBUMIN_C41,The source reading is missing; scenarios cannot recover it.
+Pioglitazone,unknown_experimental_identity,limitation,dataset,Chip/run identities are unavailable. Source-record IDs cannot establish independent chips or pairing.
+Troglitazone,unknown_experimental_identity,limitation,dataset,Chip/run identities are unavailable. Source-record IDs cannot establish independent chips or pairing.
+Trovafloxacin,unknown_experimental_identity,limitation,dataset,Chip/run identities are unavailable. Source-record IDs cannot establish independent chips or pairing.

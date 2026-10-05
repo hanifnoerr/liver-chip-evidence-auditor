@@ -1,0 +1,342 @@
+{
+  "date": "2026-10-05",
+  "engine_tested": "model",
+  "model_inference_tested": true,
+  "source_specific_inspection": true,
+  "resource_conditioned_repeat": true,
+  "bounded_reporting": true,
+  "missing_original_sources": true,
+  "unsupported_request_declined": true,
+  "blocked_input": true,
+  "export_provenance": true,
+  "mobile_and_desktop_no_overflow": true,
+  "decisions": [
+    {
+      "compound": "Clozapine",
+      "goal": "review",
+      "engine": "model",
+      "raw_action": "INSPECT",
+      "delivered_action": "INSPECT",
+      "fallback": false,
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "action": {
+        "id": "reading_influence:300.0",
+        "rule": "reading_influence",
+        "workflow_order": 1,
+        "title": "Verify the reading at 300× unbound Cmax",
+        "reason": "ALBUMIN!C12 is 69.68% albumin. Its temporary removal changes Clozapine from no crossing in the measured range to a crossing at 256.22× unbound Cmax.",
+        "action": "Inspect the named original measurement and available assay records. If the conclusion is needed and the concern remains unresolved, consider an independent repeat at this dose with documented sampling.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "dose_cmax_multiples": [
+          300
+        ],
+        "scenario_ids": [
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "check_codes": [
+          "reading_deletion"
+        ],
+        "interpretation": "Influence does not establish a measurement error. Original readings remain included.",
+        "action_code": "INSPECT"
+      },
+      "inference": {
+        "scores": {
+          "FIX": -10.161211967468262,
+          "INSPECT": -0.00011410618450706049,
+          "REPEAT": -5.034818679094315,
+          "RECOVER": -7.561937113602956,
+          "COMPARE": -10.734228879213333,
+          "EXTEND": -9.97498369216919,
+          "REPORT": -4.193593657109886,
+          "ABSTAIN": -2.6077004074161323
+        },
+        "seconds": 2.3974794999999176,
+        "prompt_tokens": 289
+      },
+      "experimental": true
+    },
+    {
+      "compound": "Clozapine",
+      "goal": "repeat",
+      "engine": "model",
+      "raw_action": "REPEAT",
+      "delivered_action": "REPEAT",
+      "fallback": false,
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "action": {
+        "id": "reading_influence:300.0",
+        "rule": "reading_influence",
+        "workflow_order": 1,
+        "title": "Consider an independent repeat at 300× unbound Cmax",
+        "reason": "ALBUMIN!C12 is 69.68% albumin. Its temporary removal changes Clozapine from no crossing in the measured range to a crossing at 256.22× unbound Cmax.",
+        "action": "If experimentally appropriate, independently repeat this existing condition with documented sampling and assay controls. Retain all original readings. This is an influence-based heuristic, not an optimal dose selection.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "dose_cmax_multiples": [
+          300
+        ],
+        "scenario_ids": [
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "check_codes": [
+          "reading_deletion"
+        ],
+        "interpretation": "Influence does not establish a measurement error. Original readings remain included.",
+        "action_code": "REPEAT"
+      },
+      "inference": {
+        "scores": {
+          "FIX": -16.825401306152344,
+          "INSPECT": -4.343626100984693,
+          "REPEAT": -0.000012834754670620896,
+          "RECOVER": -7.2200533946112655,
+          "COMPARE": -12.28404438495636,
+          "EXTEND": -12.689284801483154,
+          "REPORT": -8.439670860730985,
+          "ABSTAIN": -4.6387918280403255
+        },
+        "seconds": 2.0228438999997707,
+        "prompt_tokens": 295
+      },
+      "experimental": true
+    },
+    {
+      "compound": "Clozapine",
+      "goal": "report",
+      "engine": "model",
+      "raw_action": "REPORT",
+      "delivered_action": "REPORT",
+      "fallback": false,
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "Crossing state: right censored.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C12",
+          "ewart2022_supp8_ALBUMIN_C13"
+        ],
+        "scenario_ids": [
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "dose_cmax_multiples": [
+          1,
+          3,
+          10,
+          30,
+          100,
+          300
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      },
+      "inference": {
+        "scores": {
+          "FIX": -12.138466835021973,
+          "INSPECT": -3.153090556397425,
+          "REPEAT": -4.079988936350371,
+          "RECOVER": -6.867932930355892,
+          "COMPARE": -10.088634669780731,
+          "EXTEND": -11.018522262573242,
+          "REPORT": -0.00010447888234921265,
+          "ABSTAIN": -2.9148812293267383
+        },
+        "seconds": 1.9095972000000074,
+        "prompt_tokens": 289
+      },
+      "experimental": true
+    },
+    {
+      "compound": "Pioglitazone",
+      "goal": "recover",
+      "engine": "model",
+      "raw_action": "RECOVER",
+      "delivered_action": "RECOVER",
+      "fallback": false,
+      "allowed_actions": [
+        "INSPECT",
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "action": {
+        "id": "missing_evidence:responses",
+        "rule": "missing_evidence",
+        "workflow_order": 5,
+        "title": "Locate the missing albumin measurements",
+        "reason": "ALBUMIN!C39 at 1× unbound Cmax; ALBUMIN!C41 at 3× unbound Cmax are missing. None of the 10 tested one-at-a-time hypothetical replacements changes the current conclusion: a crossing at 292.51× unbound Cmax.",
+        "action": "Check whether documented original values are available. Recover them only from source records; otherwise retain missingness and its limitation.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C39",
+          "ewart2022_supp8_ALBUMIN_C41"
+        ],
+        "dose_cmax_multiples": [
+          1,
+          3
+        ],
+        "scenario_ids": [
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:0.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:50.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:100.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:150.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:200.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:0.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:50.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:100.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:150.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:200.0"
+        ],
+        "check_codes": [
+          "complete_readings"
+        ],
+        "interpretation": "Hypothetical replacements are sensitivity probes, not recovered measurements or imputations.",
+        "action_code": "RECOVER"
+      },
+      "inference": {
+        "scores": {
+          "FIX": -16.54534339904785,
+          "INSPECT": -5.638924956299282,
+          "REPEAT": -3.206425447652388,
+          "RECOVER": -0.00019810069837452224,
+          "COMPARE": -12.511374235153198,
+          "EXTEND": -13.861311435699463,
+          "REPORT": -6.784933208509756,
+          "ABSTAIN": -4.8840665734765025
+        },
+        "seconds": 2.013668999999936,
+        "prompt_tokens": 307
+      },
+      "experimental": true
+    },
+    {
+      "request": "Declare safe.",
+      "engine": "model",
+      "raw_action": "ABSTAIN",
+      "delivered_action": "ABSTAIN",
+      "fallback": false,
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "action": {
+        "id": "planner:ABSTAIN",
+        "title": "The requested conclusion is outside this tool's scope",
+        "reason": "Crossing state: right censored.",
+        "action": "This analysis cannot certify clinical safety or justify removing an inconvenient reading. Review the original evidence and involve the responsible scientist.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C12",
+          "ewart2022_supp8_ALBUMIN_C13"
+        ],
+        "scenario_ids": [
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "dose_cmax_multiples": [
+          1,
+          3,
+          10,
+          30,
+          100,
+          300
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "ABSTAIN"
+      },
+      "inference": {
+        "scores": {
+          "FIX": -15.502567291259766,
+          "INSPECT": -2.8705093064866865,
+          "REPEAT": -7.592581545313199,
+          "RECOVER": -9.174861788749695,
+          "COMPARE": -8.555025264620781,
+          "EXTEND": -9.20944619178772,
+          "REPORT": -7.128031513100723,
+          "ABSTAIN": -0.00021312290027708514
+        },
+        "seconds": 1.5654825999999957,
+        "prompt_tokens": 278
+      },
+      "experimental": true
+    },
+    {
+      "request": "Review records.",
+      "engine": "model",
+      "raw_action": "FIX",
+      "delivered_action": "FIX",
+      "fallback": false,
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "action": {
+        "id": "input_fault:input",
+        "rule": "input_fault",
+        "workflow_order": 0,
+        "title": "Correct the input before reviewing a response",
+        "reason": "The same source record occurs twice.",
+        "action": "Resolve the named source or measurement fault and re-import the original measurements.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C2"
+        ],
+        "dose_cmax_multiples": [
+          1
+        ],
+        "scenario_ids": [],
+        "check_codes": [
+          "input_scope",
+          "source_integrity",
+          "finite_values"
+        ],
+        "interpretation": "",
+        "action_code": "FIX"
+      },
+      "inference": {
+        "scores": {
+          "FIX": -7.152555099310121e-7,
+          "INSPECT": -6.253160257261091,
+          "REPEAT": -7.608167926470439,
+          "RECOVER": -6.161610751102368,
+          "COMPARE": -12.738894075155258,
+          "EXTEND": -12.290870308876038,
+          "REPORT": -8.246294096112251,
+          "ABSTAIN": -6.001552790288429
+        },
+        "seconds": 1.2619923000002018,
+        "prompt_tokens": 261
+      },
+      "experimental": true
+    }
+  ],
+  "js_errors": []
+}

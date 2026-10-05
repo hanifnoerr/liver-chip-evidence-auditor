@@ -1,0 +1,38 @@
+{
+  "model_metadata": {
+    "model": "small_model/checkpoints/smollm2-135m-policy",
+    "resolved_revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+    "parameters": 134515008,
+    "device": "cpu",
+    "weight_dtype": "torch.float32",
+    "threads": 4,
+    "load_seconds": 0.6079014000001735,
+    "python": "3.12.14",
+    "torch": "2.8.0+cu126",
+    "transformers": "4.57.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+    "ram_bytes": 34037391360,
+    "weight_file_bytes": 538090408
+  },
+  "example_id": "published:Clozapine:review",
+  "raw_action": "INSPECT",
+  "inference": {
+    "scores": {
+      "FIX": -11.81217098236084,
+      "INSPECT": -0.00030766452558358043,
+      "REPEAT": -4.688571860392888,
+      "RECOVER": -7.200772513945897,
+      "COMPARE": -9.843807876110077,
+      "EXTEND": -9.23353910446167,
+      "REPORT": -3.5512032497208565,
+      "ABSTAIN": -2.567909151230765
+    },
+    "seconds": 0.9948833000000832,
+    "prompt_tokens": 283
+  },
+  "cached_vs_full_max_absolute_difference": 1.52587890625e-05,
+  "training_examples_encoded": 728,
+  "longest_training_sequence": 338,
+  "assistant_only_labels_checked": true
+}

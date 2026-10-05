@@ -1,0 +1,4435 @@
+{
+  "date": "2026-10-05",
+  "scope": "Rendered text in the exercised example and comparison/checklist states across five pages; inactive controls and embedded figure pixels excluded. This is not a full WCAG audit or an older-user study.",
+  "target_text_contrast": 7,
+  "minimum_measured_ratio": 8.34512843994012,
+  "distinct_curve_line_patterns": true,
+  "desktop_mobile_no_overflow": true,
+  "checks": [
+    {
+      "page": "auditor_demo.html",
+      "text": "↗",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Liver-Chip",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Evidence Auditor",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Review",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Next action",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Validation",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Data & sources",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Guide",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Step 1 · Review the results",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.421779759049292
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Review a liver-chip response",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 11.906439193312512
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Read the results and the findings below. Then choose what to do next.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Compound",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Published comparator: Olanzapine",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Import CSV",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Export evidence · JSON",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Example dataset",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "CSV requirements",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "50% albumin-response estimate",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Crossing not observed",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "The fitted response stays above 50% across the measured doses. Measured range: 1",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "What needs attention",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Evidence needs review",
+      "foreground": "rgb(92, 65, 10)",
+      "background": "rgb(245, 240, 230)",
+      "ratio": 8.34512843994012
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "1 tested scenario change the conclusion.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Available measurements",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "12 readings",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "6 measured doses · 0 missing readings",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Albumin response alone does not establish liver injury or clinical safety.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Measured response",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Compare curve fits",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "0",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "43",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "85",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "128",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "171",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "1",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "3",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "10",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "30",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "100",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "300",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "50% reference",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Dose / unbound Cmax (log scale)",
+      "foreground": "rgb(0, 0, 0)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 21
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Normalised albumin (%)",
+      "foreground": "rgb(0, 0, 0)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 21
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Measurements",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Primary fit",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Raw interpolation",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Logistic",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Dose is relative to unbound Cmax. Albumin is shown on the source-normalised perc",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Findings to inspect",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Review these findings before deciding what to do next.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Verify the reading at 300× unbound Cmax",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ALBUMIN!C12 is 69.68% albumin. Its temporary removal changes Clozapine from no c",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Next step",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Inspect the named original measurement and available assay records. If the concl",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Influence does not establish a measurement error. Original readings remain inclu",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Locate measurements",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "View calculations",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Retain Clozapine's censored result",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "The primary fit gives no crossing in the measured range across 1–300× unbound Cm",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Next step",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "If a finite crossing is required, resolve the identified evidence concerns first",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Locate measurements",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "View related checks",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Set your goal and available resources to get a recommendation.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Choose what to do next",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(26, 68, 128)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Step 2 uses the results for Clozapine.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Evidence checklist",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "How the checks work",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "A pass applies only to its named check. Experimental validity remains unassessed",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "2 checks to inspect",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(245, 240, 230)",
+      "ratio": 15.164974125792563
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "50% crossing is not bracketed.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(245, 240, 230)",
+      "ratio": 8.526305503474608
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "A single reading changes the conclusion.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(245, 240, 230)",
+      "ratio": 8.526305503474608
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "5 not assessed",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Includes unavailable laboratory controls and experimental independence.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "6 checks passed",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Individual computational checks only. Fit diagnostics are listed separately.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Unassessed experimental evidence (5)",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Complete chip/run/donor mapping is unavailable.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Use documented experimental identities for grouped validation.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Independent experimental units",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Source records and entered IDs alone do not prove biological independence.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Obtain the sampling design and distinguish technical from biological repeats.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Vehicle and reference-control acceptance",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Raw control measurements and pre-specified assay acceptance limits are unavailab",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Review assay-specific laboratory records; do not infer a pass from the fitted cu",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Albumin assay calibration and quantification range",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Calibration, detection/quantification limits and technical failure records are n",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Review assay-specific laboratory records; do not infer a pass from the fitted cu",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Flow, bubbles and device QC",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Device logs and pre-specified engineering acceptance limits are not assessed.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Review assay-specific laboratory records; do not infer a pass from the fitted cu",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "View all 14 checks and supporting evidence",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Fail, Pass and Not assessed describe individual checks. A failed bracketing chec",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Check",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Status",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Evidence",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Next action",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Day-three albumin and compatible units",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "input",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Pass",
+      "foreground": "rgb(21, 76, 33)",
+      "background": "rgb(236, 243, 236)",
+      "ratio": 8.908711615520193
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Only day-three albumin on the source percentage and unbound-Cmax scales is suppo",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Retain source provenance.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Unique original source records",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "input",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Pass",
+      "foreground": "rgb(21, 76, 33)",
+      "background": "rgb(236, 243, 236)",
+      "ratio": 8.908711615520193
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Record IDs identify input observations; they do not establish independent chips.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Retain source provenance.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Finite observed values and positive doses",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "input",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Pass",
+      "foreground": "rgb(21, 76, 33)",
+      "background": "rgb(236, 243, 236)",
+      "ratio": 8.908711615520193
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Missing readings are excluded from fitting and retained in the source export.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Retain source provenance.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "All source responses observed",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "evidence",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Pass",
+      "foreground": "rgb(21, 76, 33)",
+      "background": "rgb(236, 243, 236)",
+      "ratio": 8.908711615520193
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "0 missing input reading(s). A missing value is not zero.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "No missing response in this input.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Reported chip, run and donor mapping",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "evidence",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Not assessed",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Complete chip/run/donor mapping is unavailable.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Use documented experimental identities for grouped validation.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Independent experimental units",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "evidence",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Not assessed",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Source records and entered IDs alone do not prove biological independence.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Obtain the sampling design and distinguish technical from biological repeats.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Vehicle and reference-control acceptance",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "evidence",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Not assessed",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Raw control measurements and pre-specified assay acceptance limits are unavailab",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Review assay-specific laboratory records; do not infer a pass from the fitted cu",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Albumin assay calibration and quantification range",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "evidence",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Not assessed",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Calibration, detection/quantification limits and technical failure records are n",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Review assay-specific laboratory records; do not infer a pass from the fitted cu",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Flow, bubbles and device QC",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "evidence",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Not assessed",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Device logs and pre-specified engineering acceptance limits are not assessed.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Review assay-specific laboratory records; do not infer a pass from the fitted cu",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Finite 50% crossing bracketed",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "evidence",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Fail",
+      "foreground": "rgb(92, 65, 10)",
+      "background": "rgb(245, 240, 230)",
+      "ratio": 8.34512843994012
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "The result is censored; no finite in-range crossing is supported.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Retain the censored conclusion; additional dose coverage is needed for a finite ",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Alternative curve conclusions agree",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "sensitivity",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Pass",
+      "foreground": "rgb(21, 76, 33)",
+      "background": "rgb(236, 243, 236)",
+      "ratio": 8.908711615520193
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "0 material change(s) in 2 finite scenarios; no calibrated probability is implied",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Keep the finite-scenario scope explicit.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Conclusion survives single-reading deletion",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "sensitivity",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Fail",
+      "foreground": "rgb(92, 65, 10)",
+      "background": "rgb(245, 240, 230)",
+      "ratio": 8.34512843994012
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "1 material change(s) in 12 finite scenarios; no calibrated probability is implie",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Inspect affected evidence and seek an independent repeat.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Conclusion survives single-dose deletion",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "sensitivity",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Pass",
+      "foreground": "rgb(21, 76, 33)",
+      "background": "rgb(236, 243, 236)",
+      "ratio": 8.908711615520193
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "0 material change(s) in 6 finite scenarios; no calibrated probability is implied",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Keep the finite-scenario scope explicit.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Logistic numerical fit checks",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "diagnostic",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Pass",
+      "foreground": "rgb(21, 76, 33)",
+      "background": "rgb(236, 243, 236)",
+      "ratio": 8.908711615520193
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "No specified numerical diagnostic triggered.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Inspect the comparator; a standalone parameter diagnostic does not prove the end",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Inspect single-reading sensitivity · 1 influential reading",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ALBUMIN!C12 · 69.68% albumin",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "With all readings",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "The fitted response stays above 50% across the measured doses.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Without this reading",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Estimated crossing: 256.22 × unbound Cmax.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Locate this measurement",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Inspect sensitivity and fit details",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Show changes only",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "A material change is a different crossing/censoring state or a location shift gr",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Scenario",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Evidence / assumption",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Conclusion",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Crossing / unbound Cmax",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Changed",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "reading deletion",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "dose=300;reading=1",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ALBUMIN!C12",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Crossing within measured range",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "256.22",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Yes",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Fit diagnostics",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "No specified numerical diagnostic triggered.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Standalone numerical diagnostics do not force sensitivity review. Finite scenari",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Data limitations",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "unknown experimental identity",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Chip/run identities are unavailable. Source-record IDs cannot establish independ",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "View source measurements",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Source location",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Dose / unbound Cmax",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Albumin %",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Provenance",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Chip / run",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ALBUMIN!C2",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ewart2022_supp8_ALBUMIN_C2",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "1.00",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "135.71",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "published real",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Unknown / Unknown",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ALBUMIN!C3",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ewart2022_supp8_ALBUMIN_C3",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "1.00",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "113.77",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "published real",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Unknown / Unknown",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ALBUMIN!C4",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ewart2022_supp8_ALBUMIN_C4",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "3.00",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "134.23",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "published real",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Unknown / Unknown",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ALBUMIN!C5",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ewart2022_supp8_ALBUMIN_C5",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "3.00",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "158.28",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "published real",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Unknown / Unknown",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ALBUMIN!C6",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ewart2022_supp8_ALBUMIN_C6",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "10.00",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "125.16",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "published real",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Unknown / Unknown",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ALBUMIN!C7",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ewart2022_supp8_ALBUMIN_C7",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "10.00",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "151.11",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "published real",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Unknown / Unknown",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ALBUMIN!C8",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ewart2022_supp8_ALBUMIN_C8",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "30.00",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "140.14",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "published real",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Unknown / Unknown",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ALBUMIN!C9",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ewart2022_supp8_ALBUMIN_C9",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "30.00",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "119.47",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "published real",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Unknown / Unknown",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ALBUMIN!C10",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ewart2022_supp8_ALBUMIN_C10",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "100.00",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "100.06",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "published real",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Unknown / Unknown",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ALBUMIN!C11",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ewart2022_supp8_ALBUMIN_C11",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "100.00",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "74.74",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "published real",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Unknown / Unknown",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ALBUMIN!C12",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ewart2022_supp8_ALBUMIN_C12",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "300.00",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "69.68",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "published real",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Unknown / Unknown",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ALBUMIN!C13",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "ewart2022_supp8_ALBUMIN_C13",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "300.00",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "43.73",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "published real",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Unknown / Unknown",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Liver-Chip Evidence Auditor",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "auditor_demo.html",
+      "text": "Data attribution & licence",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.421779759049292
+    },
+    {
+      "page": "planner.html",
+      "text": "↗",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "planner.html",
+      "text": "Liver-Chip",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "planner.html",
+      "text": "Evidence Auditor",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "planner.html",
+      "text": "Review",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "planner.html",
+      "text": "Next action",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "planner.html",
+      "text": "Validation",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "planner.html",
+      "text": "Data & sources",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "planner.html",
+      "text": "Guide",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "planner.html",
+      "text": "Step 2 · Decide what to do",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.421779759049292
+    },
+    {
+      "page": "planner.html",
+      "text": "Choose what to do next",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 11.906439193312512
+    },
+    {
+      "page": "planner.html",
+      "text": "Set your goal and available resources. The tool will recommend an action using y",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "planner.html",
+      "text": "Back to results",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "planner.html",
+      "text": "View the measurements and findings for Clozapine.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "planner.html",
+      "text": "Compound",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "planner.html",
+      "text": "Day-three albumin · 50% response threshold",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "planner.html",
+      "text": "1. Choose a method",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(236, 241, 247)",
+      "ratio": 15.167112636449612
+    },
+    {
+      "page": "planner.html",
+      "text": "Rules choose an action from your request, resource limits and calculated evidenc",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(236, 241, 247)",
+      "ratio": 8.527507852719202
+    },
+    {
+      "page": "planner.html",
+      "text": "Local model available on this server. Rules are also available.",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(236, 241, 247)",
+      "ratio": 8.472849422973622
+    },
+    {
+      "page": "planner.html",
+      "text": "The small model has not passed the evaluation gate. Rules remain the default.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(236, 241, 247)",
+      "ratio": 8.527507852719202
+    },
+    {
+      "page": "planner.html",
+      "text": "View evaluation",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(236, 241, 247)",
+      "ratio": 8.472849422973622
+    },
+    {
+      "page": "planner.html",
+      "text": "2. Set your goal",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "planner.html",
+      "text": "Only source-record review is possible today. What should I inspect first?",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "planner.html",
+      "text": "Customise the request",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "planner.html",
+      "text": "What do you need to decide?",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "planner.html",
+      "text": "3. Confirm available resources",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "planner.html",
+      "text": "The goal sets an initial selection. Adjust it to match your situation.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "planner.html",
+      "text": "Existing records can be reviewed",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "planner.html",
+      "text": "One independent repeat at an existing dose is possible",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "planner.html",
+      "text": "Missing originals may be available in an archive",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "planner.html",
+      "text": "Additional dose coverage may be considered with the laboratory",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "planner.html",
+      "text": "Get a recommendation",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(26, 68, 128)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "planner.html",
+      "text": "Your next action",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "planner.html",
+      "text": "Run the planner to see a feasible step, its supporting evidence and the current ",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "planner.html",
+      "text": "How the methods work",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "planner.html",
+      "text": "The local SmolLM2-135M model selects an action class from the numerical audit an",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "planner.html",
+      "text": "Training labels describe a heuristic action policy, not expert-adjudicated or bi",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "planner.html",
+      "text": "Experiment instructions and current results",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "planner.html",
+      "text": "·",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "planner.html",
+      "text": "Frozen evaluation protocol",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "planner.html",
+      "text": "·",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "planner.html",
+      "text": "Local model setup",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "planner.html",
+      "text": "Liver-Chip Evidence Auditor",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "planner.html",
+      "text": "Data attribution & licence",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.421779759049292
+    },
+    {
+      "page": "planner.html",
+      "text": "Primary button hover",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "↗",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "Liver-Chip",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "Evidence Auditor",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "Review",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "Next action",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "Validation",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "Data & sources",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "Guide",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "Methods & validation",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.421779759049292
+    },
+    {
+      "page": "validation.html",
+      "text": "What the auditor has been tested on",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 11.906439193312512
+    },
+    {
+      "page": "validation.html",
+      "text": "The fitted models, computational comparison and limits of the measured results.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "validation.html",
+      "text": "Endpoint and modelling assumptions",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "The primary model uses decreasing isotonic regression, weighted by observed read",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "Raw interpolation and a bounded four-parameter logistic fit expose alternative c",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "View the implemented framework",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "validation.html",
+      "text": "Held-dose prediction",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "All readings at one interior dose are withheld together. The 23 conditions are c",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "Model",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "validation.html",
+      "text": "MAE (percentage points)",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "validation.html",
+      "text": "RMSE (percentage points)",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "validation.html",
+      "text": "Scored conditions",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "validation.html",
+      "text": "Weighted isotonic",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "16.36",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "22.16",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "23/23",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "Raw interpolation",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "16.69",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "22.83",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "23/23",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "Constant mean",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "20.89",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "24.29",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "23/23",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "Four-parameter logistic",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "20.07",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "28.15",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "23/23",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "The small difference between isotonic regression and raw interpolation does not ",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "validation.html",
+      "text": "Compare reporting approaches",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "A shows the fitted curve alone. B adds the evidence checklist and sensitivity re",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "Open A: curve only",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "validation.html",
+      "text": "Open B: evidence review",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "validation.html",
+      "text": "This is a paired computational comparison, not a randomised reader study or a la",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "validation.html",
+      "text": "Cases",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "validation.html",
+      "text": "Report / rule",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "validation.html",
+      "text": "Detected",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "validation.html",
+      "text": "Missed",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "validation.html",
+      "text": "Warnings without a reference change",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "validation.html",
+      "text": "Retained",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "validation.html",
+      "text": "23 real holdouts (retrospective)",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "A: curve only",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "0",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "1",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "0",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "23/23",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "23 real holdouts (retrospective)",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "Legacy: diagnostics trigger review",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "1",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "0",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "20",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "2/23",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "23 real holdouts (retrospective)",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "B: guarded report",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "1",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "0",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "12",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "10/23",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "96 simulations (fresh seed)",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "A: curve only",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "0",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "10",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "0",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "96/96",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "96 simulations (fresh seed)",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "Legacy: diagnostics trigger review",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "10",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "0",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "67",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "19/96",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "96 simulations (fresh seed)",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "B: guarded report",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "10",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "0",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "52",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "34/96",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "The revised real-data rule detects 1 restoration change, misses 0 and issues 12 ",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "validation.html",
+      "text": "Warning precision remains low. The current results support an inspectable audit ",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(245, 240, 230)",
+      "ratio": 15.164974125792563
+    },
+    {
+      "page": "validation.html",
+      "text": "Evaluation boundaries",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "Real-data comparison is retrospective",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "The revised rule was motivated by the already inspected original results. The re",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "validation.html",
+      "text": "Fresh simulation seed, existing generator",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "Among 96 fresh simulations, the revised rule detects 10 specified crossing error",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "validation.html",
+      "text": "The revised rule was frozen before generating seed 20261004. The generator uses ",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "validation.html",
+      "text": "Experimental validity is not established",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "The public subset lacks documented experimental identities and raw controls. No ",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "validation.html",
+      "text": "Earlier simulation results and engineering checks",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "validation.html",
+      "text": "On the earlier evaluation seed, the revised rule detects 8 specified errors, mis",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "validation.html",
+      "text": "The earlier development and evaluation seeds are retrospective for the revision.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "validation.html",
+      "text": "All paired comparisons",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "validation.html",
+      "text": "All case decisions",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "validation.html",
+      "text": "Frozen protocol",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "validation.html",
+      "text": "Experimental action planner",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "validation.html",
+      "text": "The locally adapted 135M language model selects a follow-up action class using t",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "Planner",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "validation.html",
+      "text": "Raw test policy agreement",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "validation.html",
+      "text": "After eligibility/scope guard",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "validation.html",
+      "text": "Fixed action order",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "237/364 (65.1%)",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "Not evaluated",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "Request-aware rules",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "364/364 (100%)",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "No correction needed",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "Untuned 135M model",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "72/364 (19.8%)",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "144/364 (39.6%)",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "Adapted 135M model",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "337/364 (92.6%)",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "361/364 (99.2%)",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "The adapted model fails the predefined per-class gate: ABSTAIN is 24/48 and COMP",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "validation.html",
+      "text": "The 364 authored requests share 48 simulated experiments. Training labels come f",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "validation.html",
+      "text": "Warm CPU model scoring on this PC: median 1.33 s, p95 2.29 s, four Torch threads",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "validation.html",
+      "text": "See the implemented model workflow",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "validation.html",
+      "text": "Try the planner",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "validation.html",
+      "text": "Every test decision",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "validation.html",
+      "text": "Results and reproduction",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "validation.html",
+      "text": "Model evaluation protocol",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "validation.html",
+      "text": "Liver-Chip Evidence Auditor",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "validation.html",
+      "text": "Return to review",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.421779759049292
+    },
+    {
+      "page": "data_sources.html",
+      "text": "↗",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Liver-Chip",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Evidence Auditor",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Review",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Next action",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Validation",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Data & sources",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Guide",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Data & sources",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.421779759049292
+    },
+    {
+      "page": "data_sources.html",
+      "text": "The evidence behind the examples",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 11.906439193312512
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Source workbooks, measurement counts and the experimental information available ",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Public human Liver-Chip study",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "data_sources.html",
+      "text": "The example cases use day-three normalised albumin from Ewart et al.,",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Communications Medicine",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "(2022). Supplementary Data 8 supplies the response readings; Supplementary Data ",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Paper and supplements",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "data_sources.html",
+      "text": "DOI",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Response workbook",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Dosing workbook",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Available evidence",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Scope",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Compounds",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "6, in 3 published comparison pairs",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Drug-dose conditions",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "35",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Albumin source readings",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "70: 68 observed and 2 missing",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Endpoint and time",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Source-normalised albumin percentage, day 3",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Dose scale",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Multiple of unbound Cmax",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Comparison pairs",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Compound",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Published comparator",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Clozapine",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Olanzapine",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Troglitazone",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Pioglitazone",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Trovafloxacin",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Levofloxacin",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "The pair labels describe the study's comparisons. They do not establish matched ",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "data_sources.html",
+      "text": "What this subset cannot establish",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Chip, donor and run mapping and raw vehicle/reference-control measurements are u",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "The source contains albumin, ALT and morphology, totalling 210 scalar readings. ",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Source-record IDs identify workbook cells. They are not chip IDs and cannot crea",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(245, 240, 230)",
+      "ratio": 15.164974125792563
+    },
+    {
+      "page": "data_sources.html",
+      "text": "All published values and missing readings are retained. Synthetic chip IDs are u",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Attribution and reuse",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Original workbooks are unchanged. Extracted tables retain the DOI, workbook, she",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Source licence",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Attribution notice",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Extracted measurements CSV",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Project code uses the MIT licence. Third-party data and library licences remain ",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Liver-Chip Evidence Auditor",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "data_sources.html",
+      "text": "Return to review",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.421779759049292
+    },
+    {
+      "page": "guide.html",
+      "text": "↗",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "Liver-Chip",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "Evidence Auditor",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "Review",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "Next action",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "Validation",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "Data & sources",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(22, 46, 81)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "Guide",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "User guide",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.421779759049292
+    },
+    {
+      "page": "guide.html",
+      "text": "Review, import and export",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 11.906439193312512
+    },
+    {
+      "page": "guide.html",
+      "text": "How to use the interface, prepare a compatible CSV and reproduce the analysis lo",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "guide.html",
+      "text": "Review an example",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "Select a compound on the Review page.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Read the estimated 50% crossing and whether evidence changes affect it. A censor",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Read the source-specific action cards. Each names the affected evidence, explain",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Use “Locate measurements” or “View calculations” to highlight supporting records",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Inspect unassessed experimental evidence or expand the full checklist. “Not asse",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Select “Choose next action” to set your goal and resources. Choose rules or the ",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Read “Do this now” and “Fits your resources.” Links under supporting readings re",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Export the evidence report or action plan as JSON.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Switching to a published comparator opens its case; it does not create a matched",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "guide.html",
+      "text": "How actions are selected",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "Reproducible rules use the calculated source records and sensitivity scenarios. ",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Reading and whole-dose concerns at the same dose share a card when they overlap.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Cards follow a fixed review order, not a calibrated ranking or optimal experimen",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "guide.html",
+      "text": "Follow an action through to its outcome",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "Run Next action, then use its action-specific button to open “Record what happen",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Inspect the linked source records. “Return to saved action” takes you back to th",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Record an action-specific outcome and note. Completed reviews and decisions need",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "For a documented correction, recovered original or new actual observation, selec",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "The local server re-audits both versions. Compare their conclusions, measured ra",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Open the updated Review, export the complete action/outcome record, or choose an",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "The browser session is temporary. Export before closing the tab. If storage is u",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "guide.html",
+      "text": "Import your measurements",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "Use the example CSV's column names. The local server analyses albumin rows separ",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Download example CSV",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Field",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "guide.html",
+      "text": "Required meaning",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "guide.html",
+      "text": "compound",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": ",",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "day",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": ",",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "endpoint",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Compound name; day 3; endpoint",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "albumin_percent",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "dose_cmax_multiple",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": ",",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "dose_unit",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Finite positive dose; unit",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "x_unbound_cmax",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "value",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": ",",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "missing",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": ",",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "response_unit",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Finite observed response, or an empty missing value; missing is",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "True",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "/",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "False",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "; unit",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "percent_source_normalised",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "source_record_id",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": ",",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "source_sheet",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": ",",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "source_cell",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Unique record ID and traceable source location",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "measurement_kind",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": ",",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "data_origin",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Original measurement status,",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "original",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "; accurate provenance, such as",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "published_real",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "chip_id",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": ",",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "sample_id",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": ",",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "run_id",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": ",",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "donor_id",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": ",",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "pairing_status",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Documented identities only; keep unknown identity fields empty",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Preserve all example column headers, including the additional source-file, sourc",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "guide.html",
+      "text": "An imported CSV is processed by the local server. Its rows are not uploaded to a",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "guide.html",
+      "text": "Run locally and reproduce results",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "The saved HTML pages work without Python for exploring the included results. New",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Install the project environment",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "conda env create -f environment.yml\nconda activate ai4s-liver-auditor",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "guide.html",
+      "text": "In the original checkout, the environment already exists at",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "guide.html",
+      "text": ".conda",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "guide.html",
+      "text": "; activate that prefix instead of creating it again. The analysis runs on CPU.",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "guide.html",
+      "text": "Regenerate and check the results",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "python run_auditor.py\npython check_auditor.py",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "guide.html",
+      "text": "Enable CSV import",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "python demo.py",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "guide.html",
+      "text": "Open",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "the local Review page",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "guide.html",
+      "text": ". Use “Import CSV” to fit your file. Opening the HTML as a file displays saved e",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Pinned environment",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "guide.html",
+      "text": "Project README",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "guide.html",
+      "text": "Evaluation protocol",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "guide.html",
+      "text": "Try the action-planner experiment",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "Choose a next action",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "guide.html",
+      "text": "from the selected audit, your goal and available resources. Select request-aware",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Use the completed local checkpoint",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "In this checkout, activate",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": ".conda-slm",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "in Anaconda Prompt, then run:",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "python demo.py --model small_model/checkpoints/smollm2-135m-policy --threads 4 -",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 15.075693645461088
+    },
+    {
+      "page": "guide.html",
+      "text": "Open",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "the model-enabled planner",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "guide.html",
+      "text": "and choose",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Small language model · experimental",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": ". For another PC, extract the separate checkpoint ZIP into the code package and ",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "small_model/environment.yml",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": ".",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Full instructions",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "guide.html",
+      "text": "cover installation and reproduction.",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "The adapted model is trained and benchmarked on this PC. It matches 92.6% of tes",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "guide.html",
+      "text": "Reproduce with Colab L4",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "guide.html",
+      "text": "Download the",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "guide.html",
+      "text": "Colab notebook",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "guide.html",
+      "text": "and",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "guide.html",
+      "text": "upload ZIP",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.622108446345308
+    },
+    {
+      "page": "guide.html",
+      "text": ". Select your L4 runtime and upload the ZIP when asked. This optional notebook h",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "guide.html",
+      "text": "Understand the export",
+      "foreground": "rgb(22, 46, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.603424977335434
+    },
+    {
+      "page": "guide.html",
+      "text": "The evidence report is a JSON file for inspecting or reusing the complete case r",
+      "foreground": "rgb(27, 27, 27)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 17.224382887077635
+    },
+    {
+      "page": "guide.html",
+      "text": "Influence is a temporary recalculation, not an automatic exclusion. Passes apply",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 9.684180756646597
+    },
+    {
+      "page": "guide.html",
+      "text": "Liver-Chip Evidence Auditor",
+      "foreground": "rgb(61, 69, 81)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.476108737922043
+    },
+    {
+      "page": "guide.html",
+      "text": "Return to review",
+      "foreground": "rgb(26, 68, 128)",
+      "background": "rgb(240, 240, 236)",
+      "ratio": 8.421779759049292
+    }
+  ],
+  "js_errors": []
+}

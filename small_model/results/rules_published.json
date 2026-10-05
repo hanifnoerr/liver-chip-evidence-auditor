@@ -1,0 +1,717 @@
+{
+  "summary": {
+    "partition": "published",
+    "label_source": "heuristic_policy_not_biological_truth",
+    "limited_run": false,
+    "fixed": {
+      "n": 42,
+      "correct": 26,
+      "agreement": 0.6190476190476191,
+      "by_action": {
+        "ABSTAIN": {
+          "n": 6,
+          "correct": 0,
+          "agreement": 0.0
+        },
+        "EXTEND": {
+          "n": 2,
+          "correct": 2,
+          "agreement": 1.0
+        },
+        "INSPECT": {
+          "n": 8,
+          "correct": 8,
+          "agreement": 1.0
+        },
+        "RECOVER": {
+          "n": 1,
+          "correct": 0,
+          "agreement": 0.0
+        },
+        "REPEAT": {
+          "n": 6,
+          "correct": 0,
+          "agreement": 0.0
+        },
+        "REPORT": {
+          "n": 19,
+          "correct": 16,
+          "agreement": 0.8421052631578947
+        }
+      },
+      "by_family": {
+        "published_demonstration": {
+          "n": 42,
+          "correct": 26,
+          "agreement": 0.6190476190476191
+        }
+      }
+    },
+    "rules": {
+      "n": 42,
+      "correct": 42,
+      "agreement": 1.0,
+      "by_action": {
+        "ABSTAIN": {
+          "n": 6,
+          "correct": 6,
+          "agreement": 1.0
+        },
+        "EXTEND": {
+          "n": 2,
+          "correct": 2,
+          "agreement": 1.0
+        },
+        "INSPECT": {
+          "n": 8,
+          "correct": 8,
+          "agreement": 1.0
+        },
+        "RECOVER": {
+          "n": 1,
+          "correct": 1,
+          "agreement": 1.0
+        },
+        "REPEAT": {
+          "n": 6,
+          "correct": 6,
+          "agreement": 1.0
+        },
+        "REPORT": {
+          "n": 19,
+          "correct": 19,
+          "agreement": 1.0
+        }
+      },
+      "by_family": {
+        "published_demonstration": {
+          "n": 42,
+          "correct": 42,
+          "agreement": 1.0
+        }
+      }
+    }
+  },
+  "decisions": [
+    {
+      "example_id": "published:Clozapine:review",
+      "audit_id": "published:Clozapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "published:Clozapine:repeat",
+      "audit_id": "published:Clozapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "published:Clozapine:recover",
+      "audit_id": "published:Clozapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "published:Clozapine:finite_crossing",
+      "audit_id": "published:Clozapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "EXTEND",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "published:Clozapine:bounded_report",
+      "audit_id": "published:Clozapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Clozapine:unsupported",
+      "audit_id": "published:Clozapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "published:Clozapine:model_review",
+      "audit_id": "published:Clozapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "published:Levofloxacin:review",
+      "audit_id": "published:Levofloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Levofloxacin:repeat",
+      "audit_id": "published:Levofloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Levofloxacin:recover",
+      "audit_id": "published:Levofloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Levofloxacin:finite_crossing",
+      "audit_id": "published:Levofloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "finite_crossing",
+      "target": "EXTEND",
+      "allowed_actions": [
+        "EXTEND",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "EXTEND",
+      "rules": "EXTEND"
+    },
+    {
+      "example_id": "published:Levofloxacin:bounded_report",
+      "audit_id": "published:Levofloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Levofloxacin:unsupported",
+      "audit_id": "published:Levofloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "published:Levofloxacin:model_review",
+      "audit_id": "published:Levofloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Olanzapine:review",
+      "audit_id": "published:Olanzapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Olanzapine:repeat",
+      "audit_id": "published:Olanzapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Olanzapine:recover",
+      "audit_id": "published:Olanzapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Olanzapine:finite_crossing",
+      "audit_id": "published:Olanzapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "finite_crossing",
+      "target": "EXTEND",
+      "allowed_actions": [
+        "EXTEND",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "EXTEND",
+      "rules": "EXTEND"
+    },
+    {
+      "example_id": "published:Olanzapine:bounded_report",
+      "audit_id": "published:Olanzapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Olanzapine:unsupported",
+      "audit_id": "published:Olanzapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "published:Olanzapine:model_review",
+      "audit_id": "published:Olanzapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Pioglitazone:review",
+      "audit_id": "published:Pioglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "published:Pioglitazone:repeat",
+      "audit_id": "published:Pioglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "published:Pioglitazone:recover",
+      "audit_id": "published:Pioglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "recover",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "INSPECT",
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "published:Pioglitazone:finite_crossing",
+      "audit_id": "published:Pioglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "published:Pioglitazone:bounded_report",
+      "audit_id": "published:Pioglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Pioglitazone:unsupported",
+      "audit_id": "published:Pioglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "published:Pioglitazone:model_review",
+      "audit_id": "published:Pioglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "published:Troglitazone:review",
+      "audit_id": "published:Troglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "published:Troglitazone:repeat",
+      "audit_id": "published:Troglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "published:Troglitazone:recover",
+      "audit_id": "published:Troglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "published:Troglitazone:finite_crossing",
+      "audit_id": "published:Troglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "published:Troglitazone:bounded_report",
+      "audit_id": "published:Troglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Troglitazone:unsupported",
+      "audit_id": "published:Troglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "published:Troglitazone:model_review",
+      "audit_id": "published:Troglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "published:Trovafloxacin:review",
+      "audit_id": "published:Trovafloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Trovafloxacin:repeat",
+      "audit_id": "published:Trovafloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Trovafloxacin:recover",
+      "audit_id": "published:Trovafloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Trovafloxacin:finite_crossing",
+      "audit_id": "published:Trovafloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "finite_crossing",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Trovafloxacin:bounded_report",
+      "audit_id": "published:Trovafloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "published:Trovafloxacin:unsupported",
+      "audit_id": "published:Trovafloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "published:Trovafloxacin:model_review",
+      "audit_id": "published:Trovafloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "model_metadata": {
+    "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+    "resolved_revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+    "parameters": 134515008,
+    "device": "cpu",
+    "threads": 4,
+    "load_seconds": 69.40799340000001,
+    "python": "3.12.14",
+    "torch": "2.8.0+cpu",
+    "transformers": "4.57.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+    "ram_bytes": 34037391360,
+    "weight_file_bytes": 269060552
+  },
+  "example_id": "published:Clozapine:review",
+  "raw_action": "REPEAT",
+  "inference": {
+    "scores": {
+      "FIX": -4.206019401550293,
+      "INSPECT": -1.9471385256620124,
+      "REPEAT": -1.945577639543141,
+      "RECOVER": -3.2982155891756215,
+      "COMPARE": -3.5466386675834656,
+      "EXTEND": -4.369271697476506,
+      "REPORT": -2.391155332326889,
+      "ABSTAIN": -1.9545045112608932
+    },
+    "seconds": 1.0566426999999976,
+    "prompt_tokens": 283
+  },
+  "cached_vs_full_max_absolute_difference": 7.66913096095223e-06,
+  "training_examples_encoded": 728,
+  "longest_training_sequence": 338,
+  "assistant_only_labels_checked": true
+}

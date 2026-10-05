@@ -1,0 +1,2690 @@
+{
+  "summary": {
+    "partition": "published",
+    "label_source": "heuristic_policy_not_biological_truth",
+    "limited_run": false,
+    "fixed": {
+      "n": 42,
+      "correct": 26,
+      "agreement": 0.6190476190476191,
+      "by_action": {
+        "ABSTAIN": {
+          "n": 6,
+          "correct": 0,
+          "agreement": 0.0
+        },
+        "EXTEND": {
+          "n": 2,
+          "correct": 2,
+          "agreement": 1.0
+        },
+        "INSPECT": {
+          "n": 8,
+          "correct": 8,
+          "agreement": 1.0
+        },
+        "RECOVER": {
+          "n": 1,
+          "correct": 0,
+          "agreement": 0.0
+        },
+        "REPEAT": {
+          "n": 6,
+          "correct": 0,
+          "agreement": 0.0
+        },
+        "REPORT": {
+          "n": 19,
+          "correct": 16,
+          "agreement": 0.8421052631578947
+        }
+      },
+      "by_family": {
+        "published_demonstration": {
+          "n": 42,
+          "correct": 26,
+          "agreement": 0.6190476190476191
+        }
+      }
+    },
+    "rules": {
+      "n": 42,
+      "correct": 42,
+      "agreement": 1.0,
+      "by_action": {
+        "ABSTAIN": {
+          "n": 6,
+          "correct": 6,
+          "agreement": 1.0
+        },
+        "EXTEND": {
+          "n": 2,
+          "correct": 2,
+          "agreement": 1.0
+        },
+        "INSPECT": {
+          "n": 8,
+          "correct": 8,
+          "agreement": 1.0
+        },
+        "RECOVER": {
+          "n": 1,
+          "correct": 1,
+          "agreement": 1.0
+        },
+        "REPEAT": {
+          "n": 6,
+          "correct": 6,
+          "agreement": 1.0
+        },
+        "REPORT": {
+          "n": 19,
+          "correct": 19,
+          "agreement": 1.0
+        }
+      },
+      "by_family": {
+        "published_demonstration": {
+          "n": 42,
+          "correct": 42,
+          "agreement": 1.0
+        }
+      }
+    },
+    "raw": {
+      "n": 42,
+      "correct": 41,
+      "agreement": 0.9761904761904762,
+      "by_action": {
+        "ABSTAIN": {
+          "n": 6,
+          "correct": 6,
+          "agreement": 1.0
+        },
+        "EXTEND": {
+          "n": 2,
+          "correct": 2,
+          "agreement": 1.0
+        },
+        "INSPECT": {
+          "n": 8,
+          "correct": 8,
+          "agreement": 1.0
+        },
+        "RECOVER": {
+          "n": 1,
+          "correct": 1,
+          "agreement": 1.0
+        },
+        "REPEAT": {
+          "n": 6,
+          "correct": 5,
+          "agreement": 0.8333333333333334
+        },
+        "REPORT": {
+          "n": 19,
+          "correct": 19,
+          "agreement": 1.0
+        }
+      },
+      "by_family": {
+        "published_demonstration": {
+          "n": 42,
+          "correct": 41,
+          "agreement": 0.9761904761904762
+        }
+      }
+    },
+    "delivered": {
+      "n": 42,
+      "correct": 41,
+      "agreement": 0.9761904761904762,
+      "by_action": {
+        "ABSTAIN": {
+          "n": 6,
+          "correct": 6,
+          "agreement": 1.0
+        },
+        "EXTEND": {
+          "n": 2,
+          "correct": 2,
+          "agreement": 1.0
+        },
+        "INSPECT": {
+          "n": 8,
+          "correct": 8,
+          "agreement": 1.0
+        },
+        "RECOVER": {
+          "n": 1,
+          "correct": 1,
+          "agreement": 1.0
+        },
+        "REPEAT": {
+          "n": 6,
+          "correct": 5,
+          "agreement": 0.8333333333333334
+        },
+        "REPORT": {
+          "n": 19,
+          "correct": 19,
+          "agreement": 1.0
+        }
+      },
+      "by_family": {
+        "published_demonstration": {
+          "n": 42,
+          "correct": 41,
+          "agreement": 0.9761904761904762
+        }
+      }
+    },
+    "fallback_count": 0,
+    "fallback_rate": 0.0,
+    "raw_ineligible_count": 0,
+    "references_valid": true,
+    "protected_cases": 6,
+    "protected_delivered_correct": 6,
+    "request_latency_seconds": {
+      "median": 0.9258923499999128,
+      "p95": 1.8056780000001709,
+      "includes_prompt_prefill": true,
+      "warm_model": true,
+      "includes_tokenization": false,
+      "includes_audit_and_rendering": false
+    },
+    "engineering_gate_passed": false,
+    "model_metadata": {
+      "model": "small_model/checkpoints/smollm2-135m-policy",
+      "resolved_revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+      "parameters": 134515008,
+      "device": "cpu",
+      "weight_dtype": "torch.float32",
+      "threads": 4,
+      "load_seconds": 0.7091314999997849,
+      "python": "3.12.14",
+      "torch": "2.8.0+cu126",
+      "transformers": "4.57.1",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+      "ram_bytes": 34037391360,
+      "weight_file_bytes": 538090408,
+      "process_peak_resident_bytes": 1301831680,
+      "process_resident_bytes_after_evaluation": 1285591040
+    }
+  },
+  "decisions": [
+    {
+      "example_id": "published:Clozapine:review",
+      "audit_id": "published:Clozapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT",
+      "scores": {
+        "FIX": -11.81217098236084,
+        "INSPECT": -0.00030766452558358043,
+        "REPEAT": -4.688571860392888,
+        "RECOVER": -7.200772513945897,
+        "COMPARE": -9.843807876110077,
+        "EXTEND": -9.23353910446167,
+        "REPORT": -3.5512032497208565,
+        "ABSTAIN": -2.567909151230765
+      },
+      "seconds": 1.8056780000001709,
+      "prompt_tokens": 283,
+      "raw": "INSPECT",
+      "delivered": "INSPECT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "reading_influence:300.0",
+        "rule": "reading_influence",
+        "workflow_order": 1,
+        "title": "Verify the reading at 300\u00d7 unbound Cmax",
+        "reason": "ALBUMIN!C12 is 69.68% albumin. Its temporary removal changes Clozapine from no crossing in the measured range to a crossing at 256.22\u00d7 unbound Cmax.",
+        "action": "Inspect the named original measurement and available assay records. If the conclusion is needed and the concern remains unresolved, consider an independent repeat at this dose with documented sampling.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "dose_cmax_multiples": [
+          300.0
+        ],
+        "scenario_ids": [
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "check_codes": [
+          "reading_deletion"
+        ],
+        "interpretation": "Influence does not establish a measurement error. Original readings remain included.",
+        "action_code": "INSPECT"
+      }
+    },
+    {
+      "example_id": "published:Clozapine:repeat",
+      "audit_id": "published:Clozapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT",
+      "scores": {
+        "FIX": -17.010465621948242,
+        "INSPECT": -4.578930336741905,
+        "REPEAT": -1.8278545060942026e-05,
+        "RECOVER": -6.965490142449198,
+        "COMPARE": -12.010855436325073,
+        "EXTEND": -13.032595157623291,
+        "REPORT": -8.218817293561187,
+        "ABSTAIN": -4.59937074387426
+      },
+      "seconds": 1.8122673000002578,
+      "prompt_tokens": 288,
+      "raw": "REPEAT",
+      "delivered": "REPEAT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "reading_influence:300.0",
+        "rule": "reading_influence",
+        "workflow_order": 1,
+        "title": "Consider an independent repeat at 300\u00d7 unbound Cmax",
+        "reason": "ALBUMIN!C12 is 69.68% albumin. Its temporary removal changes Clozapine from no crossing in the measured range to a crossing at 256.22\u00d7 unbound Cmax.",
+        "action": "If experimentally appropriate, independently repeat this existing condition with documented sampling and assay controls. Retain all original readings. This is an influence-based heuristic, not an optimal dose selection.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "dose_cmax_multiples": [
+          300.0
+        ],
+        "scenario_ids": [
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "check_codes": [
+          "reading_deletion"
+        ],
+        "interpretation": "Influence does not establish a measurement error. Original readings remain included.",
+        "action_code": "REPEAT"
+      }
+    },
+    {
+      "example_id": "published:Clozapine:recover",
+      "audit_id": "published:Clozapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT",
+      "scores": {
+        "FIX": -11.688872337341309,
+        "INSPECT": -7.354599104777056e-05,
+        "REPEAT": -5.099445693194866,
+        "RECOVER": -7.663140575091044,
+        "COMPARE": -10.368841081857681,
+        "EXTEND": -9.87486219406128,
+        "REPORT": -4.427345995558426,
+        "ABSTAIN": -2.922166317615165
+      },
+      "seconds": 1.0889771000001929,
+      "prompt_tokens": 283,
+      "raw": "INSPECT",
+      "delivered": "INSPECT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "reading_influence:300.0",
+        "rule": "reading_influence",
+        "workflow_order": 1,
+        "title": "Verify the reading at 300\u00d7 unbound Cmax",
+        "reason": "ALBUMIN!C12 is 69.68% albumin. Its temporary removal changes Clozapine from no crossing in the measured range to a crossing at 256.22\u00d7 unbound Cmax.",
+        "action": "Inspect the named original measurement and available assay records. If the conclusion is needed and the concern remains unresolved, consider an independent repeat at this dose with documented sampling.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "dose_cmax_multiples": [
+          300.0
+        ],
+        "scenario_ids": [
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "check_codes": [
+          "reading_deletion"
+        ],
+        "interpretation": "Influence does not establish a measurement error. Original readings remain included.",
+        "action_code": "INSPECT"
+      }
+    },
+    {
+      "example_id": "published:Clozapine:finite_crossing",
+      "audit_id": "published:Clozapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "EXTEND",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT",
+      "scores": {
+        "FIX": -16.680124282836914,
+        "INSPECT": -4.739033499009868,
+        "REPEAT": -2.7298370847953873e-05,
+        "RECOVER": -7.012556075609609,
+        "COMPARE": -12.189439535140991,
+        "EXTEND": -6.072151184082031,
+        "REPORT": -8.11760705643428,
+        "ABSTAIN": -3.833068428147726
+      },
+      "seconds": 1.001918299999943,
+      "prompt_tokens": 298,
+      "raw": "REPEAT",
+      "delivered": "REPEAT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "reading_influence:300.0",
+        "rule": "reading_influence",
+        "workflow_order": 1,
+        "title": "Consider an independent repeat at 300\u00d7 unbound Cmax",
+        "reason": "ALBUMIN!C12 is 69.68% albumin. Its temporary removal changes Clozapine from no crossing in the measured range to a crossing at 256.22\u00d7 unbound Cmax.",
+        "action": "If experimentally appropriate, independently repeat this existing condition with documented sampling and assay controls. Retain all original readings. This is an influence-based heuristic, not an optimal dose selection.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "dose_cmax_multiples": [
+          300.0
+        ],
+        "scenario_ids": [
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "check_codes": [
+          "reading_deletion"
+        ],
+        "interpretation": "Influence does not establish a measurement error. Original readings remain included.",
+        "action_code": "REPEAT"
+      }
+    },
+    {
+      "example_id": "published:Clozapine:bounded_report",
+      "audit_id": "published:Clozapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -11.89966869354248,
+        "INSPECT": -3.13004136079356,
+        "REPEAT": -4.286209750270548,
+        "RECOVER": -6.947371252472901,
+        "COMPARE": -9.861550688743591,
+        "EXTEND": -10.94387698173523,
+        "REPORT": -0.00011723179886757862,
+        "ABSTAIN": -2.703514665287571
+      },
+      "seconds": 1.2409054999998261,
+      "prompt_tokens": 287,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "Crossing state: right censored.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C12",
+          "ewart2022_supp8_ALBUMIN_C13"
+        ],
+        "scenario_ids": [
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Clozapine:unsupported",
+      "audit_id": "published:Clozapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN",
+      "scores": {
+        "FIX": -16.460771560668945,
+        "INSPECT": -3.9604080120152503,
+        "REPEAT": -5.347929815451304,
+        "RECOVER": -7.389313956101735,
+        "COMPARE": -10.197126626968384,
+        "EXTEND": -9.301015853881836,
+        "REPORT": -4.525220333249308,
+        "ABSTAIN": -8.549150959424878e-05
+      },
+      "seconds": 1.7521915999996054,
+      "prompt_tokens": 282,
+      "raw": "ABSTAIN",
+      "delivered": "ABSTAIN",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:ABSTAIN",
+        "title": "The requested conclusion is outside this tool's scope",
+        "reason": "Crossing state: right censored.",
+        "action": "This analysis cannot certify clinical safety or justify removing an inconvenient reading. Review the original evidence and involve the responsible scientist.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C12",
+          "ewart2022_supp8_ALBUMIN_C13"
+        ],
+        "scenario_ids": [
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "ABSTAIN"
+      }
+    },
+    {
+      "example_id": "published:Clozapine:model_review",
+      "audit_id": "published:Clozapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT",
+      "scores": {
+        "FIX": -10.496393203735352,
+        "INSPECT": -0.08173951498459549,
+        "REPEAT": -2.9019669691721597,
+        "RECOVER": -4.834763377904892,
+        "COMPARE": -8.261340826749802,
+        "EXTEND": -9.285060167312622,
+        "REPORT": -0.7643042901181616,
+        "ABSTAIN": -2.426893025531399
+      },
+      "seconds": 1.9744346000002224,
+      "prompt_tokens": 282,
+      "raw": "INSPECT",
+      "delivered": "INSPECT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "reading_influence:300.0",
+        "rule": "reading_influence",
+        "workflow_order": 1,
+        "title": "Verify the reading at 300\u00d7 unbound Cmax",
+        "reason": "ALBUMIN!C12 is 69.68% albumin. Its temporary removal changes Clozapine from no crossing in the measured range to a crossing at 256.22\u00d7 unbound Cmax.",
+        "action": "Inspect the named original measurement and available assay records. If the conclusion is needed and the concern remains unresolved, consider an independent repeat at this dose with documented sampling.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "dose_cmax_multiples": [
+          300.0
+        ],
+        "scenario_ids": [
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C12"
+        ],
+        "check_codes": [
+          "reading_deletion"
+        ],
+        "interpretation": "Influence does not establish a measurement error. Original readings remain included.",
+        "action_code": "INSPECT"
+      }
+    },
+    {
+      "example_id": "published:Levofloxacin:review",
+      "audit_id": "published:Levofloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -18.385295867919922,
+        "INSPECT": -6.076677202790354,
+        "REPEAT": -5.968793069322895,
+        "RECOVER": -6.4263318056861465,
+        "COMPARE": -12.104725003242493,
+        "EXTEND": -10.21568250656128,
+        "REPORT": -2.6822024068451356e-06,
+        "ABSTAIN": -4.432528018810672
+      },
+      "seconds": 1.1516177999997126,
+      "prompt_tokens": 278,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "Crossing state: right censored.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C70",
+          "ewart2022_supp8_ALBUMIN_C71"
+        ],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          15.0,
+          45.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Levofloxacin:repeat",
+      "audit_id": "published:Levofloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -17.06806755065918,
+        "INSPECT": -5.401299489002365,
+        "REPEAT": -5.62410003940234,
+        "RECOVER": -6.403551856676434,
+        "COMPARE": -11.154177099466324,
+        "EXTEND": -9.547906517982483,
+        "REPORT": -4.887562681687996e-06,
+        "ABSTAIN": -4.228233426672432
+      },
+      "seconds": 1.0966075999999703,
+      "prompt_tokens": 279,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "Crossing state: right censored.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C70",
+          "ewart2022_supp8_ALBUMIN_C71"
+        ],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          15.0,
+          45.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Levofloxacin:recover",
+      "audit_id": "published:Levofloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -15.650415420532227,
+        "INSPECT": -4.795035414320107,
+        "REPEAT": -5.850801013409485,
+        "RECOVER": -6.343703746795048,
+        "COMPARE": -11.913205400109291,
+        "EXTEND": -10.205968141555786,
+        "REPORT": -4.053105385537492e-06,
+        "ABSTAIN": -4.272293865531083
+      },
+      "seconds": 0.9101158999997097,
+      "prompt_tokens": 278,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "Crossing state: right censored.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C70",
+          "ewart2022_supp8_ALBUMIN_C71"
+        ],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          15.0,
+          45.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Levofloxacin:finite_crossing",
+      "audit_id": "published:Levofloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "finite_crossing",
+      "target": "EXTEND",
+      "allowed_actions": [
+        "EXTEND",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "EXTEND",
+      "rules": "EXTEND",
+      "scores": {
+        "FIX": -14.613300323486328,
+        "INSPECT": -5.51877016708022,
+        "REPEAT": -8.887638111909231,
+        "RECOVER": -8.795083795984587,
+        "COMPARE": -9.723252415657043,
+        "EXTEND": -3.8444062738562934e-05,
+        "REPORT": -5.860231279892105,
+        "ABSTAIN": -3.2019990979317754
+      },
+      "seconds": 1.0318812000000435,
+      "prompt_tokens": 289,
+      "raw": "EXTEND",
+      "delivered": "EXTEND",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:EXTEND",
+        "title": "Assess whether additional dose coverage is appropriate",
+        "reason": "Crossing state: right censored.",
+        "action": "Resolve the identified evidence concerns first. If a finite crossing is required, discuss additional dose coverage with the laboratory. This tool does not specify a new exposure or establish its experimental suitability.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C70",
+          "ewart2022_supp8_ALBUMIN_C71"
+        ],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          15.0,
+          45.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "EXTEND"
+      }
+    },
+    {
+      "example_id": "published:Levofloxacin:bounded_report",
+      "audit_id": "published:Levofloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -13.720406532287598,
+        "INSPECT": -6.045107552936922,
+        "REPEAT": -6.294579942978696,
+        "RECOVER": -7.2165239005856465,
+        "COMPARE": -11.17505857348442,
+        "EXTEND": -10.620493054389954,
+        "REPORT": -1.0609556284180144e-05,
+        "ABSTAIN": -3.2303371726306978
+      },
+      "seconds": 1.4327870999995866,
+      "prompt_tokens": 282,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "Crossing state: right censored.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C70",
+          "ewart2022_supp8_ALBUMIN_C71"
+        ],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          15.0,
+          45.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Levofloxacin:unsupported",
+      "audit_id": "published:Levofloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN",
+      "scores": {
+        "FIX": -16.135385513305664,
+        "INSPECT": -5.998483620661621,
+        "REPEAT": -6.824494281162818,
+        "RECOVER": -7.449839075406392,
+        "COMPARE": -9.5923483222723,
+        "EXTEND": -8.611953377723694,
+        "REPORT": -3.1081894622038817,
+        "ABSTAIN": -0.0005821659515277133
+      },
+      "seconds": 0.9274760999996943,
+      "prompt_tokens": 277,
+      "raw": "ABSTAIN",
+      "delivered": "ABSTAIN",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:ABSTAIN",
+        "title": "The requested conclusion is outside this tool's scope",
+        "reason": "Crossing state: right censored.",
+        "action": "This analysis cannot certify clinical safety or justify removing an inconvenient reading. Review the original evidence and involve the responsible scientist.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C70",
+          "ewart2022_supp8_ALBUMIN_C71"
+        ],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          15.0,
+          45.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "ABSTAIN"
+      }
+    },
+    {
+      "example_id": "published:Levofloxacin:model_review",
+      "audit_id": "published:Levofloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -16.37694549560547,
+        "INSPECT": -5.605965189955896,
+        "REPEAT": -6.005494708815529,
+        "RECOVER": -5.971926438311054,
+        "COMPARE": -10.650264963507652,
+        "EXTEND": -10.259897708892822,
+        "REPORT": -3.516666652103595e-06,
+        "ABSTAIN": -4.020478427254602
+      },
+      "seconds": 0.8985631000000467,
+      "prompt_tokens": 277,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "Crossing state: right censored.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C70",
+          "ewart2022_supp8_ALBUMIN_C71"
+        ],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          15.0,
+          45.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Olanzapine:review",
+      "audit_id": "published:Olanzapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -18.32427406311035,
+        "INSPECT": -6.083993907901458,
+        "REPEAT": -5.964482091367235,
+        "RECOVER": -6.419673795501382,
+        "COMPARE": -12.130931437015533,
+        "EXTEND": -10.235447764396667,
+        "REPORT": -2.6822024068451356e-06,
+        "ABSTAIN": -4.368110209559745
+      },
+      "seconds": 0.9118847999998252,
+      "prompt_tokens": 279,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "Crossing state: right censored.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C24",
+          "ewart2022_supp8_ALBUMIN_C25"
+        ],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Olanzapine:repeat",
+      "audit_id": "published:Olanzapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -16.999380111694336,
+        "INSPECT": -5.414362936513498,
+        "REPEAT": -5.622950931389899,
+        "RECOVER": -6.400303706526529,
+        "COMPARE": -11.178883582353592,
+        "EXTEND": -9.568745493888855,
+        "REPORT": -4.768353960571403e-06,
+        "ABSTAIN": -4.169860303265068
+      },
+      "seconds": 0.8916635000000497,
+      "prompt_tokens": 280,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "Crossing state: right censored.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C24",
+          "ewart2022_supp8_ALBUMIN_C25"
+        ],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Olanzapine:recover",
+      "audit_id": "published:Olanzapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -15.592758178710938,
+        "INSPECT": -4.803714729050019,
+        "REPEAT": -5.849118471145023,
+        "RECOVER": -6.338091025749236,
+        "COMPARE": -11.9411012083292,
+        "EXTEND": -10.22450041770935,
+        "REPORT": -3.993500968135777e-06,
+        "ABSTAIN": -4.21108657106447
+      },
+      "seconds": 0.865738599999986,
+      "prompt_tokens": 279,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "Crossing state: right censored.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C24",
+          "ewart2022_supp8_ALBUMIN_C25"
+        ],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Olanzapine:finite_crossing",
+      "audit_id": "published:Olanzapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "finite_crossing",
+      "target": "EXTEND",
+      "allowed_actions": [
+        "EXTEND",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "EXTEND",
+      "rules": "EXTEND",
+      "scores": {
+        "FIX": -14.602413177490234,
+        "INSPECT": -5.534665909265944,
+        "REPEAT": -8.865078230698904,
+        "RECOVER": -8.783630649248758,
+        "COMPARE": -9.769098103046417,
+        "EXTEND": -3.8801668779342435e-05,
+        "REPORT": -5.858145594120288,
+        "ABSTAIN": -3.2128798364240083
+      },
+      "seconds": 0.9086170000000493,
+      "prompt_tokens": 290,
+      "raw": "EXTEND",
+      "delivered": "EXTEND",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:EXTEND",
+        "title": "Assess whether additional dose coverage is appropriate",
+        "reason": "Crossing state: right censored.",
+        "action": "Resolve the identified evidence concerns first. If a finite crossing is required, discuss additional dose coverage with the laboratory. This tool does not specify a new exposure or establish its experimental suitability.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C24",
+          "ewart2022_supp8_ALBUMIN_C25"
+        ],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "EXTEND"
+      }
+    },
+    {
+      "example_id": "published:Olanzapine:bounded_report",
+      "audit_id": "published:Olanzapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -13.706854820251465,
+        "INSPECT": -6.03203161751541,
+        "REPEAT": -6.284748534317259,
+        "RECOVER": -7.200054277932092,
+        "COMPARE": -11.179693013429642,
+        "EXTEND": -10.596580982208252,
+        "REPORT": -1.0728763072620495e-05,
+        "ABSTAIN": -3.1925338803562227
+      },
+      "seconds": 0.9110476000000745,
+      "prompt_tokens": 283,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "Crossing state: right censored.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C24",
+          "ewart2022_supp8_ALBUMIN_C25"
+        ],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Olanzapine:unsupported",
+      "audit_id": "published:Olanzapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN",
+      "scores": {
+        "FIX": -16.246736526489258,
+        "INSPECT": -6.039134157899146,
+        "REPEAT": -6.828297441204389,
+        "RECOVER": -7.486650039752324,
+        "COMPARE": -9.666540652513504,
+        "EXTEND": -8.658717393875122,
+        "REPORT": -3.148065684534231,
+        "ABSTAIN": -0.0005368466852360143
+      },
+      "seconds": 0.8838763000003382,
+      "prompt_tokens": 278,
+      "raw": "ABSTAIN",
+      "delivered": "ABSTAIN",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:ABSTAIN",
+        "title": "The requested conclusion is outside this tool's scope",
+        "reason": "Crossing state: right censored.",
+        "action": "This analysis cannot certify clinical safety or justify removing an inconvenient reading. Review the original evidence and involve the responsible scientist.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C24",
+          "ewart2022_supp8_ALBUMIN_C25"
+        ],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "ABSTAIN"
+      }
+    },
+    {
+      "example_id": "published:Olanzapine:model_review",
+      "audit_id": "published:Olanzapine",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -16.312196731567383,
+        "INSPECT": -5.60213717543714,
+        "REPEAT": -5.999968126415372,
+        "RECOVER": -5.97690118104136,
+        "COMPARE": -10.645481020212173,
+        "EXTEND": -10.235130071640015,
+        "REPORT": -3.6358757142807008e-06,
+        "ABSTAIN": -3.9691011606062148
+      },
+      "seconds": 0.8495458999996117,
+      "prompt_tokens": 278,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "Crossing state: right censored.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C24",
+          "ewart2022_supp8_ALBUMIN_C25"
+        ],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Pioglitazone:review",
+      "audit_id": "published:Pioglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT",
+      "scores": {
+        "FIX": -12.3278169631958,
+        "INSPECT": -0.0001462407678142578,
+        "REPEAT": -5.158783100545406,
+        "RECOVER": -7.6365848282972975,
+        "COMPARE": -10.033157974481583,
+        "EXTEND": -9.348427295684814,
+        "REPORT": -3.942896403023042,
+        "ABSTAIN": -2.8516208826893035
+      },
+      "seconds": 0.9174880999999004,
+      "prompt_tokens": 297,
+      "raw": "INSPECT",
+      "delivered": "INSPECT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "reading_influence:300.0",
+        "rule": "reading_influence",
+        "workflow_order": 1,
+        "title": "Verify the reading at 300\u00d7 unbound Cmax",
+        "reason": "ALBUMIN!C49 is 38.37% albumin. Its temporary removal changes Pioglitazone from a crossing at 292.51\u00d7 unbound Cmax to no crossing in the measured range. Removing the whole 300\u00d7 dose also removes bracketing coverage: the remaining doses span 1\u2013100\u00d7 unbound Cmax.",
+        "action": "Inspect the named original measurement and available assay records. If the conclusion is needed and the concern remains unresolved, consider an independent repeat at this dose with documented sampling.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C48",
+          "ewart2022_supp8_ALBUMIN_C49"
+        ],
+        "dose_cmax_multiples": [
+          300.0
+        ],
+        "scenario_ids": [
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C49",
+          "dose_deletion:300.0"
+        ],
+        "check_codes": [
+          "reading_deletion",
+          "dose_deletion"
+        ],
+        "interpretation": "Influence does not establish a measurement error. Original readings remain included.",
+        "action_code": "INSPECT"
+      }
+    },
+    {
+      "example_id": "published:Pioglitazone:repeat",
+      "audit_id": "published:Pioglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT",
+      "scores": {
+        "FIX": -17.086193084716797,
+        "INSPECT": -4.207397459858233,
+        "REPEAT": -1.76825142261805e-05,
+        "RECOVER": -7.259146332648622,
+        "COMPARE": -12.616696238517761,
+        "EXTEND": -13.101380825042725,
+        "REPORT": -8.296813309054414,
+        "ABSTAIN": -4.5677103982066
+      },
+      "seconds": 0.9223167000000103,
+      "prompt_tokens": 302,
+      "raw": "REPEAT",
+      "delivered": "REPEAT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "reading_influence:300.0",
+        "rule": "reading_influence",
+        "workflow_order": 1,
+        "title": "Consider an independent repeat at 300\u00d7 unbound Cmax",
+        "reason": "ALBUMIN!C49 is 38.37% albumin. Its temporary removal changes Pioglitazone from a crossing at 292.51\u00d7 unbound Cmax to no crossing in the measured range. Removing the whole 300\u00d7 dose also removes bracketing coverage: the remaining doses span 1\u2013100\u00d7 unbound Cmax.",
+        "action": "If experimentally appropriate, independently repeat this existing condition with documented sampling and assay controls. Retain all original readings. This is an influence-based heuristic, not an optimal dose selection.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C48",
+          "ewart2022_supp8_ALBUMIN_C49"
+        ],
+        "dose_cmax_multiples": [
+          300.0
+        ],
+        "scenario_ids": [
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C49",
+          "dose_deletion:300.0"
+        ],
+        "check_codes": [
+          "reading_deletion",
+          "dose_deletion"
+        ],
+        "interpretation": "Influence does not establish a measurement error. Original readings remain included.",
+        "action_code": "REPEAT"
+      }
+    },
+    {
+      "example_id": "published:Pioglitazone:recover",
+      "audit_id": "published:Pioglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "recover",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "INSPECT",
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "RECOVER",
+      "scores": {
+        "FIX": -15.153547286987305,
+        "INSPECT": -5.084197918531572,
+        "REPEAT": -3.58083765594832,
+        "RECOVER": -0.00031660552000782144,
+        "COMPARE": -11.920856356620789,
+        "EXTEND": -13.226319313049316,
+        "REPORT": -6.858312381635187,
+        "ABSTAIN": -4.249556627471065
+      },
+      "seconds": 0.9388060999999652,
+      "prompt_tokens": 301,
+      "raw": "RECOVER",
+      "delivered": "RECOVER",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "missing_evidence:responses",
+        "rule": "missing_evidence",
+        "workflow_order": 5,
+        "title": "Locate the missing albumin measurements",
+        "reason": "ALBUMIN!C39 at 1\u00d7 unbound Cmax; ALBUMIN!C41 at 3\u00d7 unbound Cmax are missing. None of the 10 tested one-at-a-time hypothetical replacements changes the current conclusion: a crossing at 292.51\u00d7 unbound Cmax.",
+        "action": "Check whether documented original values are available. Recover them only from source records; otherwise retain missingness and its limitation.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C39",
+          "ewart2022_supp8_ALBUMIN_C41"
+        ],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0
+        ],
+        "scenario_ids": [
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:0.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:50.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:100.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:150.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:200.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:0.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:50.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:100.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:150.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:200.0"
+        ],
+        "check_codes": [
+          "complete_readings"
+        ],
+        "interpretation": "Hypothetical replacements are sensitivity probes, not recovered measurements or imputations.",
+        "action_code": "RECOVER"
+      }
+    },
+    {
+      "example_id": "published:Pioglitazone:finite_crossing",
+      "audit_id": "published:Pioglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT",
+      "scores": {
+        "FIX": -17.695255279541016,
+        "INSPECT": -6.671479740500217,
+        "REPEAT": -0.8781524091176228,
+        "RECOVER": -0.02779221130216077,
+        "COMPARE": -12.21684217453003,
+        "EXTEND": -12.370149612426758,
+        "REPORT": -5.3179611563541584,
+        "ABSTAIN": -3.7696344328387568
+      },
+      "seconds": 0.9243086000001313,
+      "prompt_tokens": 313,
+      "raw": "RECOVER",
+      "delivered": "RECOVER",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "missing_evidence:responses",
+        "rule": "missing_evidence",
+        "workflow_order": 5,
+        "title": "Locate the missing albumin measurements",
+        "reason": "ALBUMIN!C39 at 1\u00d7 unbound Cmax; ALBUMIN!C41 at 3\u00d7 unbound Cmax are missing. None of the 10 tested one-at-a-time hypothetical replacements changes the current conclusion: a crossing at 292.51\u00d7 unbound Cmax.",
+        "action": "Check whether documented original values are available. Recover them only from source records; otherwise retain missingness and its limitation.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C39",
+          "ewart2022_supp8_ALBUMIN_C41"
+        ],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0
+        ],
+        "scenario_ids": [
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:0.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:50.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:100.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:150.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:200.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:0.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:50.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:100.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:150.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:200.0"
+        ],
+        "check_codes": [
+          "complete_readings"
+        ],
+        "interpretation": "Hypothetical replacements are sensitivity probes, not recovered measurements or imputations.",
+        "action_code": "RECOVER"
+      }
+    },
+    {
+      "example_id": "published:Pioglitazone:bounded_report",
+      "audit_id": "published:Pioglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -12.339250564575195,
+        "INSPECT": -3.0703564881899488,
+        "REPEAT": -4.421792924103404,
+        "RECOVER": -7.056895228422945,
+        "COMPARE": -9.959638684988022,
+        "EXTEND": -11.05128526687622,
+        "REPORT": -0.00012325054012762848,
+        "ABSTAIN": -2.911268055376695
+      },
+      "seconds": 1.0108172999998715,
+      "prompt_tokens": 301,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "A 50% crossing at 292.51\u00d7 unbound Cmax.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C39",
+          "ewart2022_supp8_ALBUMIN_C41",
+          "ewart2022_supp8_ALBUMIN_C48",
+          "ewart2022_supp8_ALBUMIN_C49"
+        ],
+        "scenario_ids": [
+          "dose_deletion:300.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:0.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:100.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:150.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:200.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:50.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:0.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:100.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:150.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:200.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:50.0",
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C49"
+        ],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Pioglitazone:unsupported",
+      "audit_id": "published:Pioglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN",
+      "scores": {
+        "FIX": -16.09263801574707,
+        "INSPECT": -3.9314911365066414,
+        "REPEAT": -5.666766745348771,
+        "RECOVER": -7.634834150473277,
+        "COMPARE": -10.402381300926208,
+        "EXTEND": -9.292393922805786,
+        "REPORT": -4.662493985961191,
+        "ABSTAIN": -9.15095258733345e-05
+      },
+      "seconds": 1.135647500000232,
+      "prompt_tokens": 296,
+      "raw": "ABSTAIN",
+      "delivered": "ABSTAIN",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:ABSTAIN",
+        "title": "The requested conclusion is outside this tool's scope",
+        "reason": "A 50% crossing at 292.51\u00d7 unbound Cmax.",
+        "action": "This analysis cannot certify clinical safety or justify removing an inconvenient reading. Review the original evidence and involve the responsible scientist.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C39",
+          "ewart2022_supp8_ALBUMIN_C41",
+          "ewart2022_supp8_ALBUMIN_C48",
+          "ewart2022_supp8_ALBUMIN_C49"
+        ],
+        "scenario_ids": [
+          "dose_deletion:300.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:0.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:100.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:150.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:200.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C39:50.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:0.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:100.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:150.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:200.0",
+          "missing_probe:ewart2022_supp8_ALBUMIN_C41:50.0",
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C49"
+        ],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "ABSTAIN"
+      }
+    },
+    {
+      "example_id": "published:Pioglitazone:model_review",
+      "audit_id": "published:Pioglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT",
+      "scores": {
+        "FIX": -10.784571647644043,
+        "INSPECT": -0.06587785974867681,
+        "REPEAT": -3.1403365383545556,
+        "RECOVER": -5.014239316185315,
+        "COMPARE": -8.375089168548584,
+        "EXTEND": -9.398671627044678,
+        "REPORT": -0.860229066980537,
+        "ABSTAIN": -2.693471789283876
+      },
+      "seconds": 0.9082766999999876,
+      "prompt_tokens": 296,
+      "raw": "INSPECT",
+      "delivered": "INSPECT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "reading_influence:300.0",
+        "rule": "reading_influence",
+        "workflow_order": 1,
+        "title": "Verify the reading at 300\u00d7 unbound Cmax",
+        "reason": "ALBUMIN!C49 is 38.37% albumin. Its temporary removal changes Pioglitazone from a crossing at 292.51\u00d7 unbound Cmax to no crossing in the measured range. Removing the whole 300\u00d7 dose also removes bracketing coverage: the remaining doses span 1\u2013100\u00d7 unbound Cmax.",
+        "action": "Inspect the named original measurement and available assay records. If the conclusion is needed and the concern remains unresolved, consider an independent repeat at this dose with documented sampling.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C48",
+          "ewart2022_supp8_ALBUMIN_C49"
+        ],
+        "dose_cmax_multiples": [
+          300.0
+        ],
+        "scenario_ids": [
+          "reading_deletion:ewart2022_supp8_ALBUMIN_C49",
+          "dose_deletion:300.0"
+        ],
+        "check_codes": [
+          "reading_deletion",
+          "dose_deletion"
+        ],
+        "interpretation": "Influence does not establish a measurement error. Original readings remain included.",
+        "action_code": "INSPECT"
+      }
+    },
+    {
+      "example_id": "published:Troglitazone:review",
+      "audit_id": "published:Troglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT",
+      "scores": {
+        "FIX": -12.656771659851074,
+        "INSPECT": -0.00012022332854636868,
+        "REPEAT": -5.223834949235122,
+        "RECOVER": -7.751320074001948,
+        "COMPARE": -10.107348263263702,
+        "EXTEND": -9.396098613739014,
+        "REPORT": -4.052977490238845,
+        "ABSTAIN": -2.8803707360632416
+      },
+      "seconds": 0.882255399999849,
+      "prompt_tokens": 300,
+      "raw": "INSPECT",
+      "delivered": "INSPECT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "dose_dependence:98.2",
+        "rule": "dose_dependence",
+        "workflow_order": 3,
+        "title": "Inspect support at 98.2\u00d7 unbound Cmax",
+        "reason": "Temporarily deleting ALBUMIN!C34, ALBUMIN!C35 changes Troglitazone from a crossing at 162.38\u00d7 unbound Cmax to a crossing at 64.14\u00d7 unbound Cmax.",
+        "action": "Review these dose measurements and the sampling design. If the conclusion is needed, consider independently repeating this condition before interpreting the shift.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C34",
+          "ewart2022_supp8_ALBUMIN_C35"
+        ],
+        "dose_cmax_multiples": [
+          98.2
+        ],
+        "scenario_ids": [
+          "dose_deletion:98.2"
+        ],
+        "check_codes": [
+          "dose_deletion"
+        ],
+        "interpretation": "Dose deletion tests dependence on available evidence; it does not identify a faulty dose.",
+        "action_code": "INSPECT"
+      }
+    },
+    {
+      "example_id": "published:Troglitazone:repeat",
+      "audit_id": "published:Troglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT",
+      "scores": {
+        "FIX": -17.11308479309082,
+        "INSPECT": -4.119031109759817,
+        "REPEAT": -1.8556693551848486e-05,
+        "RECOVER": -7.243920206918119,
+        "COMPARE": -12.441126704216003,
+        "EXTEND": -13.01418399810791,
+        "REPORT": -8.31898897870451,
+        "ABSTAIN": -4.560301421818849
+      },
+      "seconds": 0.8864102000002276,
+      "prompt_tokens": 305,
+      "raw": "REPEAT",
+      "delivered": "REPEAT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "dose_dependence:98.2",
+        "rule": "dose_dependence",
+        "workflow_order": 3,
+        "title": "Consider an independent repeat at 98.2\u00d7 unbound Cmax",
+        "reason": "Temporarily deleting ALBUMIN!C34, ALBUMIN!C35 changes Troglitazone from a crossing at 162.38\u00d7 unbound Cmax to a crossing at 64.14\u00d7 unbound Cmax.",
+        "action": "If experimentally appropriate, independently repeat this existing condition with documented sampling and assay controls. Retain all original readings. This is an influence-based heuristic, not an optimal dose selection.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C34",
+          "ewart2022_supp8_ALBUMIN_C35"
+        ],
+        "dose_cmax_multiples": [
+          98.2
+        ],
+        "scenario_ids": [
+          "dose_deletion:98.2"
+        ],
+        "check_codes": [
+          "dose_deletion"
+        ],
+        "interpretation": "Dose deletion tests dependence on available evidence; it does not identify a faulty dose.",
+        "action_code": "REPEAT"
+      }
+    },
+    {
+      "example_id": "published:Troglitazone:recover",
+      "audit_id": "published:Troglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT",
+      "scores": {
+        "FIX": -12.111614227294922,
+        "INSPECT": -3.838394786725985e-05,
+        "REPEAT": -5.5857013041774435,
+        "RECOVER": -8.180468102296194,
+        "COMPARE": -10.587921112775803,
+        "EXTEND": -9.951573371887207,
+        "REPORT": -4.895115040126257,
+        "ABSTAIN": -3.2029165028941406
+      },
+      "seconds": 1.1569417000000612,
+      "prompt_tokens": 300,
+      "raw": "INSPECT",
+      "delivered": "INSPECT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "dose_dependence:98.2",
+        "rule": "dose_dependence",
+        "workflow_order": 3,
+        "title": "Inspect support at 98.2\u00d7 unbound Cmax",
+        "reason": "Temporarily deleting ALBUMIN!C34, ALBUMIN!C35 changes Troglitazone from a crossing at 162.38\u00d7 unbound Cmax to a crossing at 64.14\u00d7 unbound Cmax.",
+        "action": "Review these dose measurements and the sampling design. If the conclusion is needed, consider independently repeating this condition before interpreting the shift.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C34",
+          "ewart2022_supp8_ALBUMIN_C35"
+        ],
+        "dose_cmax_multiples": [
+          98.2
+        ],
+        "scenario_ids": [
+          "dose_deletion:98.2"
+        ],
+        "check_codes": [
+          "dose_deletion"
+        ],
+        "interpretation": "Dose deletion tests dependence on available evidence; it does not identify a faulty dose.",
+        "action_code": "INSPECT"
+      }
+    },
+    {
+      "example_id": "published:Troglitazone:finite_crossing",
+      "audit_id": "published:Troglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT",
+      "scores": {
+        "FIX": -17.847394943237305,
+        "INSPECT": -4.673443792349038,
+        "REPEAT": -1.1523467113268756e-05,
+        "RECOVER": -7.264486312852266,
+        "COMPARE": -13.341666102409363,
+        "EXTEND": -12.638208389282227,
+        "REPORT": -8.270294010618272,
+        "ABSTAIN": -3.635038017726174
+      },
+      "seconds": 0.9445295999998962,
+      "prompt_tokens": 312,
+      "raw": "REPEAT",
+      "delivered": "REPEAT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "dose_dependence:98.2",
+        "rule": "dose_dependence",
+        "workflow_order": 3,
+        "title": "Consider an independent repeat at 98.2\u00d7 unbound Cmax",
+        "reason": "Temporarily deleting ALBUMIN!C34, ALBUMIN!C35 changes Troglitazone from a crossing at 162.38\u00d7 unbound Cmax to a crossing at 64.14\u00d7 unbound Cmax.",
+        "action": "If experimentally appropriate, independently repeat this existing condition with documented sampling and assay controls. Retain all original readings. This is an influence-based heuristic, not an optimal dose selection.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C34",
+          "ewart2022_supp8_ALBUMIN_C35"
+        ],
+        "dose_cmax_multiples": [
+          98.2
+        ],
+        "scenario_ids": [
+          "dose_deletion:98.2"
+        ],
+        "check_codes": [
+          "dose_deletion"
+        ],
+        "interpretation": "Dose deletion tests dependence on available evidence; it does not identify a faulty dose.",
+        "action_code": "REPEAT"
+      }
+    },
+    {
+      "example_id": "published:Troglitazone:bounded_report",
+      "audit_id": "published:Troglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -12.476082801818848,
+        "INSPECT": -3.030245939852042,
+        "REPEAT": -4.4025018002867,
+        "RECOVER": -7.089329730598062,
+        "COMPARE": -9.844792068004608,
+        "EXTEND": -10.918873310089111,
+        "REPORT": -0.0001306995181948878,
+        "ABSTAIN": -2.865387499270355
+      },
+      "seconds": 0.9168242999999165,
+      "prompt_tokens": 304,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "A 50% crossing at 162.38\u00d7 unbound Cmax.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C34",
+          "ewart2022_supp8_ALBUMIN_C35",
+          "ewart2022_supp8_ALBUMIN_C36",
+          "ewart2022_supp8_ALBUMIN_C37"
+        ],
+        "scenario_ids": [
+          "dose_deletion:294.72",
+          "dose_deletion:98.2"
+        ],
+        "dose_cmax_multiples": [
+          0.98,
+          2.95,
+          9.82,
+          29.47,
+          98.2,
+          294.72
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Troglitazone:unsupported",
+      "audit_id": "published:Troglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN",
+      "scores": {
+        "FIX": -16.409069061279297,
+        "INSPECT": -3.909749070756334,
+        "REPEAT": -5.57073699682951,
+        "RECOVER": -7.586236238479614,
+        "COMPARE": -10.396834254264832,
+        "EXTEND": -9.282004833221436,
+        "REPORT": -4.546900914050639,
+        "ABSTAIN": -9.431011017113633e-05
+      },
+      "seconds": 0.9172653999999056,
+      "prompt_tokens": 299,
+      "raw": "ABSTAIN",
+      "delivered": "ABSTAIN",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:ABSTAIN",
+        "title": "The requested conclusion is outside this tool's scope",
+        "reason": "A 50% crossing at 162.38\u00d7 unbound Cmax.",
+        "action": "This analysis cannot certify clinical safety or justify removing an inconvenient reading. Review the original evidence and involve the responsible scientist.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C34",
+          "ewart2022_supp8_ALBUMIN_C35",
+          "ewart2022_supp8_ALBUMIN_C36",
+          "ewart2022_supp8_ALBUMIN_C37"
+        ],
+        "scenario_ids": [
+          "dose_deletion:294.72",
+          "dose_deletion:98.2"
+        ],
+        "dose_cmax_multiples": [
+          0.98,
+          2.95,
+          9.82,
+          29.47,
+          98.2,
+          294.72
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "ABSTAIN"
+      }
+    },
+    {
+      "example_id": "published:Troglitazone:model_review",
+      "audit_id": "published:Troglitazone",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT",
+      "scores": {
+        "FIX": -11.295103073120117,
+        "INSPECT": -0.046360592003414546,
+        "REPEAT": -3.2866349816322327,
+        "RECOVER": -5.202621430158615,
+        "COMPARE": -8.5112926363945,
+        "EXTEND": -9.41804051399231,
+        "REPORT": -1.02167362041655,
+        "ABSTAIN": -2.7621747254549973
+      },
+      "seconds": 0.9017911999999342,
+      "prompt_tokens": 299,
+      "raw": "INSPECT",
+      "delivered": "INSPECT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "dose_dependence:98.2",
+        "rule": "dose_dependence",
+        "workflow_order": 3,
+        "title": "Inspect support at 98.2\u00d7 unbound Cmax",
+        "reason": "Temporarily deleting ALBUMIN!C34, ALBUMIN!C35 changes Troglitazone from a crossing at 162.38\u00d7 unbound Cmax to a crossing at 64.14\u00d7 unbound Cmax.",
+        "action": "Review these dose measurements and the sampling design. If the conclusion is needed, consider independently repeating this condition before interpreting the shift.",
+        "source_record_ids": [
+          "ewart2022_supp8_ALBUMIN_C34",
+          "ewart2022_supp8_ALBUMIN_C35"
+        ],
+        "dose_cmax_multiples": [
+          98.2
+        ],
+        "scenario_ids": [
+          "dose_deletion:98.2"
+        ],
+        "check_codes": [
+          "dose_deletion"
+        ],
+        "interpretation": "Dose deletion tests dependence on available evidence; it does not identify a faulty dose.",
+        "action_code": "INSPECT"
+      }
+    },
+    {
+      "example_id": "published:Trovafloxacin:review",
+      "audit_id": "published:Trovafloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -18.295896530151367,
+        "INSPECT": -6.0784643201817135,
+        "REPEAT": -5.962998983760666,
+        "RECOVER": -6.35308866451183,
+        "COMPARE": -12.15115062892437,
+        "EXTEND": -10.240344166755676,
+        "REPORT": -2.7418068242468507e-06,
+        "ABSTAIN": -4.2892642616180865
+      },
+      "seconds": 0.9831227000004219,
+      "prompt_tokens": 294,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "A 50% crossing at 89.99\u00d7 unbound Cmax.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Trovafloxacin:repeat",
+      "audit_id": "published:Trovafloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -17.436290740966797,
+        "INSPECT": -5.511772753651409,
+        "REPEAT": -5.625804685055982,
+        "RECOVER": -6.35408812761284,
+        "COMPARE": -11.281114012002945,
+        "EXTEND": -9.665799617767334,
+        "REPORT": -5.066374455964251e-06,
+        "ABSTAIN": -4.245170354736047
+      },
+      "seconds": 1.0830519000001004,
+      "prompt_tokens": 295,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "A 50% crossing at 89.99\u00d7 unbound Cmax.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Trovafloxacin:recover",
+      "audit_id": "published:Trovafloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -15.356668472290039,
+        "INSPECT": -4.760045576491393,
+        "REPEAT": -5.851148955523286,
+        "RECOVER": -6.267726987599644,
+        "COMPARE": -11.886993050575256,
+        "EXTEND": -10.177026510238647,
+        "REPORT": -4.112709916626045e-06,
+        "ABSTAIN": -4.049429118526177
+      },
+      "seconds": 0.9191937999999027,
+      "prompt_tokens": 294,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "A 50% crossing at 89.99\u00d7 unbound Cmax.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Trovafloxacin:finite_crossing",
+      "audit_id": "published:Trovafloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "finite_crossing",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -14.635091781616211,
+        "INSPECT": -4.970253665310641,
+        "REPEAT": -6.036725476262291,
+        "RECOVER": -6.3808147260321375,
+        "COMPARE": -10.185706466436386,
+        "EXTEND": -7.840207993984222,
+        "REPORT": -1.603346026968211e-05,
+        "ABSTAIN": -2.7399054168765815
+      },
+      "seconds": 0.8997024000000238,
+      "prompt_tokens": 302,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "A 50% crossing at 89.99\u00d7 unbound Cmax.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Trovafloxacin:bounded_report",
+      "audit_id": "published:Trovafloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -14.193589210510254,
+        "INSPECT": -6.075137218615661,
+        "REPEAT": -6.2604921012759105,
+        "RECOVER": -7.192450299823274,
+        "COMPARE": -11.300124406814575,
+        "EXTEND": -10.83300495147705,
+        "REPORT": -1.0192332410952076e-05,
+        "ABSTAIN": -3.333009660136895
+      },
+      "seconds": 1.0169447000002947,
+      "prompt_tokens": 298,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "A 50% crossing at 89.99\u00d7 unbound Cmax.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    },
+    {
+      "example_id": "published:Trovafloxacin:unsupported",
+      "audit_id": "published:Trovafloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN",
+      "scores": {
+        "FIX": -16.950773239135742,
+        "INSPECT": -6.379109649763753,
+        "REPEAT": -7.260634953776996,
+        "RECOVER": -7.823981374502182,
+        "COMPARE": -10.100906863808632,
+        "EXTEND": -9.117945194244385,
+        "REPORT": -3.7222685205269954,
+        "ABSTAIN": -0.00019016476312572195
+      },
+      "seconds": 0.9106496999997944,
+      "prompt_tokens": 293,
+      "raw": "ABSTAIN",
+      "delivered": "ABSTAIN",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:ABSTAIN",
+        "title": "The requested conclusion is outside this tool's scope",
+        "reason": "A 50% crossing at 89.99\u00d7 unbound Cmax.",
+        "action": "This analysis cannot certify clinical safety or justify removing an inconvenient reading. Review the original evidence and involve the responsible scientist.",
+        "source_record_ids": [],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "ABSTAIN"
+      }
+    },
+    {
+      "example_id": "published:Trovafloxacin:model_review",
+      "audit_id": "published:Trovafloxacin",
+      "family": "published_demonstration",
+      "response_shape": "unknown",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT",
+      "scores": {
+        "FIX": -16.108509063720703,
+        "INSPECT": -5.545820446005867,
+        "REPEAT": -5.9862413257349845,
+        "RECOVER": -5.915375371772977,
+        "COMPARE": -10.644050255417824,
+        "EXTEND": -10.170809984207153,
+        "REPORT": -3.874293497574399e-06,
+        "ABSTAIN": -3.830950528258427
+      },
+      "seconds": 0.930142799999885,
+      "prompt_tokens": 293,
+      "raw": "REPORT",
+      "delivered": "REPORT",
+      "fallback": false,
+      "raw_ineligible": false,
+      "references_valid": true,
+      "action": {
+        "id": "planner:REPORT",
+        "title": "Retain the result and its evidence limitations",
+        "reason": "A 50% crossing at 89.99\u00d7 unbound Cmax.",
+        "action": "Report the current crossing or censoring state together with all identified sensitivity and unassessed experimental evidence. Scenario agreement does not establish drug safety.",
+        "source_record_ids": [],
+        "scenario_ids": [],
+        "dose_cmax_multiples": [
+          1.0,
+          3.0,
+          10.0,
+          30.0,
+          100.0,
+          300.0
+        ],
+        "check_codes": [
+          "experimental_metadata",
+          "experimental_independence",
+          "assay_controls",
+          "assay_calibration",
+          "device_qc"
+        ],
+        "interpretation": "Action selection is experimental; the source evidence remains unchanged.",
+        "action_code": "REPORT"
+      }
+    }
+  ]
+}

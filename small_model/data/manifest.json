@@ -1,0 +1,92 @@
+{
+  "label_source": "heuristic_policy_not_biological_truth",
+  "splits": {
+    "train": {
+      "seed": 20261005,
+      "experiments": 96,
+      "examples": 728,
+      "targets": {
+        "REPORT": 292,
+        "ABSTAIN": 96,
+        "FIX": 56,
+        "RECOVER": 51,
+        "INSPECT": 130,
+        "REPEAT": 89,
+        "EXTEND": 7,
+        "COMPARE": 7
+      },
+      "families": {
+        "in_family:clean": 112,
+        "blocked_duplicate": 56,
+        "in_family:random_missing": 112,
+        "in_family:response_dependent_missing": 112,
+        "in_family:truncated_range": 112,
+        "in_family:singletons": 112,
+        "in_family:influential_reading": 112
+      }
+    },
+    "validation": {
+      "seed": 20261006,
+      "experiments": 24,
+      "examples": 182,
+      "targets": {
+        "INSPECT": 31,
+        "REPEAT": 21,
+        "REPORT": 74,
+        "ABSTAIN": 24,
+        "FIX": 14,
+        "RECOVER": 15,
+        "EXTEND": 2,
+        "COMPARE": 1
+      },
+      "families": {
+        "in_family:clean": 28,
+        "blocked_duplicate": 14,
+        "in_family:random_missing": 28,
+        "in_family:response_dependent_missing": 28,
+        "in_family:truncated_range": 28,
+        "in_family:singletons": 28,
+        "in_family:influential_reading": 28
+      }
+    },
+    "test": {
+      "seed": 20261007,
+      "experiments": 48,
+      "examples": 364,
+      "targets": {
+        "REPORT": 151,
+        "ABSTAIN": 48,
+        "FIX": 28,
+        "INSPECT": 66,
+        "REPEAT": 44,
+        "RECOVER": 21,
+        "EXTEND": 4,
+        "COMPARE": 2
+      },
+      "families": {
+        "in_family:clean": 28,
+        "blocked_duplicate": 28,
+        "in_family:random_missing": 28,
+        "in_family:response_dependent_missing": 28,
+        "in_family:truncated_range": 28,
+        "in_family:singletons": 28,
+        "in_family:influential_reading": 28,
+        "held_out_shape:clean": 14,
+        "held_out_shape:random_missing": 14,
+        "held_out_shape:response_dependent_missing": 14,
+        "held_out_shape:truncated_range": 14,
+        "held_out_shape:singletons": 14,
+        "held_out_shape:influential_reading": 14,
+        "held_out_shape:non_monotonic": 14,
+        "held_out_shape:run_shift": 14,
+        "held_out_fault:non_monotonic": 28,
+        "held_out_fault:run_shift": 28
+      }
+    },
+    "published": {
+      "compounds": 6,
+      "examples": 42,
+      "role": "demonstration_only"
+    }
+  }
+}

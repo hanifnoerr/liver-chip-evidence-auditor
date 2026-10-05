@@ -1,0 +1,14 @@
+name: ai4s-liver-slm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - numpy==2.3.5
+      - scipy==1.16.3
+      - openpyxl==3.1.5
+      - matplotlib==3.10.8
+      - torch==2.8.0
+      - transformers==4.57.1
+      - psutil==7.1.0

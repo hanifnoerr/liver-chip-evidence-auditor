@@ -1,0 +1,7 @@
+case,expected_code,detected_codes,passed
+clean,,[],True
+wrong_dose_unit,incompatible_dose_unit,"[""incompatible_dose_unit""]",True
+wrong_response_unit,incompatible_response_unit,"[""incompatible_response_unit""]",True
+duplicate,duplicate_source_record,"[""duplicate_source_record""]",True
+derived,derived_observation,"[""derived_observation""]",True
+unsafe_pairing,unsupported_pairing,"[""unsupported_pairing""]",True

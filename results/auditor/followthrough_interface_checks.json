@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-05",
+  "revision_fixtures": "Explicitly synthetic; not biological validation",
+  "actual_model_inference": true,
+  "inspection_roundtrip_and_draft": true,
+  "notes_do_not_change_audit": true,
+  "reload_and_case_continuity": true,
+  "invalid_revision_retains_saved_outcome": true,
+  "correction_preserves_original": true,
+  "recovery_recomputed": true,
+  "repeat_requires_new_observation": true,
+  "independence_remains_unassessed": true,
+  "full_export": true,
+  "updated_review_handoff": true,
+  "baseline_current_links_distinguished": true,
+  "next_plan_uses_updated_evidence": true,
+  "earlier_records_accessible": true,
+  "evidence_revision_matching": true,
+  "storage_failure_export_prompt": true,
+  "desktop_mobile_no_overflow": true,
+  "decisions": [
+    {
+      "compound": "Clozapine",
+      "goal": "review",
+      "engine": "model",
+      "action": "INSPECT"
+    },
+    {
+      "compound": "Clozapine",
+      "goal": "review",
+      "engine": "rules",
+      "action": "INSPECT"
+    },
+    {
+      "compound": "Pioglitazone",
+      "goal": "recover",
+      "engine": "model",
+      "action": "RECOVER"
+    },
+    {
+      "compound": "Clozapine",
+      "goal": "repeat",
+      "engine": "rules",
+      "action": "REPEAT"
+    }
+  ],
+  "js_errors": []
+}

@@ -1,0 +1,5630 @@
+{
+  "summary": {
+    "partition": "test",
+    "label_source": "heuristic_policy_not_biological_truth",
+    "limited_run": false,
+    "fixed": {
+      "n": 364,
+      "correct": 237,
+      "agreement": 0.6510989010989011,
+      "by_action": {
+        "ABSTAIN": {
+          "n": 48,
+          "correct": 0,
+          "agreement": 0.0
+        },
+        "COMPARE": {
+          "n": 2,
+          "correct": 0,
+          "agreement": 0.0
+        },
+        "EXTEND": {
+          "n": 4,
+          "correct": 4,
+          "agreement": 1.0
+        },
+        "FIX": {
+          "n": 28,
+          "correct": 28,
+          "agreement": 1.0
+        },
+        "INSPECT": {
+          "n": 66,
+          "correct": 66,
+          "agreement": 1.0
+        },
+        "RECOVER": {
+          "n": 21,
+          "correct": 13,
+          "agreement": 0.6190476190476191
+        },
+        "REPEAT": {
+          "n": 44,
+          "correct": 0,
+          "agreement": 0.0
+        },
+        "REPORT": {
+          "n": 151,
+          "correct": 126,
+          "agreement": 0.8344370860927153
+        }
+      },
+      "by_family": {
+        "blocked_duplicate": {
+          "n": 28,
+          "correct": 28,
+          "agreement": 1.0
+        },
+        "held_out_fault:non_monotonic": {
+          "n": 28,
+          "correct": 11,
+          "agreement": 0.39285714285714285
+        },
+        "held_out_fault:run_shift": {
+          "n": 28,
+          "correct": 18,
+          "agreement": 0.6428571428571429
+        },
+        "held_out_shape:clean": {
+          "n": 14,
+          "correct": 12,
+          "agreement": 0.8571428571428571
+        },
+        "held_out_shape:influential_reading": {
+          "n": 14,
+          "correct": 6,
+          "agreement": 0.42857142857142855
+        },
+        "held_out_shape:non_monotonic": {
+          "n": 14,
+          "correct": 5,
+          "agreement": 0.35714285714285715
+        },
+        "held_out_shape:random_missing": {
+          "n": 14,
+          "correct": 12,
+          "agreement": 0.8571428571428571
+        },
+        "held_out_shape:response_dependent_missing": {
+          "n": 14,
+          "correct": 4,
+          "agreement": 0.2857142857142857
+        },
+        "held_out_shape:run_shift": {
+          "n": 14,
+          "correct": 9,
+          "agreement": 0.6428571428571429
+        },
+        "held_out_shape:singletons": {
+          "n": 14,
+          "correct": 6,
+          "agreement": 0.42857142857142855
+        },
+        "held_out_shape:truncated_range": {
+          "n": 14,
+          "correct": 9,
+          "agreement": 0.6428571428571429
+        },
+        "in_family:clean": {
+          "n": 28,
+          "correct": 24,
+          "agreement": 0.8571428571428571
+        },
+        "in_family:influential_reading": {
+          "n": 28,
+          "correct": 12,
+          "agreement": 0.42857142857142855
+        },
+        "in_family:random_missing": {
+          "n": 28,
+          "correct": 19,
+          "agreement": 0.6785714285714286
+        },
+        "in_family:response_dependent_missing": {
+          "n": 28,
+          "correct": 20,
+          "agreement": 0.7142857142857143
+        },
+        "in_family:singletons": {
+          "n": 28,
+          "correct": 18,
+          "agreement": 0.6428571428571429
+        },
+        "in_family:truncated_range": {
+          "n": 28,
+          "correct": 24,
+          "agreement": 0.8571428571428571
+        }
+      }
+    },
+    "rules": {
+      "n": 364,
+      "correct": 364,
+      "agreement": 1.0,
+      "by_action": {
+        "ABSTAIN": {
+          "n": 48,
+          "correct": 48,
+          "agreement": 1.0
+        },
+        "COMPARE": {
+          "n": 2,
+          "correct": 2,
+          "agreement": 1.0
+        },
+        "EXTEND": {
+          "n": 4,
+          "correct": 4,
+          "agreement": 1.0
+        },
+        "FIX": {
+          "n": 28,
+          "correct": 28,
+          "agreement": 1.0
+        },
+        "INSPECT": {
+          "n": 66,
+          "correct": 66,
+          "agreement": 1.0
+        },
+        "RECOVER": {
+          "n": 21,
+          "correct": 21,
+          "agreement": 1.0
+        },
+        "REPEAT": {
+          "n": 44,
+          "correct": 44,
+          "agreement": 1.0
+        },
+        "REPORT": {
+          "n": 151,
+          "correct": 151,
+          "agreement": 1.0
+        }
+      },
+      "by_family": {
+        "blocked_duplicate": {
+          "n": 28,
+          "correct": 28,
+          "agreement": 1.0
+        },
+        "held_out_fault:non_monotonic": {
+          "n": 28,
+          "correct": 28,
+          "agreement": 1.0
+        },
+        "held_out_fault:run_shift": {
+          "n": 28,
+          "correct": 28,
+          "agreement": 1.0
+        },
+        "held_out_shape:clean": {
+          "n": 14,
+          "correct": 14,
+          "agreement": 1.0
+        },
+        "held_out_shape:influential_reading": {
+          "n": 14,
+          "correct": 14,
+          "agreement": 1.0
+        },
+        "held_out_shape:non_monotonic": {
+          "n": 14,
+          "correct": 14,
+          "agreement": 1.0
+        },
+        "held_out_shape:random_missing": {
+          "n": 14,
+          "correct": 14,
+          "agreement": 1.0
+        },
+        "held_out_shape:response_dependent_missing": {
+          "n": 14,
+          "correct": 14,
+          "agreement": 1.0
+        },
+        "held_out_shape:run_shift": {
+          "n": 14,
+          "correct": 14,
+          "agreement": 1.0
+        },
+        "held_out_shape:singletons": {
+          "n": 14,
+          "correct": 14,
+          "agreement": 1.0
+        },
+        "held_out_shape:truncated_range": {
+          "n": 14,
+          "correct": 14,
+          "agreement": 1.0
+        },
+        "in_family:clean": {
+          "n": 28,
+          "correct": 28,
+          "agreement": 1.0
+        },
+        "in_family:influential_reading": {
+          "n": 28,
+          "correct": 28,
+          "agreement": 1.0
+        },
+        "in_family:random_missing": {
+          "n": 28,
+          "correct": 28,
+          "agreement": 1.0
+        },
+        "in_family:response_dependent_missing": {
+          "n": 28,
+          "correct": 28,
+          "agreement": 1.0
+        },
+        "in_family:singletons": {
+          "n": 28,
+          "correct": 28,
+          "agreement": 1.0
+        },
+        "in_family:truncated_range": {
+          "n": 28,
+          "correct": 28,
+          "agreement": 1.0
+        }
+      }
+    }
+  },
+  "decisions": [
+    {
+      "example_id": "test_000:review",
+      "audit_id": "test_000",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_000:repeat",
+      "audit_id": "test_000",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_000:recover",
+      "audit_id": "test_000",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_000:finite_crossing",
+      "audit_id": "test_000",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_000:bounded_report",
+      "audit_id": "test_000",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_000:unsupported",
+      "audit_id": "test_000",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_000:model_review",
+      "audit_id": "test_000",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_000_duplicate:review",
+      "audit_id": "test_000_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_000_duplicate:repeat",
+      "audit_id": "test_000_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_000_duplicate:recover",
+      "audit_id": "test_000_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_000_duplicate:finite_crossing",
+      "audit_id": "test_000_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_000_duplicate:bounded_report",
+      "audit_id": "test_000_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_000_duplicate:unsupported",
+      "audit_id": "test_000_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_000_duplicate:model_review",
+      "audit_id": "test_000_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_001:review",
+      "audit_id": "test_001",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_001:repeat",
+      "audit_id": "test_001",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_001:recover",
+      "audit_id": "test_001",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "INSPECT",
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_001:finite_crossing",
+      "audit_id": "test_001",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_001:bounded_report",
+      "audit_id": "test_001",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_001:unsupported",
+      "audit_id": "test_001",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_001:model_review",
+      "audit_id": "test_001",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_002:review",
+      "audit_id": "test_002",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_002:repeat",
+      "audit_id": "test_002",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_002:recover",
+      "audit_id": "test_002",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "RECOVER",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_002:finite_crossing",
+      "audit_id": "test_002",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "RECOVER",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_002:bounded_report",
+      "audit_id": "test_002",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_002:unsupported",
+      "audit_id": "test_002",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_002:model_review",
+      "audit_id": "test_002",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_003:review",
+      "audit_id": "test_003",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_003:repeat",
+      "audit_id": "test_003",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_003:recover",
+      "audit_id": "test_003",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_003:finite_crossing",
+      "audit_id": "test_003",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "EXTEND",
+      "allowed_actions": [
+        "EXTEND",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "EXTEND",
+      "rules": "EXTEND"
+    },
+    {
+      "example_id": "test_003:bounded_report",
+      "audit_id": "test_003",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_003:unsupported",
+      "audit_id": "test_003",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_003:model_review",
+      "audit_id": "test_003",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_004:review",
+      "audit_id": "test_004",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_004:repeat",
+      "audit_id": "test_004",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_004:recover",
+      "audit_id": "test_004",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_004:finite_crossing",
+      "audit_id": "test_004",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_004:bounded_report",
+      "audit_id": "test_004",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_004:unsupported",
+      "audit_id": "test_004",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_004:model_review",
+      "audit_id": "test_004",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_005:review",
+      "audit_id": "test_005",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_005:repeat",
+      "audit_id": "test_005",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_005:recover",
+      "audit_id": "test_005",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_005:finite_crossing",
+      "audit_id": "test_005",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_005:bounded_report",
+      "audit_id": "test_005",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_005:unsupported",
+      "audit_id": "test_005",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_005:model_review",
+      "audit_id": "test_005",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_006:review",
+      "audit_id": "test_006",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_006:repeat",
+      "audit_id": "test_006",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_006:recover",
+      "audit_id": "test_006",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_006:finite_crossing",
+      "audit_id": "test_006",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_006:bounded_report",
+      "audit_id": "test_006",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_006:unsupported",
+      "audit_id": "test_006",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_006:model_review",
+      "audit_id": "test_006",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_007:review",
+      "audit_id": "test_007",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_007:repeat",
+      "audit_id": "test_007",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_007:recover",
+      "audit_id": "test_007",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "RECOVER",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_007:finite_crossing",
+      "audit_id": "test_007",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "RECOVER",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_007:bounded_report",
+      "audit_id": "test_007",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_007:unsupported",
+      "audit_id": "test_007",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_007:model_review",
+      "audit_id": "test_007",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_008:review",
+      "audit_id": "test_008",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_008:repeat",
+      "audit_id": "test_008",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_008:recover",
+      "audit_id": "test_008",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "RECOVER",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_008:finite_crossing",
+      "audit_id": "test_008",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "RECOVER",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_008:bounded_report",
+      "audit_id": "test_008",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_008:unsupported",
+      "audit_id": "test_008",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_008:model_review",
+      "audit_id": "test_008",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_009:review",
+      "audit_id": "test_009",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_009:repeat",
+      "audit_id": "test_009",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_009:recover",
+      "audit_id": "test_009",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_009:finite_crossing",
+      "audit_id": "test_009",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "EXTEND",
+      "allowed_actions": [
+        "EXTEND",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "EXTEND",
+      "rules": "EXTEND"
+    },
+    {
+      "example_id": "test_009:bounded_report",
+      "audit_id": "test_009",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_009:unsupported",
+      "audit_id": "test_009",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_009:model_review",
+      "audit_id": "test_009",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_010:review",
+      "audit_id": "test_010",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_010:repeat",
+      "audit_id": "test_010",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_010:recover",
+      "audit_id": "test_010",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_010:finite_crossing",
+      "audit_id": "test_010",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_010:bounded_report",
+      "audit_id": "test_010",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_010:unsupported",
+      "audit_id": "test_010",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_010:model_review",
+      "audit_id": "test_010",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_011:review",
+      "audit_id": "test_011",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_011:repeat",
+      "audit_id": "test_011",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_011:recover",
+      "audit_id": "test_011",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_011:finite_crossing",
+      "audit_id": "test_011",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_011:bounded_report",
+      "audit_id": "test_011",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_011:unsupported",
+      "audit_id": "test_011",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_011:model_review",
+      "audit_id": "test_011",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_012:review",
+      "audit_id": "test_012",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_012:repeat",
+      "audit_id": "test_012",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_012:recover",
+      "audit_id": "test_012",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_012:finite_crossing",
+      "audit_id": "test_012",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_012:bounded_report",
+      "audit_id": "test_012",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_012:unsupported",
+      "audit_id": "test_012",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_012:model_review",
+      "audit_id": "test_012",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_012_duplicate:review",
+      "audit_id": "test_012_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_012_duplicate:repeat",
+      "audit_id": "test_012_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_012_duplicate:recover",
+      "audit_id": "test_012_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_012_duplicate:finite_crossing",
+      "audit_id": "test_012_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_012_duplicate:bounded_report",
+      "audit_id": "test_012_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_012_duplicate:unsupported",
+      "audit_id": "test_012_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_012_duplicate:model_review",
+      "audit_id": "test_012_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_013:review",
+      "audit_id": "test_013",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_013:repeat",
+      "audit_id": "test_013",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_013:recover",
+      "audit_id": "test_013",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "RECOVER",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_013:finite_crossing",
+      "audit_id": "test_013",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPORT",
+      "allowed_actions": [
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "RECOVER",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_013:bounded_report",
+      "audit_id": "test_013",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_013:unsupported",
+      "audit_id": "test_013",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_013:model_review",
+      "audit_id": "test_013",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_014:review",
+      "audit_id": "test_014",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_014:repeat",
+      "audit_id": "test_014",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_014:recover",
+      "audit_id": "test_014",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "INSPECT",
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_014:finite_crossing",
+      "audit_id": "test_014",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_014:bounded_report",
+      "audit_id": "test_014",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_014:unsupported",
+      "audit_id": "test_014",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_014:model_review",
+      "audit_id": "test_014",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_015:review",
+      "audit_id": "test_015",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_015:repeat",
+      "audit_id": "test_015",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_015:recover",
+      "audit_id": "test_015",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_015:finite_crossing",
+      "audit_id": "test_015",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "EXTEND",
+      "allowed_actions": [
+        "EXTEND",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "EXTEND",
+      "rules": "EXTEND"
+    },
+    {
+      "example_id": "test_015:bounded_report",
+      "audit_id": "test_015",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_015:unsupported",
+      "audit_id": "test_015",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_015:model_review",
+      "audit_id": "test_015",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_016:review",
+      "audit_id": "test_016",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_016:repeat",
+      "audit_id": "test_016",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_016:recover",
+      "audit_id": "test_016",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_016:finite_crossing",
+      "audit_id": "test_016",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_016:bounded_report",
+      "audit_id": "test_016",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_016:unsupported",
+      "audit_id": "test_016",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_016:model_review",
+      "audit_id": "test_016",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_017:review",
+      "audit_id": "test_017",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_017:repeat",
+      "audit_id": "test_017",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_017:recover",
+      "audit_id": "test_017",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_017:finite_crossing",
+      "audit_id": "test_017",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_017:bounded_report",
+      "audit_id": "test_017",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_017:unsupported",
+      "audit_id": "test_017",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_017:model_review",
+      "audit_id": "test_017",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_018:review",
+      "audit_id": "test_018",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_018:repeat",
+      "audit_id": "test_018",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_018:recover",
+      "audit_id": "test_018",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_018:finite_crossing",
+      "audit_id": "test_018",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_018:bounded_report",
+      "audit_id": "test_018",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_018:unsupported",
+      "audit_id": "test_018",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_018:model_review",
+      "audit_id": "test_018",
+      "family": "in_family:clean",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_019:review",
+      "audit_id": "test_019",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_019:repeat",
+      "audit_id": "test_019",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_019:recover",
+      "audit_id": "test_019",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "RECOVER",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_019:finite_crossing",
+      "audit_id": "test_019",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "RECOVER",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_019:bounded_report",
+      "audit_id": "test_019",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_019:unsupported",
+      "audit_id": "test_019",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_019:model_review",
+      "audit_id": "test_019",
+      "family": "in_family:random_missing",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_020:review",
+      "audit_id": "test_020",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_020:repeat",
+      "audit_id": "test_020",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_020:recover",
+      "audit_id": "test_020",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "RECOVER",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_020:finite_crossing",
+      "audit_id": "test_020",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "RECOVER",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_020:bounded_report",
+      "audit_id": "test_020",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_020:unsupported",
+      "audit_id": "test_020",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_020:model_review",
+      "audit_id": "test_020",
+      "family": "in_family:response_dependent_missing",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_021:review",
+      "audit_id": "test_021",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_021:repeat",
+      "audit_id": "test_021",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_021:recover",
+      "audit_id": "test_021",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_021:finite_crossing",
+      "audit_id": "test_021",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_021:bounded_report",
+      "audit_id": "test_021",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_021:unsupported",
+      "audit_id": "test_021",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_021:model_review",
+      "audit_id": "test_021",
+      "family": "in_family:truncated_range",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_022:review",
+      "audit_id": "test_022",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_022:repeat",
+      "audit_id": "test_022",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_022:recover",
+      "audit_id": "test_022",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_022:finite_crossing",
+      "audit_id": "test_022",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_022:bounded_report",
+      "audit_id": "test_022",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_022:unsupported",
+      "audit_id": "test_022",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_022:model_review",
+      "audit_id": "test_022",
+      "family": "in_family:singletons",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_023:review",
+      "audit_id": "test_023",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_023:repeat",
+      "audit_id": "test_023",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_023:recover",
+      "audit_id": "test_023",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_023:finite_crossing",
+      "audit_id": "test_023",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_023:bounded_report",
+      "audit_id": "test_023",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_023:unsupported",
+      "audit_id": "test_023",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_023:model_review",
+      "audit_id": "test_023",
+      "family": "in_family:influential_reading",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_024:review",
+      "audit_id": "test_024",
+      "family": "held_out_shape:clean",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_024:repeat",
+      "audit_id": "test_024",
+      "family": "held_out_shape:clean",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_024:recover",
+      "audit_id": "test_024",
+      "family": "held_out_shape:clean",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_024:finite_crossing",
+      "audit_id": "test_024",
+      "family": "held_out_shape:clean",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_024:bounded_report",
+      "audit_id": "test_024",
+      "family": "held_out_shape:clean",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_024:unsupported",
+      "audit_id": "test_024",
+      "family": "held_out_shape:clean",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_024:model_review",
+      "audit_id": "test_024",
+      "family": "held_out_shape:clean",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_024_duplicate:review",
+      "audit_id": "test_024_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_024_duplicate:repeat",
+      "audit_id": "test_024_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_024_duplicate:recover",
+      "audit_id": "test_024_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_024_duplicate:finite_crossing",
+      "audit_id": "test_024_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_024_duplicate:bounded_report",
+      "audit_id": "test_024_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_024_duplicate:unsupported",
+      "audit_id": "test_024_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_024_duplicate:model_review",
+      "audit_id": "test_024_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_025:review",
+      "audit_id": "test_025",
+      "family": "held_out_shape:random_missing",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_025:repeat",
+      "audit_id": "test_025",
+      "family": "held_out_shape:random_missing",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_025:recover",
+      "audit_id": "test_025",
+      "family": "held_out_shape:random_missing",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_025:finite_crossing",
+      "audit_id": "test_025",
+      "family": "held_out_shape:random_missing",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_025:bounded_report",
+      "audit_id": "test_025",
+      "family": "held_out_shape:random_missing",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_025:unsupported",
+      "audit_id": "test_025",
+      "family": "held_out_shape:random_missing",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_025:model_review",
+      "audit_id": "test_025",
+      "family": "held_out_shape:random_missing",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_026:review",
+      "audit_id": "test_026",
+      "family": "held_out_shape:response_dependent_missing",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_026:repeat",
+      "audit_id": "test_026",
+      "family": "held_out_shape:response_dependent_missing",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_026:recover",
+      "audit_id": "test_026",
+      "family": "held_out_shape:response_dependent_missing",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "INSPECT",
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_026:finite_crossing",
+      "audit_id": "test_026",
+      "family": "held_out_shape:response_dependent_missing",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_026:bounded_report",
+      "audit_id": "test_026",
+      "family": "held_out_shape:response_dependent_missing",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_026:unsupported",
+      "audit_id": "test_026",
+      "family": "held_out_shape:response_dependent_missing",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_026:model_review",
+      "audit_id": "test_026",
+      "family": "held_out_shape:response_dependent_missing",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_027:review",
+      "audit_id": "test_027",
+      "family": "held_out_shape:truncated_range",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_027:repeat",
+      "audit_id": "test_027",
+      "family": "held_out_shape:truncated_range",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_027:recover",
+      "audit_id": "test_027",
+      "family": "held_out_shape:truncated_range",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_027:finite_crossing",
+      "audit_id": "test_027",
+      "family": "held_out_shape:truncated_range",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "EXTEND",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_027:bounded_report",
+      "audit_id": "test_027",
+      "family": "held_out_shape:truncated_range",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_027:unsupported",
+      "audit_id": "test_027",
+      "family": "held_out_shape:truncated_range",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_027:model_review",
+      "audit_id": "test_027",
+      "family": "held_out_shape:truncated_range",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_028:review",
+      "audit_id": "test_028",
+      "family": "held_out_shape:singletons",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_028:repeat",
+      "audit_id": "test_028",
+      "family": "held_out_shape:singletons",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_028:recover",
+      "audit_id": "test_028",
+      "family": "held_out_shape:singletons",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_028:finite_crossing",
+      "audit_id": "test_028",
+      "family": "held_out_shape:singletons",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_028:bounded_report",
+      "audit_id": "test_028",
+      "family": "held_out_shape:singletons",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_028:unsupported",
+      "audit_id": "test_028",
+      "family": "held_out_shape:singletons",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_028:model_review",
+      "audit_id": "test_028",
+      "family": "held_out_shape:singletons",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_029:review",
+      "audit_id": "test_029",
+      "family": "held_out_shape:influential_reading",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_029:repeat",
+      "audit_id": "test_029",
+      "family": "held_out_shape:influential_reading",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_029:recover",
+      "audit_id": "test_029",
+      "family": "held_out_shape:influential_reading",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_029:finite_crossing",
+      "audit_id": "test_029",
+      "family": "held_out_shape:influential_reading",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_029:bounded_report",
+      "audit_id": "test_029",
+      "family": "held_out_shape:influential_reading",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_029:unsupported",
+      "audit_id": "test_029",
+      "family": "held_out_shape:influential_reading",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_029:model_review",
+      "audit_id": "test_029",
+      "family": "held_out_shape:influential_reading",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_030:review",
+      "audit_id": "test_030",
+      "family": "held_out_shape:non_monotonic",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "COMPARE",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_030:repeat",
+      "audit_id": "test_030",
+      "family": "held_out_shape:non_monotonic",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "COMPARE",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_030:recover",
+      "audit_id": "test_030",
+      "family": "held_out_shape:non_monotonic",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "COMPARE",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_030:finite_crossing",
+      "audit_id": "test_030",
+      "family": "held_out_shape:non_monotonic",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "COMPARE",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_030:bounded_report",
+      "audit_id": "test_030",
+      "family": "held_out_shape:non_monotonic",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "COMPARE",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_030:unsupported",
+      "audit_id": "test_030",
+      "family": "held_out_shape:non_monotonic",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "COMPARE",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_030:model_review",
+      "audit_id": "test_030",
+      "family": "held_out_shape:non_monotonic",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "COMPARE",
+      "allowed_actions": [
+        "INSPECT",
+        "COMPARE",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "COMPARE"
+    },
+    {
+      "example_id": "test_031:review",
+      "audit_id": "test_031",
+      "family": "held_out_shape:run_shift",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_031:repeat",
+      "audit_id": "test_031",
+      "family": "held_out_shape:run_shift",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_031:recover",
+      "audit_id": "test_031",
+      "family": "held_out_shape:run_shift",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_031:finite_crossing",
+      "audit_id": "test_031",
+      "family": "held_out_shape:run_shift",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_031:bounded_report",
+      "audit_id": "test_031",
+      "family": "held_out_shape:run_shift",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_031:unsupported",
+      "audit_id": "test_031",
+      "family": "held_out_shape:run_shift",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_031:model_review",
+      "audit_id": "test_031",
+      "family": "held_out_shape:run_shift",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_032:review",
+      "audit_id": "test_032",
+      "family": "held_out_shape:clean",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_032:repeat",
+      "audit_id": "test_032",
+      "family": "held_out_shape:clean",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_032:recover",
+      "audit_id": "test_032",
+      "family": "held_out_shape:clean",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_032:finite_crossing",
+      "audit_id": "test_032",
+      "family": "held_out_shape:clean",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_032:bounded_report",
+      "audit_id": "test_032",
+      "family": "held_out_shape:clean",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_032:unsupported",
+      "audit_id": "test_032",
+      "family": "held_out_shape:clean",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_032:model_review",
+      "audit_id": "test_032",
+      "family": "held_out_shape:clean",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_033:review",
+      "audit_id": "test_033",
+      "family": "held_out_shape:random_missing",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_033:repeat",
+      "audit_id": "test_033",
+      "family": "held_out_shape:random_missing",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_033:recover",
+      "audit_id": "test_033",
+      "family": "held_out_shape:random_missing",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "RECOVER",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_033:finite_crossing",
+      "audit_id": "test_033",
+      "family": "held_out_shape:random_missing",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "RECOVER",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_033:bounded_report",
+      "audit_id": "test_033",
+      "family": "held_out_shape:random_missing",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_033:unsupported",
+      "audit_id": "test_033",
+      "family": "held_out_shape:random_missing",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_033:model_review",
+      "audit_id": "test_033",
+      "family": "held_out_shape:random_missing",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_034:review",
+      "audit_id": "test_034",
+      "family": "held_out_shape:response_dependent_missing",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_034:repeat",
+      "audit_id": "test_034",
+      "family": "held_out_shape:response_dependent_missing",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_034:recover",
+      "audit_id": "test_034",
+      "family": "held_out_shape:response_dependent_missing",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "INSPECT",
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_034:finite_crossing",
+      "audit_id": "test_034",
+      "family": "held_out_shape:response_dependent_missing",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "RECOVER",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "RECOVER",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "RECOVER"
+    },
+    {
+      "example_id": "test_034:bounded_report",
+      "audit_id": "test_034",
+      "family": "held_out_shape:response_dependent_missing",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_034:unsupported",
+      "audit_id": "test_034",
+      "family": "held_out_shape:response_dependent_missing",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_034:model_review",
+      "audit_id": "test_034",
+      "family": "held_out_shape:response_dependent_missing",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_035:review",
+      "audit_id": "test_035",
+      "family": "held_out_shape:truncated_range",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_035:repeat",
+      "audit_id": "test_035",
+      "family": "held_out_shape:truncated_range",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_035:recover",
+      "audit_id": "test_035",
+      "family": "held_out_shape:truncated_range",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_035:finite_crossing",
+      "audit_id": "test_035",
+      "family": "held_out_shape:truncated_range",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "EXTEND",
+      "allowed_actions": [
+        "EXTEND",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "EXTEND",
+      "rules": "EXTEND"
+    },
+    {
+      "example_id": "test_035:bounded_report",
+      "audit_id": "test_035",
+      "family": "held_out_shape:truncated_range",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_035:unsupported",
+      "audit_id": "test_035",
+      "family": "held_out_shape:truncated_range",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_035:model_review",
+      "audit_id": "test_035",
+      "family": "held_out_shape:truncated_range",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_036:review",
+      "audit_id": "test_036",
+      "family": "held_out_shape:singletons",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_036:repeat",
+      "audit_id": "test_036",
+      "family": "held_out_shape:singletons",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_036:recover",
+      "audit_id": "test_036",
+      "family": "held_out_shape:singletons",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_036:finite_crossing",
+      "audit_id": "test_036",
+      "family": "held_out_shape:singletons",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_036:bounded_report",
+      "audit_id": "test_036",
+      "family": "held_out_shape:singletons",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_036:unsupported",
+      "audit_id": "test_036",
+      "family": "held_out_shape:singletons",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_036:model_review",
+      "audit_id": "test_036",
+      "family": "held_out_shape:singletons",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_036_duplicate:review",
+      "audit_id": "test_036_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_036_duplicate:repeat",
+      "audit_id": "test_036_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_036_duplicate:recover",
+      "audit_id": "test_036_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_036_duplicate:finite_crossing",
+      "audit_id": "test_036_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_036_duplicate:bounded_report",
+      "audit_id": "test_036_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_036_duplicate:unsupported",
+      "audit_id": "test_036_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_036_duplicate:model_review",
+      "audit_id": "test_036_duplicate",
+      "family": "blocked_duplicate",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "FIX",
+      "allowed_actions": [
+        "FIX",
+        "ABSTAIN"
+      ],
+      "fixed": "FIX",
+      "rules": "FIX"
+    },
+    {
+      "example_id": "test_037:review",
+      "audit_id": "test_037",
+      "family": "held_out_shape:influential_reading",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_037:repeat",
+      "audit_id": "test_037",
+      "family": "held_out_shape:influential_reading",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_037:recover",
+      "audit_id": "test_037",
+      "family": "held_out_shape:influential_reading",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_037:finite_crossing",
+      "audit_id": "test_037",
+      "family": "held_out_shape:influential_reading",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_037:bounded_report",
+      "audit_id": "test_037",
+      "family": "held_out_shape:influential_reading",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_037:unsupported",
+      "audit_id": "test_037",
+      "family": "held_out_shape:influential_reading",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_037:model_review",
+      "audit_id": "test_037",
+      "family": "held_out_shape:influential_reading",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_038:review",
+      "audit_id": "test_038",
+      "family": "held_out_shape:non_monotonic",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_038:repeat",
+      "audit_id": "test_038",
+      "family": "held_out_shape:non_monotonic",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_038:recover",
+      "audit_id": "test_038",
+      "family": "held_out_shape:non_monotonic",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_038:finite_crossing",
+      "audit_id": "test_038",
+      "family": "held_out_shape:non_monotonic",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_038:bounded_report",
+      "audit_id": "test_038",
+      "family": "held_out_shape:non_monotonic",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_038:unsupported",
+      "audit_id": "test_038",
+      "family": "held_out_shape:non_monotonic",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_038:model_review",
+      "audit_id": "test_038",
+      "family": "held_out_shape:non_monotonic",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_039:review",
+      "audit_id": "test_039",
+      "family": "held_out_shape:run_shift",
+      "response_shape": "piecewise",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_039:repeat",
+      "audit_id": "test_039",
+      "family": "held_out_shape:run_shift",
+      "response_shape": "piecewise",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_039:recover",
+      "audit_id": "test_039",
+      "family": "held_out_shape:run_shift",
+      "response_shape": "piecewise",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_039:finite_crossing",
+      "audit_id": "test_039",
+      "family": "held_out_shape:run_shift",
+      "response_shape": "piecewise",
+      "intent": "finite_crossing",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_039:bounded_report",
+      "audit_id": "test_039",
+      "family": "held_out_shape:run_shift",
+      "response_shape": "piecewise",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_039:unsupported",
+      "audit_id": "test_039",
+      "family": "held_out_shape:run_shift",
+      "response_shape": "piecewise",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_039:model_review",
+      "audit_id": "test_039",
+      "family": "held_out_shape:run_shift",
+      "response_shape": "piecewise",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_040:review",
+      "audit_id": "test_040",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_040:repeat",
+      "audit_id": "test_040",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_040:recover",
+      "audit_id": "test_040",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_040:finite_crossing",
+      "audit_id": "test_040",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_040:bounded_report",
+      "audit_id": "test_040",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_040:unsupported",
+      "audit_id": "test_040",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_040:model_review",
+      "audit_id": "test_040",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_041:review",
+      "audit_id": "test_041",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_041:repeat",
+      "audit_id": "test_041",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_041:recover",
+      "audit_id": "test_041",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_041:finite_crossing",
+      "audit_id": "test_041",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_041:bounded_report",
+      "audit_id": "test_041",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_041:unsupported",
+      "audit_id": "test_041",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_041:model_review",
+      "audit_id": "test_041",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_042:review",
+      "audit_id": "test_042",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "COMPARE",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_042:repeat",
+      "audit_id": "test_042",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "COMPARE",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_042:recover",
+      "audit_id": "test_042",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "COMPARE",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_042:finite_crossing",
+      "audit_id": "test_042",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "COMPARE",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_042:bounded_report",
+      "audit_id": "test_042",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "COMPARE",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_042:unsupported",
+      "audit_id": "test_042",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "COMPARE",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_042:model_review",
+      "audit_id": "test_042",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "COMPARE",
+      "allowed_actions": [
+        "INSPECT",
+        "COMPARE",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "COMPARE"
+    },
+    {
+      "example_id": "test_043:review",
+      "audit_id": "test_043",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_043:repeat",
+      "audit_id": "test_043",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_043:recover",
+      "audit_id": "test_043",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_043:finite_crossing",
+      "audit_id": "test_043",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_043:bounded_report",
+      "audit_id": "test_043",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_043:unsupported",
+      "audit_id": "test_043",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_043:model_review",
+      "audit_id": "test_043",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "REPORT",
+      "allowed_actions": [
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "REPORT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_044:review",
+      "audit_id": "test_044",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_044:repeat",
+      "audit_id": "test_044",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_044:recover",
+      "audit_id": "test_044",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_044:finite_crossing",
+      "audit_id": "test_044",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_044:bounded_report",
+      "audit_id": "test_044",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_044:unsupported",
+      "audit_id": "test_044",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_044:model_review",
+      "audit_id": "test_044",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_045:review",
+      "audit_id": "test_045",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_045:repeat",
+      "audit_id": "test_045",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_045:recover",
+      "audit_id": "test_045",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_045:finite_crossing",
+      "audit_id": "test_045",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_045:bounded_report",
+      "audit_id": "test_045",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_045:unsupported",
+      "audit_id": "test_045",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_045:model_review",
+      "audit_id": "test_045",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_046:review",
+      "audit_id": "test_046",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_046:repeat",
+      "audit_id": "test_046",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_046:recover",
+      "audit_id": "test_046",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_046:finite_crossing",
+      "audit_id": "test_046",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_046:bounded_report",
+      "audit_id": "test_046",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_046:unsupported",
+      "audit_id": "test_046",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_046:model_review",
+      "audit_id": "test_046",
+      "family": "held_out_fault:non_monotonic",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_047:review",
+      "audit_id": "test_047",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_047:repeat",
+      "audit_id": "test_047",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "repeat",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_047:recover",
+      "audit_id": "test_047",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "recover",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    },
+    {
+      "example_id": "test_047:finite_crossing",
+      "audit_id": "test_047",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "finite_crossing",
+      "target": "REPEAT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPEAT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPEAT"
+    },
+    {
+      "example_id": "test_047:bounded_report",
+      "audit_id": "test_047",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "bounded_report",
+      "target": "REPORT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "REPORT"
+    },
+    {
+      "example_id": "test_047:unsupported",
+      "audit_id": "test_047",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "unsupported",
+      "target": "ABSTAIN",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "ABSTAIN"
+    },
+    {
+      "example_id": "test_047:model_review",
+      "audit_id": "test_047",
+      "family": "held_out_fault:run_shift",
+      "response_shape": "hill",
+      "intent": "model_review",
+      "target": "INSPECT",
+      "allowed_actions": [
+        "INSPECT",
+        "REPORT",
+        "ABSTAIN"
+      ],
+      "fixed": "INSPECT",
+      "rules": "INSPECT"
+    }
+  ]
+}

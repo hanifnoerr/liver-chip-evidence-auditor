@@ -1,0 +1,1486 @@
+{
+  "summary": {
+    "endpoint_rows": 210,
+    "observed_endpoint_rows": 204,
+    "missing_endpoint_rows": 6,
+    "compounds": 6,
+    "drug_dose_conditions": 35,
+    "held_interior_dose_conditions": 23,
+    "metrics": {
+      "monotone": {
+        "mae_pp": 16.363300450814933,
+        "rmse_pp": 22.15909086033423
+      },
+      "raw_interpolation": {
+        "mae_pp": 16.691357725944332,
+        "rmse_pp": 22.82865852568493
+      },
+      "constant": {
+        "mae_pp": 20.88781994805875,
+        "rmse_pp": 24.285335619206098
+      }
+    },
+    "resampling_range_covered_conditions": 8,
+    "resampling_range_coverage": 0.34782608695652173,
+    "analysis_seconds_excluding_download_and_export": 0.8311596999992616,
+    "seed": 42,
+    "bootstrap_draws": 500,
+    "scope": "Within-drug day-three albumin dose interpolation; no donor or new-drug validation."
+  },
+  "drug_results": [
+    {
+      "doses": [
+        1.0,
+        3.0,
+        10.0,
+        30.0,
+        100.0,
+        300.0
+      ],
+      "observed_means": [
+        124.7398737835785,
+        146.25809622786,
+        138.136022089058,
+        129.802985005841,
+        87.3994289505241,
+        56.70431742284545
+      ],
+      "observed_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "fitted_albumin": [
+        136.37799736683215,
+        136.37799736683215,
+        136.37799736683215,
+        129.802985005841,
+        87.3994289505241,
+        56.70431742284545
+      ],
+      "response_resampling_range": [
+        [
+          128.98550345715776,
+          128.98550345715776,
+          125.161799672409,
+          119.465799728161,
+          74.7416510617572,
+          43.730095117456
+        ],
+        [
+          146.9964666445725,
+          146.9964666445725,
+          144.71103452422219,
+          140.140170283521,
+          100.057206839291,
+          69.6785397282349
+        ]
+      ],
+      "albumin_50_crossing": null,
+      "censoring": "right_censored",
+      "crossing_resampling_fraction": 0.26,
+      "resampling_censor_counts": {
+        "left_censored": 0,
+        "right_censored": 370,
+        "within_range": 130
+      },
+      "crossing_resampling_range_conditional_on_crossing": [
+        240.24649276471342,
+        265.4677397459515
+      ],
+      "shape_adjustment_rms_pp": 6.2736608792464725,
+      "decision": "crossing_not_observed",
+      "review_reasons": [],
+      "compound": "Clozapine",
+      "endpoint_summaries": [
+        {
+          "dose_cmax_multiple": 1.0,
+          "albumin_percent": {
+            "mean": 124.7398737835785,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.359956264,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.5,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 3.0,
+          "albumin_percent": {
+            "mean": 146.25809622786,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.0,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.166666667,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 10.0,
+          "albumin_percent": {
+            "mean": 138.136022089058,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.0,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.3333333335000002,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 30.0,
+          "albumin_percent": {
+            "mean": 129.802985005841,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.159064795,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.5,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 100.0,
+          "albumin_percent": {
+            "mean": 87.3994289505241,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.0,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 2.75,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 300.0,
+          "albumin_percent": {
+            "mean": 56.70431742284545,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 2.6841846655,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 3.5,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "doses": [
+        1.0,
+        3.0,
+        10.0,
+        15.0,
+        45.0
+      ],
+      "observed_means": [
+        105.1203179502932,
+        123.263132950153,
+        144.253948033396,
+        132.01809603346,
+        137.8195776724355
+      ],
+      "observed_counts": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "fitted_albumin": [
+        128.49501452794752,
+        128.49501452794752,
+        128.49501452794752,
+        128.49501452794752,
+        128.49501452794752
+      ],
+      "response_resampling_range": [
+        [
+          115.79504400579398,
+          115.79504400579398,
+          115.79504400579398,
+          115.79504400579398,
+          115.79504400579398
+        ],
+        [
+          144.21878750557366,
+          144.21878750557366,
+          144.21878750557366,
+          136.8966145959145,
+          136.8966145959145
+        ]
+      ],
+      "albumin_50_crossing": null,
+      "censoring": "right_censored",
+      "crossing_resampling_fraction": 0.0,
+      "resampling_censor_counts": {
+        "left_censored": 0,
+        "right_censored": 500,
+        "within_range": 0
+      },
+      "crossing_resampling_range_conditional_on_crossing": null,
+      "shape_adjustment_rms_pp": 13.575364387747719,
+      "decision": "crossing_not_observed",
+      "review_reasons": [],
+      "compound": "Levofloxacin",
+      "endpoint_summaries": [
+        {
+          "dose_cmax_multiple": 1.0,
+          "albumin_percent": {
+            "mean": 105.1203179502932,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.0,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.5,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 3.0,
+          "albumin_percent": {
+            "mean": 123.263132950153,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.0,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.583333333,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 10.0,
+          "albumin_percent": {
+            "mean": 144.253948033396,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.8315188995,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.666666667,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 15.0,
+          "albumin_percent": {
+            "mean": 132.01809603346,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.0362977865,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.333333333,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 45.0,
+          "albumin_percent": {
+            "mean": 137.8195776724355,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.0,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.666666667,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "doses": [
+        1.0,
+        3.0,
+        10.0,
+        30.0,
+        100.0,
+        300.0
+      ],
+      "observed_means": [
+        140.773059116767,
+        116.6177995335165,
+        134.022244339183,
+        113.03142914468,
+        131.701651616837,
+        125.2672811446165
+      ],
+      "observed_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "fitted_albumin": [
+        140.773059116767,
+        125.32002193634975,
+        125.32002193634975,
+        123.33345396871118,
+        123.33345396871118,
+        123.33345396871118
+      ],
+      "response_resampling_range": [
+        [
+          129.802984894581,
+          116.6177995335165,
+          116.4068366447315,
+          116.4068366447315,
+          116.4068366447315,
+          116.4068366447315
+        ],
+        [
+          151.743133338953,
+          141.265306061242,
+          141.265306061242,
+          127.58787377795451,
+          127.58787377795451,
+          127.58787377795451
+        ]
+      ],
+      "albumin_50_crossing": null,
+      "censoring": "right_censored",
+      "crossing_resampling_fraction": 0.0,
+      "resampling_censor_counts": {
+        "left_censored": 0,
+        "right_censored": 500,
+        "within_range": 0
+      },
+      "crossing_resampling_range_conditional_on_crossing": null,
+      "shape_adjustment_rms_pp": 7.431414001790743,
+      "decision": "crossing_not_observed",
+      "review_reasons": [],
+      "compound": "Olanzapine",
+      "endpoint_summaries": [
+        {
+          "dose_cmax_multiple": 1.0,
+          "albumin_percent": {
+            "mean": 140.773059116767,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.0,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.5,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 3.0,
+          "albumin_percent": {
+            "mean": 116.6177995335165,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.0,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.1666666664999998,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 10.0,
+          "albumin_percent": {
+            "mean": 134.022244339183,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.304153078,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.5,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 30.0,
+          "albumin_percent": {
+            "mean": 113.03142914468,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 1.43137743,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 2.0,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 100.0,
+          "albumin_percent": {
+            "mean": 131.701651616837,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.616650918,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.5,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 300.0,
+          "albumin_percent": {
+            "mean": 125.2672811446165,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.0,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.6666666664999998,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "doses": [
+        1.0,
+        3.0,
+        10.0,
+        30.0,
+        100.0,
+        300.0
+      ],
+      "observed_means": [
+        105.363511953388,
+        126.390851386435,
+        98.01324723705315,
+        114.109396463845,
+        81.45189152348061,
+        49.259593069897605
+      ],
+      "observed_counts": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "fitted_albumin": [
+        115.8771816699115,
+        115.8771816699115,
+        106.06132185044908,
+        106.06132185044908,
+        81.45189152348061,
+        49.259593069897605
+      ],
+      "response_resampling_range": [
+        [
+          115.8771816699115,
+          115.8771816699115,
+          102.5722721426241,
+          102.5722721426241,
+          78.0093625199635,
+          38.3737580526897
+        ],
+        [
+          115.8771816699115,
+          115.8771816699115,
+          109.55037155827405,
+          109.55037155827405,
+          84.8944205269977,
+          60.1454280871055
+        ]
+      ],
+      "albumin_50_crossing": 292.514704089733,
+      "censoring": "within_range",
+      "crossing_resampling_fraction": 0.738,
+      "resampling_censor_counts": {
+        "left_censored": 0,
+        "right_censored": 131,
+        "within_range": 369
+      },
+      "crossing_resampling_range_conditional_on_crossing": [
+        217.35424105467393,
+        293.22960154930047
+      ],
+      "shape_adjustment_rms_pp": 6.929361599364249,
+      "decision": "crossing_requires_review",
+      "review_reasons": [
+        "At least one dose has fewer than two observed albumin values.",
+        "The 50% crossing disappears in more than 5% of resamples."
+      ],
+      "compound": "Pioglitazone",
+      "endpoint_summaries": [
+        {
+          "dose_cmax_multiple": 1.0,
+          "albumin_percent": {
+            "mean": 105.363511953388,
+            "observed_count": 1,
+            "missing_count": 1
+          },
+          "alt_source_units": {
+            "mean": 0.0,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.0833333335000002,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 3.0,
+          "albumin_percent": {
+            "mean": 126.390851386435,
+            "observed_count": 1,
+            "missing_count": 1
+          },
+          "alt_source_units": {
+            "mean": 0.6747543195000001,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.25,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 10.0,
+          "albumin_percent": {
+            "mean": 98.01324723705315,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.003018498,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.6666666664999998,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 30.0,
+          "albumin_percent": {
+            "mean": 114.109396463845,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.145532026,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.583333333,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 100.0,
+          "albumin_percent": {
+            "mean": 81.45189152348061,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.2113075005,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.5,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 300.0,
+          "albumin_percent": {
+            "mean": 49.259593069897605,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.3757461865,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 2.0,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "doses": [
+        0.98,
+        2.95,
+        9.82,
+        29.47,
+        98.2,
+        294.72
+      ],
+      "observed_means": [
+        95.7802555442058,
+        100.5253630444887,
+        89.63952813854075,
+        75.49724671252795,
+        111.4111980616967,
+        0.0
+      ],
+      "observed_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "fitted_albumin": [
+        98.15280929434725,
+        98.15280929434725,
+        92.18265763758848,
+        92.18265763758848,
+        92.18265763758848,
+        0.0
+      ],
+      "response_resampling_range": [
+        [
+          90.6648434979789,
+          90.6648434979789,
+          81.45189152348061,
+          80.89364351682394,
+          80.89364351682394,
+          0.0
+        ],
+        [
+          106.107842554757,
+          106.107842554757,
+          103.59572680295135,
+          101.03709034683747,
+          101.03709034683747,
+          0.0
+        ]
+      ],
+      "albumin_50_crossing": 162.3762296214835,
+      "censoring": "within_range",
+      "crossing_resampling_fraction": 1.0,
+      "resampling_censor_counts": {
+        "left_censored": 0,
+        "right_censored": 0,
+        "within_range": 500
+      },
+      "crossing_resampling_range_conditional_on_crossing": [
+        149.4148525079198,
+        171.0842971399722
+      ],
+      "shape_adjustment_rms_pp": 10.534587753548152,
+      "decision": "crossing_stable_in_resampling",
+      "review_reasons": [],
+      "compound": "Troglitazone",
+      "endpoint_summaries": [
+        {
+          "dose_cmax_multiple": 0.98,
+          "albumin_percent": {
+            "mean": 95.7802555442058,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.0,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.6666666664999998,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 2.95,
+          "albumin_percent": {
+            "mean": 100.5253630444887,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.33189587,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.333333333,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 9.82,
+          "albumin_percent": {
+            "mean": 89.63952813854075,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.0,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.6666666664999998,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 29.47,
+          "albumin_percent": {
+            "mean": 75.49724671252795,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.0797565515,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.6666666664999998,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 98.2,
+          "albumin_percent": {
+            "mean": 111.4111980616967,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 0.0,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 2.0,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 294.72,
+          "albumin_percent": {
+            "mean": 0.0,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": null,
+            "observed_count": 0,
+            "missing_count": 2
+          },
+          "morphology_score": {
+            "mean": null,
+            "observed_count": 0,
+            "missing_count": 2
+          }
+        }
+      ]
+    },
+    {
+      "doses": [
+        1.0,
+        3.0,
+        10.0,
+        30.0,
+        100.0,
+        300.0
+      ],
+      "observed_means": [
+        114.7857701679365,
+        107.19565524894901,
+        95.6501284803616,
+        106.76804320822,
+        45.08499673686485,
+        28.51502762744505
+      ],
+      "observed_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "fitted_albumin": [
+        114.7857701679365,
+        107.19565524894901,
+        101.2090858442908,
+        101.2090858442908,
+        45.08499673686485,
+        28.51502762744505
+      ],
+      "response_resampling_range": [
+        [
+          103.881661404813,
+          100.46076463394,
+          94.26038909765711,
+          94.26038909765711,
+          33.7532758217525,
+          23.4905852866127
+        ],
+        [
+          125.68987893106,
+          113.930545863958,
+          107.83707347693267,
+          107.83707347693267,
+          56.4167176519772,
+          33.5394699682774
+        ]
+      ],
+      "albumin_50_crossing": 89.99315727420607,
+      "censoring": "within_range",
+      "crossing_resampling_fraction": 1.0,
+      "resampling_censor_counts": {
+        "left_censored": 0,
+        "right_censored": 0,
+        "within_range": 500
+      },
+      "crossing_resampling_range_conditional_on_crossing": [
+        73.19973712287008,
+        136.08968401910332
+      ],
+      "shape_adjustment_rms_pp": 3.2094655304781776,
+      "decision": "crossing_stable_in_resampling",
+      "review_reasons": [],
+      "compound": "Trovafloxacin",
+      "endpoint_summaries": [
+        {
+          "dose_cmax_multiple": 1.0,
+          "albumin_percent": {
+            "mean": 114.7857701679365,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 1.4638437595,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.25,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 3.0,
+          "albumin_percent": {
+            "mean": 107.19565524894901,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 1.050806812,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.0,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 10.0,
+          "albumin_percent": {
+            "mean": 95.6501284803616,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 1.2114322915,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 1.75,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 30.0,
+          "albumin_percent": {
+            "mean": 106.76804320822,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 1.5556297479999999,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 2.0833333334999997,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 100.0,
+          "albumin_percent": {
+            "mean": 45.08499673686485,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 21.71412744,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 3.1666666665000003,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        },
+        {
+          "dose_cmax_multiple": 300.0,
+          "albumin_percent": {
+            "mean": 28.51502762744505,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "alt_source_units": {
+            "mean": 17.49197197,
+            "observed_count": 2,
+            "missing_count": 0
+          },
+          "morphology_score": {
+            "mean": 3.0833333334999997,
+            "observed_count": 2,
+            "missing_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "held_dose_predictions": [
+    {
+      "dose_cmax_multiple": 3.0,
+      "training_doses": [
+        1.0,
+        10.0,
+        30.0,
+        100.0,
+        300.0
+      ],
+      "observed_albumin_mean": 146.25809622786,
+      "monotone_prediction": 131.43794793631827,
+      "raw_interpolation_prediction": 131.13146087149957,
+      "constant_prediction": 107.35652545036942,
+      "resampling_lower": 122.91152807988101,
+      "resampling_upper": 143.41009625573548,
+      "resampling_range_contains_mean": false,
+      "compound": "Clozapine"
+    },
+    {
+      "dose_cmax_multiple": 10.0,
+      "training_doses": [
+        1.0,
+        3.0,
+        30.0,
+        100.0,
+        300.0
+      ],
+      "observed_albumin_mean": 138.136022089058,
+      "monotone_prediction": 132.52066767266612,
+      "raw_interpolation_prediction": 137.65406831864232,
+      "constant_prediction": 108.98094027812981,
+      "resampling_lower": 124.24690812792495,
+      "resampling_upper": 140.79442721740728,
+      "resampling_range_contains_mean": true,
+      "compound": "Clozapine"
+    },
+    {
+      "dose_cmax_multiple": 30.0,
+      "training_doses": [
+        1.0,
+        3.0,
+        10.0,
+        100.0,
+        300.0
+      ],
+      "observed_albumin_mean": 129.802985005841,
+      "monotone_prediction": 113.00928134967043,
+      "raw_interpolation_prediction": 113.92851511059969,
+      "constant_prediction": 110.6475476947732,
+      "resampling_lower": 101.10527510414298,
+      "resampling_upper": 121.30989126399018,
+      "resampling_range_contains_mean": false,
+      "compound": "Clozapine"
+    },
+    {
+      "dose_cmax_multiple": 100.0,
+      "training_doses": [
+        1.0,
+        3.0,
+        10.0,
+        30.0,
+        300.0
+      ],
+      "observed_albumin_mean": 87.3994289505241,
+      "monotone_prediction": 91.58124541837981,
+      "raw_interpolation_prediction": 91.58124541837981,
+      "constant_prediction": 119.12825890583659,
+      "resampling_lower": 79.86520952839331,
+      "resampling_upper": 102.07652590978485,
+      "resampling_range_contains_mean": true,
+      "compound": "Clozapine"
+    },
+    {
+      "dose_cmax_multiple": 3.0,
+      "training_doses": [
+        1.0,
+        10.0,
+        15.0,
+        45.0
+      ],
+      "observed_albumin_mean": 123.263132950153,
+      "monotone_prediction": 129.8029849223962,
+      "raw_interpolation_prediction": 123.79180463727833,
+      "constant_prediction": 129.8029849223962,
+      "resampling_lower": 114.79824402667647,
+      "resampling_upper": 154.69661478328402,
+      "resampling_range_contains_mean": true,
+      "compound": "Levofloxacin"
+    },
+    {
+      "dose_cmax_multiple": 10.0,
+      "training_doses": [
+        1.0,
+        3.0,
+        15.0,
+        45.0
+      ],
+      "observed_albumin_mean": 144.253948033396,
+      "monotone_prediction": 124.55528115158542,
+      "raw_interpolation_prediction": 129.8124613670768,
+      "constant_prediction": 124.55528115158542,
+      "resampling_lower": 112.26668841554523,
+      "resampling_upper": 135.27758465168796,
+      "resampling_range_contains_mean": false,
+      "compound": "Levofloxacin"
+    },
+    {
+      "dose_cmax_multiple": 15.0,
+      "training_doses": [
+        1.0,
+        3.0,
+        10.0,
+        45.0
+      ],
+      "observed_albumin_mean": 132.01809603346,
+      "monotone_prediction": 127.61424415156942,
+      "raw_interpolation_prediction": 142.51938791062136,
+      "constant_prediction": 127.61424415156942,
+      "resampling_lower": 112.45128104753834,
+      "resampling_upper": 142.49370586259346,
+      "resampling_range_contains_mean": true,
+      "compound": "Levofloxacin"
+    },
+    {
+      "dose_cmax_multiple": 3.0,
+      "training_doses": [
+        1.0,
+        10.0,
+        30.0,
+        100.0,
+        300.0
+      ],
+      "observed_albumin_mean": 116.6177995335165,
+      "monotone_prediction": 137.5521018997061,
+      "raw_interpolation_prediction": 137.5521018997061,
+      "constant_prediction": 128.9591330724167,
+      "resampling_lower": 125.38675052449484,
+      "resampling_upper": 153.4308371167935,
+      "resampling_range_contains_mean": false,
+      "compound": "Olanzapine"
+    },
+    {
+      "dose_cmax_multiple": 10.0,
+      "training_doses": [
+        1.0,
+        3.0,
+        30.0,
+        100.0,
+        300.0
+      ],
+      "observed_albumin_mean": 134.022244339183,
+      "monotone_prediction": 121.6545403599125,
+      "raw_interpolation_prediction": 114.74256268449112,
+      "constant_prediction": 125.4782441112834,
+      "resampling_lower": 116.45957735302038,
+      "resampling_upper": 127.68370209297228,
+      "resampling_range_contains_mean": false,
+      "compound": "Olanzapine"
+    },
+    {
+      "dose_cmax_multiple": 30.0,
+      "training_doses": [
+        1.0,
+        3.0,
+        10.0,
+        100.0,
+        300.0
+      ],
+      "observed_albumin_mean": 113.03142914468,
+      "monotone_prediction": 127.4472318298455,
+      "raw_interpolation_prediction": 132.91504022780396,
+      "constant_prediction": 129.67640715018402,
+      "resampling_lower": 117.48802184611888,
+      "resampling_upper": 137.32941216358287,
+      "resampling_range_contains_mean": false,
+      "compound": "Olanzapine"
+    },
+    {
+      "dose_cmax_multiple": 100.0,
+      "training_doses": [
+        1.0,
+        3.0,
+        10.0,
+        30.0,
+        300.0
+      ],
+      "observed_albumin_mean": 131.701651616837,
+      "monotone_prediction": 119.14935514464825,
+      "raw_interpolation_prediction": 119.42929608584271,
+      "constant_prediction": 125.94236265575262,
+      "resampling_lower": 114.13898474193414,
+      "resampling_upper": 123.052170005738,
+      "resampling_range_contains_mean": false,
+      "compound": "Olanzapine"
+    },
+    {
+      "dose_cmax_multiple": 3.0,
+      "training_doses": [
+        1.0,
+        10.0,
+        30.0,
+        100.0,
+        300.0
+      ],
+      "observed_albumin_mean": 126.390851386435,
+      "monotone_prediction": 105.92175987103685,
+      "raw_interpolation_prediction": 101.85654442940866,
+      "constant_prediction": 87.89241872688233,
+      "resampling_lower": 104.03175211265285,
+      "resampling_upper": 108.71299963729685,
+      "resampling_range_contains_mean": false,
+      "compound": "Pioglitazone"
+    },
+    {
+      "dose_cmax_multiple": 10.0,
+      "training_doses": [
+        1.0,
+        3.0,
+        30.0,
+        100.0,
+        300.0
+      ],
+      "observed_albumin_mean": 98.01324723705315,
+      "monotone_prediction": 114.9528443594383,
+      "raw_interpolation_prediction": 119.96913964629411,
+      "constant_prediction": 90.17451568178367,
+      "resampling_lower": 112.03388447755617,
+      "resampling_upper": 117.78452882201225,
+      "resampling_range_contains_mean": false,
+      "compound": "Pioglitazone"
+    },
+    {
+      "dose_cmax_multiple": 30.0,
+      "training_doses": [
+        1.0,
+        3.0,
+        10.0,
+        100.0,
+        300.0
+      ],
+      "observed_albumin_mean": 114.109396463845,
+      "monotone_prediction": 90.11147241913477,
+      "raw_interpolation_prediction": 90.11147241913477,
+      "constant_prediction": 86.15047837508573,
+      "resampling_lower": 87.73922867655348,
+      "resampling_upper": 92.48371616171605,
+      "resampling_range_contains_mean": false,
+      "compound": "Pioglitazone"
+    },
+    {
+      "dose_cmax_multiple": 100.0,
+      "training_doses": [
+        1.0,
+        3.0,
+        10.0,
+        30.0,
+        300.0
+      ],
+      "observed_albumin_mean": 81.45189152348061,
+      "monotone_prediction": 76.3609051759203,
+      "raw_interpolation_prediction": 80.2008126335412,
+      "constant_prediction": 94.31485461017681,
+      "resampling_lower": 69.33717360660091,
+      "resampling_upper": 83.38463674523965,
+      "resampling_range_contains_mean": true,
+      "compound": "Pioglitazone"
+    },
+    {
+      "dose_cmax_multiple": 2.95,
+      "training_doses": [
+        0.98,
+        9.82,
+        29.47,
+        98.2,
+        294.72
+      ],
+      "observed_albumin_mean": 100.5253630444887,
+      "monotone_prediction": 94.05998294148674,
+      "raw_interpolation_prediction": 92.84392819719989,
+      "constant_prediction": 74.46564569139426,
+      "resampling_lower": 86.73371060256719,
+      "resampling_upper": 105.6426359567165,
+      "resampling_range_contains_mean": true,
+      "compound": "Troglitazone"
+    },
+    {
+      "dose_cmax_multiple": 9.82,
+      "training_doses": [
+        0.98,
+        2.95,
+        29.47,
+        98.2,
+        294.72
+      ],
+      "observed_albumin_mean": 89.63952813854075,
+      "monotone_prediction": 95.69770195717486,
+      "raw_interpolation_prediction": 87.44766260915463,
+      "constant_prediction": 76.64281267258384,
+      "resampling_lower": 87.93713264483954,
+      "resampling_upper": 103.85159045412556,
+      "resampling_range_contains_mean": true,
+      "compound": "Troglitazone"
+    },
+    {
+      "dose_cmax_multiple": 29.47,
+      "training_doses": [
+        0.98,
+        2.95,
+        9.82,
+        98.2,
+        294.72
+      ],
+      "observed_albumin_mean": 75.49724671252795,
+      "monotone_prediction": 99.33908619723299,
+      "raw_interpolation_prediction": 100.03046360883874,
+      "constant_prediction": 79.4712689577864,
+      "resampling_lower": 84.42921392895695,
+      "resampling_upper": 107.38716078281388,
+      "resampling_range_contains_mean": false,
+      "compound": "Troglitazone"
+    },
+    {
+      "dose_cmax_multiple": 98.2,
+      "training_doses": [
+        0.98,
+        2.95,
+        9.82,
+        29.47,
+        294.72
+      ],
+      "observed_albumin_mean": 111.4111980616967,
+      "monotone_prediction": 36.03363196893437,
+      "raw_interpolation_prediction": 36.03363196893437,
+      "constant_prediction": 72.28847868795265,
+      "resampling_lower": 31.282067883903423,
+      "resampling_upper": 40.78519605396533,
+      "resampling_range_contains_mean": false,
+      "compound": "Troglitazone"
+    },
+    {
+      "dose_cmax_multiple": 3.0,
+      "training_doses": [
+        1.0,
+        10.0,
+        30.0,
+        100.0,
+        300.0
+      ],
+      "observed_albumin_mean": 107.19565524894901,
+      "monotone_prediction": 108.3080455085059,
+      "raw_interpolation_prediction": 105.65574879609488,
+      "constant_prediction": 78.1607932441656,
+      "resampling_lower": 100.33676487171776,
+      "resampling_upper": 116.27932614529402,
+      "resampling_range_contains_mean": true,
+      "compound": "Trovafloxacin"
+    },
+    {
+      "dose_cmax_multiple": 10.0,
+      "training_doses": [
+        1.0,
+        3.0,
+        30.0,
+        100.0,
+        300.0
+      ],
+      "observed_albumin_mean": 95.6501284803616,
+      "monotone_prediction": 106.97206600162586,
+      "raw_interpolation_prediction": 106.97206600162586,
+      "constant_prediction": 80.46989859788309,
+      "resampling_lower": 101.4228918646555,
+      "resampling_upper": 112.47721561091858,
+      "resampling_range_contains_mean": false,
+      "compound": "Trovafloxacin"
+    },
+    {
+      "dose_cmax_multiple": 30.0,
+      "training_doses": [
+        1.0,
+        3.0,
+        10.0,
+        100.0,
+        300.0
+      ],
+      "observed_albumin_mean": 106.76804320822,
+      "monotone_prediction": 71.5244293778394,
+      "raw_interpolation_prediction": 71.5244293778394,
+      "constant_prediction": 78.24631565231141,
+      "resampling_lower": 61.142962952921124,
+      "resampling_upper": 81.90589580275768,
+      "resampling_range_contains_mean": false,
+      "compound": "Trovafloxacin"
+    },
+    {
+      "dose_cmax_multiple": 100.0,
+      "training_doses": [
+        1.0,
+        3.0,
+        10.0,
+        30.0,
+        300.0
+      ],
+      "observed_albumin_mean": 45.08499673686485,
+      "monotone_prediction": 63.198907894530684,
+      "raw_interpolation_prediction": 65.85120460694169,
+      "constant_prediction": 90.58292494658244,
+      "resampling_lower": 58.301979859297084,
+      "resampling_upper": 67.91731595678007,
+      "resampling_range_contains_mean": false,
+      "compound": "Trovafloxacin"
+    }
+  ]
+}
